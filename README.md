@@ -91,8 +91,8 @@ flowchart TD
 ```bash
 # 1. Install Git LFS and clone repository
 git lfs install
-git clone https://github.com/3amwave/oral-cavity-classifier.git
-cd oral-cavity-classifier
+git clone https://github.com/dwivedialok/oral-check-assist.git
+cd oral-check-assist
 
 # 2. Pull ONNX model assets via LFS
 git lfs pull
@@ -146,12 +146,10 @@ Built & maintained by **Alok Dwivedi** ([3AM Wave](https://3amwave.com/build/)).
 
 - 🌐 **Builder Portfolio:** [3amwave.com/build](https://3amwave.com/build/)
 - 💼 **LinkedIn:** [linkedin.com/in/alokdwivedi](https://www.linkedin.com/in/alokdwivedi/)
-- 💻 **GitHub Profile:** [@alok-oss](https://github.com/alok-oss)
+- 💻 **GitHub Profile:** [@dwivedialok](https://github.com/dwivedialok)
 
 ---
 
 ## 📄 License & Legal Notice
-
-Copyright 2024–2026 3AM Wave and contributors.
 
 Licensed under the **Apache License, Version 2.0**. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for full terms.
