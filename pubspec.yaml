@@ -55,7 +55,7 @@ dependencies:
   timezone: ^0.9.4 # Required for scheduled notifications
   pdf: ^3.11.1 # Report generation
   share_plus: ^10.1.2 # Share functionality
-  package_info_plus: ^8.1.1 # Get app version/build number
+  package_info_plus: ^9.0.1 # Get app version/build number
   image_cropper: ^12.1.1
 
 dev_dependencies:
