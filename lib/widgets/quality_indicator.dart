@@ -26,11 +26,26 @@ class QualityIndicator extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildMetricRow(context, l10n.brightnessLabel, metrics.brightness, Icons.wb_sunny),
+          _buildMetricRow(
+            context,
+            l10n.brightnessLabel,
+            metrics.brightness,
+            Icons.wb_sunny,
+          ),
           const SizedBox(height: 8),
-          _buildMetricRow(context, l10n.focusLabel, metrics.sharpness, Icons.center_focus_strong),
+          _buildMetricRow(
+            context,
+            l10n.focusLabel,
+            metrics.sharpness,
+            Icons.center_focus_strong,
+          ),
           const SizedBox(height: 8),
-          _buildMetricRow(context, l10n.contrastLabel, metrics.contrast, Icons.contrast),
+          _buildMetricRow(
+            context,
+            l10n.contrastLabel,
+            metrics.contrast,
+            Icons.contrast,
+          ),
           const SizedBox(height: 12),
           _buildOverallIndicator(context),
         ],
@@ -38,9 +53,14 @@ class QualityIndicator extends StatelessWidget {
     );
   }
 
-  Widget _buildMetricRow(BuildContext context, String label, double value, IconData icon) {
+  Widget _buildMetricRow(
+    BuildContext context,
+    String label,
+    double value,
+    IconData icon,
+  ) {
     final color = _getColorForValue(value);
-    
+
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -51,10 +71,7 @@ class QualityIndicator extends StatelessWidget {
             width: 70,
             child: Text(
               label,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 12,
-              ),
+              style: const TextStyle(color: Colors.white, fontSize: 12),
             ),
           ),
         ],
@@ -90,7 +107,7 @@ class QualityIndicator extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
     final isAcceptable = metrics.isAcceptable;
     final color = isAcceptable ? Colors.green : Colors.orange;
-    
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
@@ -132,20 +149,17 @@ class QualityIndicator extends StatelessWidget {
 class CompactQualityIndicator extends StatelessWidget {
   final PhotoQualityMetrics metrics;
 
-  const CompactQualityIndicator({
-    super.key,
-    required this.metrics,
-  });
+  const CompactQualityIndicator({super.key, required this.metrics});
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final isAcceptable = metrics.isAcceptable;
-    
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: isAcceptable 
+        color: isAcceptable
             ? Colors.green.withOpacity(0.9)
             : Colors.orange.withOpacity(0.9),
         borderRadius: BorderRadius.circular(12),

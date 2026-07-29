@@ -84,7 +84,9 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.blue.withOpacity(0.3 * _pulseController.value),
+                            color: Colors.blue.withOpacity(
+                              0.3 * _pulseController.value,
+                            ),
                             blurRadius: 30,
                             spreadRadius: 10,
                           ),
@@ -108,7 +110,8 @@ class _AnalysisScreenState extends State<AnalysisScreen>
               const SizedBox(height: 40),
 
               // Photo progress (only when analyzing, not when loading models)
-              if (session != null && !provider.isLoadingModels) _buildPhotoProgress(session),
+              if (session != null && !provider.isLoadingModels)
+                _buildPhotoProgress(session),
               const SizedBox(height: 32),
 
               // Current analysis step
@@ -134,10 +137,7 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                     Expanded(
                       child: Text(
                         'All analysis happens on your device. Your photos are never uploaded.',
-                        style: TextStyle(
-                          fontSize: 12,
-                          color: Colors.grey[600],
-                        ),
+                        style: TextStyle(fontSize: 12, color: Colors.grey[600]),
                       ),
                     ),
                   ],
@@ -156,10 +156,7 @@ class _AnalysisScreenState extends State<AnalysisScreen>
       provider.isLoadingModels
           ? 'Loading detailed models…'
           : AppLocalizations.of(context)!.analyzingYourPhotos,
-      style: const TextStyle(
-        fontSize: 24,
-        fontWeight: FontWeight.bold,
-      ),
+      style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
     );
   }
 
@@ -169,10 +166,7 @@ class _AnalysisScreenState extends State<AnalysisScreen>
       provider.isLoadingModels
           ? 'One-time setup for best accuracy. This may take a moment.'
           : 'This will only take a moment',
-      style: TextStyle(
-        fontSize: 14,
-        color: Colors.grey[600],
-      ),
+      style: TextStyle(fontSize: 14, color: Colors.grey[600]),
     );
   }
 
@@ -182,7 +176,9 @@ class _AnalysisScreenState extends State<AnalysisScreen>
     final capturedPhotos = photos.where((p) => p.isCaptured).toList();
     final currentIndex = provider.currentAnalyzingPhotoIndex;
     final total = capturedPhotos.length;
-    final progressValue = total > 0 ? (currentIndex / total).clamp(0.0, 1.0) : 0.0;
+    final progressValue = total > 0
+        ? (currentIndex / total).clamp(0.0, 1.0)
+        : 0.0;
 
     return Column(
       children: [
@@ -218,16 +214,16 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                       color: isProcessed
                           ? Colors.green
                           : isProcessing
-                              ? Colors.blue
-                              : Colors.grey[300],
+                          ? Colors.blue
+                          : Colors.grey[300],
                       shape: BoxShape.circle,
                     ),
                     child: Icon(
                       isProcessed
                           ? Icons.check
                           : isProcessing
-                              ? Icons.hourglass_empty
-                              : Icons.circle,
+                          ? Icons.hourglass_empty
+                          : Icons.circle,
                       color: Colors.white,
                       size: isProcessed || isProcessing ? 20 : 8,
                     ),
@@ -240,7 +236,9 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                       color: isProcessed || isProcessing
                           ? Colors.blue[700]
                           : Colors.grey[500],
-                      fontWeight: isProcessing ? FontWeight.bold : FontWeight.normal,
+                      fontWeight: isProcessing
+                          ? FontWeight.bold
+                          : FontWeight.normal,
                     ),
                   ),
                 ],
@@ -254,7 +252,13 @@ class _AnalysisScreenState extends State<AnalysisScreen>
 
   Widget _buildCurrentStep() {
     final l10n = AppLocalizations.of(context)!;
-    final steps = [l10n.analysisStep1, l10n.analysisStep2, l10n.analysisStep3, l10n.analysisStep4, l10n.analysisStep5];
+    final steps = [
+      l10n.analysisStep1,
+      l10n.analysisStep2,
+      l10n.analysisStep3,
+      l10n.analysisStep4,
+      l10n.analysisStep5,
+    ];
     final provider = Provider.of<ScreeningProvider>(context);
     if (provider.isLoadingModels) {
       return Container(
@@ -287,7 +291,9 @@ class _AnalysisScreenState extends State<AnalysisScreen>
       );
     }
     final currentIndex = provider.currentAnalyzingPhotoIndex;
-    final stepIndex = currentIndex < steps.length ? currentIndex : steps.length - 1;
+    final stepIndex = currentIndex < steps.length
+        ? currentIndex
+        : steps.length - 1;
     return AnimatedSwitcher(
       duration: const Duration(milliseconds: 300),
       child: Container(
@@ -333,10 +339,7 @@ class _AnalysisScreenState extends State<AnalysisScreen>
       children: [
         Text(
           'AI is checking for:',
-          style: TextStyle(
-            fontSize: 13,
-            color: Colors.grey[600],
-          ),
+          style: TextStyle(fontSize: 13, color: Colors.grey[600]),
         ),
         const SizedBox(height: 12),
         Wrap(
@@ -361,10 +364,7 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                   const SizedBox(width: 4),
                   Text(
                     item['label'] as String,
-                    style: TextStyle(
-                      fontSize: 11,
-                      color: Colors.grey[700],
-                    ),
+                    style: TextStyle(fontSize: 11, color: Colors.grey[700]),
                   ),
                 ],
               ),

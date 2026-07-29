@@ -6,8 +6,9 @@
 /// fetch the new `version.json`. Pass this value during web builds with:
 ///
 /// `--dart-define=APP_VERSION_TOKEN=<version>+<build_number>`
-const String kEmbeddedAppVersionToken =
-    String.fromEnvironment('APP_VERSION_TOKEN');
+const String kEmbeddedAppVersionToken = String.fromEnvironment(
+  'APP_VERSION_TOKEN',
+);
 
 String buildVersionToken(String version, String buildNumber) {
   final v = version.trim();

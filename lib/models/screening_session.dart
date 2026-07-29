@@ -123,7 +123,8 @@ class ScreeningSession {
   }
 
   /// Get photos that need to be retaken
-  List<PhotoCapture> get photosNeedingRetake => photos.where((p) => p.isCaptured && !p.isAcceptable).toList();
+  List<PhotoCapture> get photosNeedingRetake =>
+      photos.where((p) => p.isCaptured && !p.isAcceptable).toList();
 
   /// Front is acceptable but fewer than [ScreeningConfig.minUsedPhotos] acceptable shots overall.
   bool get needsMoreAcceptablePhotosForAnalysis {
@@ -187,15 +188,15 @@ class ScreeningSession {
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'startedAt': startedAt.toIso8601String(),
-        'status': status.name,
-        'capturedCount': capturedCount,
-        'acceptableCount': acceptableCount,
-        'result': result?.toJson(),
-        'errorMessage': errorMessage,
-        if (exposureData != null) 'exposureData': exposureData!.toJson(),
-      };
+    'id': id,
+    'startedAt': startedAt.toIso8601String(),
+    'status': status.name,
+    'capturedCount': capturedCount,
+    'acceptableCount': acceptableCount,
+    'result': result?.toJson(),
+    'errorMessage': errorMessage,
+    if (exposureData != null) 'exposureData': exposureData!.toJson(),
+  };
 
   @override
   String toString() {

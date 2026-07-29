@@ -147,12 +147,15 @@ class DetailedResultsScreen extends StatelessWidget {
 
   Widget _buildOverallAssessment(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    final isRetake = result.screeningOutcome == ScreeningOutcome.retakeSuggested;
+    final isRetake =
+        result.screeningOutcome == ScreeningOutcome.retakeSuggested;
     Color cardColor;
     if (isRetake) {
       cardColor = Colors.amber.shade700;
     } else {
-      cardColor = Color((result.finalCombinedRisk ?? result.overallRisk).colorValue);
+      cardColor = Color(
+        (result.finalCombinedRisk ?? result.overallRisk).colorValue,
+      );
     }
     return Column(
       children: [
@@ -167,7 +170,10 @@ class DetailedResultsScreen extends StatelessWidget {
             children: [
               Text(
                 l10n.overallAssessment,
-                style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
               const SizedBox(height: 12),
               if (isRetake)
@@ -193,8 +199,15 @@ class DetailedResultsScreen extends StatelessWidget {
               Text(
                 result.subtypeGuidance != SubtypeGuidance.none
                     ? subtypeGuidanceMessageL10n(l10n, result.subtypeGuidance)
-                    : localizeAssessmentMessage(l10n, result.overallAssessmentMessage),
-                style: TextStyle(fontSize: 13, color: Colors.grey[700], height: 1.4),
+                    : localizeAssessmentMessage(
+                        l10n,
+                        result.overallAssessmentMessage,
+                      ),
+                style: TextStyle(
+                  fontSize: 13,
+                  color: Colors.grey[700],
+                  height: 1.4,
+                ),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 12),
@@ -383,8 +396,9 @@ class DetailedResultsScreen extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      AppLocalizations.of(context)!
-                          .eriFinalRecommendationElevatedNote,
+                      AppLocalizations.of(
+                        context,
+                      )!.eriFinalRecommendationElevatedNote,
                       style: TextStyle(
                         fontSize: 12,
                         height: 1.35,
@@ -556,7 +570,11 @@ class DetailedResultsScreen extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             interpretation,
-            style: TextStyle(fontSize: 13, color: Colors.grey[700], height: 1.35),
+            style: TextStyle(
+              fontSize: 13,
+              color: Colors.grey[700],
+              height: 1.35,
+            ),
           ),
           const SizedBox(height: 16),
           ...probList.map((item) {
@@ -639,10 +657,7 @@ class DetailedResultsScreen extends StatelessWidget {
           ),
         ),
         title: Text(
-          photoResultEffectiveLabelText(
-            AppLocalizations.of(context)!,
-            photo,
-          ),
+          photoResultEffectiveLabelText(AppLocalizations.of(context)!, photo),
           style: const TextStyle(fontWeight: FontWeight.w600),
         ),
         subtitle: Column(
@@ -662,7 +677,8 @@ class DetailedResultsScreen extends StatelessWidget {
                 ),
               ],
             ),
-            if (photo.displayLabel != null || photo.cancerProbability != null) ...[
+            if (photo.displayLabel != null ||
+                photo.cancerProbability != null) ...[
               const SizedBox(height: 4),
               if (photo.cancerProbability != null)
                 Text(
@@ -670,14 +686,19 @@ class DetailedResultsScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w600,
-                    color: photo.cancerProbability! >= ScreeningConfig.binaryScreeningThreshold
+                    color:
+                        photo.cancerProbability! >=
+                            ScreeningConfig.binaryScreeningThreshold
                         ? Colors.red[700]
                         : Colors.green[700],
                   ),
                 ),
               if (photo.displayLabel != null) ...[
                 Text(
-                  localizePerPhotoSummaryLabel(AppLocalizations.of(context)!, photo.perPhotoSummaryLabel) ??
+                  localizePerPhotoSummaryLabel(
+                        AppLocalizations.of(context)!,
+                        photo.perPhotoSummaryLabel,
+                      ) ??
                       _friendlyLabel(context, photo.displayLabel!),
                   style: TextStyle(fontSize: 11, color: Colors.grey[700]),
                 ),
@@ -776,7 +797,11 @@ class DetailedResultsScreen extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Icon(Icons.analytics_outlined, size: 20, color: Colors.blue[800]),
+                    Icon(
+                      Icons.analytics_outlined,
+                      size: 20,
+                      color: Colors.blue[800],
+                    ),
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(

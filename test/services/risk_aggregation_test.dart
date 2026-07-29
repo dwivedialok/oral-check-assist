@@ -62,29 +62,35 @@ void main() {
       expect(result.screeningOutcome, ScreeningOutcome.reviewRecommended);
     });
 
-    test('single moderate spike with all others low -> NOT screen positive (artifact protection)', () {
-      final photos = [
-        fakePhoto(
-          type: PhotoType.frontView,
-          riskLevel: RiskLevel.moderate,
-          cancerProbability: 0.55,
-          opmd: 0.30,
-          oca: 0.10,
-          benign: 0.30,
-          healthy: 0.20,
-          quality: 0.90,
-        ),
-        normalPhoto(PhotoType.rightCheek),
-        normalPhoto(PhotoType.leftCheek),
-        normalPhoto(PhotoType.tongue),
-        normalPhoto(PhotoType.palate),
-      ];
-      final result = service.aggregateResults(photos);
+    test(
+      'single moderate spike with all others low -> NOT screen positive (artifact protection)',
+      () {
+        final photos = [
+          fakePhoto(
+            type: PhotoType.frontView,
+            riskLevel: RiskLevel.moderate,
+            cancerProbability: 0.55,
+            opmd: 0.30,
+            oca: 0.10,
+            benign: 0.30,
+            healthy: 0.20,
+            quality: 0.90,
+          ),
+          normalPhoto(PhotoType.rightCheek),
+          normalPhoto(PhotoType.leftCheek),
+          normalPhoto(PhotoType.tongue),
+          normalPhoto(PhotoType.palate),
+        ];
+        final result = service.aggregateResults(photos);
 
-      // maxScore=0.55, secondScore~0.08 => avg≈0.315 < 0.4735 => not positive
-      // and maxScore=0.55 < 0.65 => not positive
-      expect(result.screeningOutcome, isNot(ScreeningOutcome.reviewRecommended));
-    });
+        // maxScore=0.55, secondScore~0.08 => avg≈0.315 < 0.4735 => not positive
+        // and maxScore=0.55 < 0.65 => not positive
+        expect(
+          result.screeningOutcome,
+          isNot(ScreeningOutcome.reviewRecommended),
+        );
+      },
+    );
 
     test('two moderate photos with avg >= threshold -> screen positive', () {
       final photos = [
@@ -116,30 +122,33 @@ void main() {
       expect(result.screeningOutcome, ScreeningOutcome.reviewRecommended);
     });
 
-    test('only 1 usable photo with score < 0.65 -> secondScore = 0, uses score alone', () {
-      final photos = [
-        fakePhoto(
-          type: PhotoType.frontView,
-          riskLevel: RiskLevel.moderate,
-          cancerProbability: 0.50,
-          opmd: 0.30,
-          oca: 0.10,
-          benign: 0.30,
-          healthy: 0.20,
-          quality: 0.90,
-        ),
-        unassessablePhoto(PhotoType.rightCheek),
-        unassessablePhoto(PhotoType.leftCheek),
-        unassessablePhoto(PhotoType.tongue),
-        unassessablePhoto(PhotoType.palate),
-      ];
-      final result = service.aggregateResults(photos);
+    test(
+      'only 1 usable photo with score < 0.65 -> secondScore = 0, uses score alone',
+      () {
+        final photos = [
+          fakePhoto(
+            type: PhotoType.frontView,
+            riskLevel: RiskLevel.moderate,
+            cancerProbability: 0.50,
+            opmd: 0.30,
+            oca: 0.10,
+            benign: 0.30,
+            healthy: 0.20,
+            quality: 0.90,
+          ),
+          unassessablePhoto(PhotoType.rightCheek),
+          unassessablePhoto(PhotoType.leftCheek),
+          unassessablePhoto(PhotoType.tongue),
+          unassessablePhoto(PhotoType.palate),
+        ];
+        final result = service.aggregateResults(photos);
 
-      // maxScore=0.50, secondScore=0.0 => avg=0.25 < 0.4735
-      // maxScore=0.50 < 0.65 => not positive
-      // But retake since too few usable photos
-      expect(result.screeningOutcome, ScreeningOutcome.retakeSuggested);
-    });
+        // maxScore=0.50, secondScore=0.0 => avg=0.25 < 0.4735
+        // maxScore=0.50 < 0.65 => not positive
+        // But retake since too few usable photos
+        expect(result.screeningOutcome, ScreeningOutcome.retakeSuggested);
+      },
+    );
   });
 
   // ===========================================================================
@@ -225,16 +234,18 @@ void main() {
 
     test('OPMD-dominant positive screen -> moderate risk, prompt', () {
       final photos = allPhotoTypes
-          .map((t) => fakePhoto(
-                type: t,
-                riskLevel: RiskLevel.moderate,
-                cancerProbability: 0.55,
-                benign: 0.10,
-                healthy: 0.05,
-                opmd: 0.60,
-                oca: 0.10,
-                quality: 0.90,
-              ))
+          .map(
+            (t) => fakePhoto(
+              type: t,
+              riskLevel: RiskLevel.moderate,
+              cancerProbability: 0.55,
+              benign: 0.10,
+              healthy: 0.05,
+              opmd: 0.60,
+              oca: 0.10,
+              quality: 0.90,
+            ),
+          )
           .toList();
       final result = service.aggregateResults(photos);
 
@@ -243,9 +254,12 @@ void main() {
       expect(result.urgencyLevel, UrgencyLevel.prompt);
     });
 
-    test('Benign-dominant positive screen -> suppressed to none (non-concerning label), moderate risk, prompt', () {
-      final photos = allPhotoTypes
-          .map((t) => fakePhoto(
+    test(
+      'Benign-dominant positive screen -> suppressed to none (non-concerning label), moderate risk, prompt',
+      () {
+        final photos = allPhotoTypes
+            .map(
+              (t) => fakePhoto(
                 type: t,
                 riskLevel: RiskLevel.high,
                 cancerProbability: 0.70,
@@ -254,14 +268,16 @@ void main() {
                 opmd: 0.15,
                 oca: 0.15,
                 quality: 0.90,
-              ))
-          .toList();
-      final result = service.aggregateResults(photos);
+              ),
+            )
+            .toList();
+        final result = service.aggregateResults(photos);
 
-      expect(result.screeningOutcome, ScreeningOutcome.reviewRecommended);
-      expect(result.subtypeGuidance, SubtypeGuidance.none);
-      expect(result.urgencyLevel, UrgencyLevel.prompt);
-    });
+        expect(result.screeningOutcome, ScreeningOutcome.reviewRecommended);
+        expect(result.subtypeGuidance, SubtypeGuidance.none);
+        expect(result.urgencyLevel, UrgencyLevel.prompt);
+      },
+    );
 
     test('screen-negative has SubtypeGuidance.none', () {
       final photos = allPhotoTypes.map(normalPhoto).toList();
@@ -343,8 +359,9 @@ void main() {
   // ===========================================================================
   group('edge cases', () {
     test('single normal photo -> handles gracefully', () {
-      final result =
-          service.aggregateResults([normalPhoto(PhotoType.frontView)]);
+      final result = service.aggregateResults([
+        normalPhoto(PhotoType.frontView),
+      ]);
       expect(result.overallRisk, isNotNull);
     });
 

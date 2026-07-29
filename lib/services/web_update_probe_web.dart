@@ -8,10 +8,7 @@ Future<String?> fetchWebVersionToken() async {
     final request = await html.HttpRequest.request(
       'version.json?t=$ts',
       method: 'GET',
-      requestHeaders: const {
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
-      },
+      requestHeaders: const {'Cache-Control': 'no-cache', 'Pragma': 'no-cache'},
     );
     if (request.status != 200 || request.responseText == null) {
       return null;

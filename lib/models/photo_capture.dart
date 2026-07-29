@@ -1,4 +1,6 @@
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:typed_data';
 
 /// Types of photos captured during oral screening
@@ -176,11 +178,11 @@ class PhotoQualityMetrics {
   }
 
   Map<String, dynamic> toJson() => {
-        'brightness': brightness,
-        'sharpness': sharpness,
-        'contrast': contrast,
-        'overall': overall,
-      };
+    'brightness': brightness,
+    'sharpness': sharpness,
+    'contrast': contrast,
+    'overall': overall,
+  };
 
   factory PhotoQualityMetrics.fromJson(Map<String, dynamic> json) {
     return PhotoQualityMetrics(
@@ -206,6 +208,7 @@ class PhotoCapture {
   final io.File? image;
   final PhotoQualityMetrics qualityMetrics;
   final DateTime? capturedAt;
+
   /// On web, image bytes for inference (File is stub and cannot be read).
   final Uint8List? imageBytes;
 

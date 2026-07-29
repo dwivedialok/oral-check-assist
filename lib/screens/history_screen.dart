@@ -56,8 +56,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _screenings.isEmpty
-              ? _buildEmptyState()
-              : _buildScreeningList(),
+          ? _buildEmptyState()
+          : _buildScreeningList(),
     );
   }
 
@@ -74,27 +74,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
                 color: Colors.grey[100],
                 shape: BoxShape.circle,
               ),
-              child: Icon(
-                Icons.history,
-                size: 48,
-                color: Colors.grey[400],
-              ),
+              child: Icon(Icons.history, size: 48, color: Colors.grey[400]),
             ),
             const SizedBox(height: 24),
             Text(
               AppLocalizations.of(context)!.noChecksYet,
-              style: const TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
             Text(
               AppLocalizations.of(context)!.completeFirstCheck,
-              style: TextStyle(
-                color: Colors.grey[600],
-                fontSize: 15,
-              ),
+              style: TextStyle(color: Colors.grey[600], fontSize: 15),
               textAlign: TextAlign.center,
             ),
           ],
@@ -132,15 +122,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
 
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: InkWell(
         onTap: () {
           final result = screening.decodedResult;
           if (result == null) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('This report uses an older format that is no longer supported.')),
+              const SnackBar(
+                content: Text(
+                  'This report uses an older format that is no longer supported.',
+                ),
+              ),
             );
             return;
           }
@@ -150,8 +142,20 @@ class _HistoryScreenState extends State<HistoryScreen> {
               builder: (_) => DetailedResultsScreen(
                 result: result,
                 savedPhotoPaths: screening.savedPhotoPaths,
-                onShareReport: (BuildContext screenContext) => _shareOrDownloadReport(screenContext, result, l10n, share: true),
-                onDownloadPDF: (BuildContext screenContext) => _shareOrDownloadReport(screenContext, result, l10n, share: false),
+                onShareReport: (BuildContext screenContext) =>
+                    _shareOrDownloadReport(
+                      screenContext,
+                      result,
+                      l10n,
+                      share: true,
+                    ),
+                onDownloadPDF: (BuildContext screenContext) =>
+                    _shareOrDownloadReport(
+                      screenContext,
+                      result,
+                      l10n,
+                      share: false,
+                    ),
               ),
             ),
           );
@@ -176,7 +180,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                 ),
               ),
               const SizedBox(width: 16),
-              
+
               // Details
               Expanded(
                 child: Column(
@@ -186,34 +190,28 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       children: [
                         Flexible(child: RiskBadge(riskLevel: riskLevel)),
                         const SizedBox(width: 8),
-                        if (trend != null) Flexible(child: _buildTrendIndicator(context, trend)),
+                        if (trend != null)
+                          Flexible(child: _buildTrendIndicator(context, trend)),
                       ],
                     ),
                     const SizedBox(height: 8),
                     Text(
                       _formatDate(context, screening.date),
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 13,
-                      ),
+                      style: TextStyle(color: Colors.grey[600], fontSize: 13),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      AppLocalizations.of(context)!.photosAnalyzedCount(screening.photosAnalyzed),
-                      style: TextStyle(
-                        color: Colors.grey[500],
-                        fontSize: 12,
-                      ),
+                      AppLocalizations.of(
+                        context,
+                      )!.photosAnalyzedCount(screening.photosAnalyzed),
+                      style: TextStyle(color: Colors.grey[500], fontSize: 12),
                     ),
                   ],
                 ),
               ),
-              
+
               // Arrow
-              Icon(
-                Icons.chevron_right,
-                color: Colors.grey[400],
-              ),
+              Icon(Icons.chevron_right, color: Colors.grey[400]),
             ],
           ),
         ),
@@ -287,7 +285,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
     final diff = now.difference(date);
 
     if (diff.inDays == 0) {
-      return l10n.todayAt('${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}');
+      return l10n.todayAt(
+        '${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}',
+      );
     } else if (diff.inDays == 1) {
       return l10n.yesterday;
     } else if (diff.inDays < 7) {
@@ -317,9 +317,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
       if (screenContext.mounted && messenger != null) {
         messenger.showSnackBar(
           SnackBar(
-            content: Text(share
-                ? '${l10n.shareReport} – share sheet opened.'
-                : 'PDF ready – use the share sheet to save or share.'),
+            content: Text(
+              share
+                  ? '${l10n.shareReport} – share sheet opened.'
+                  : 'PDF ready – use the share sheet to save or share.',
+            ),
           ),
         );
       }

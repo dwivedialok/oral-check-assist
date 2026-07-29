@@ -1,5 +1,7 @@
 import 'dart:async';
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:math' as math;
 import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
@@ -32,9 +34,12 @@ Float32List? _preprocessImageFromBytesIsolate(Uint8List raw) {
           final g = pixel.g.toDouble() / 255.0;
           final b = pixel.b.toDouble() / 255.0;
           double normalizedValue;
-          if (c == 0) normalizedValue = (r - meanR) / stdR;
-          else if (c == 1) normalizedValue = (g - meanG) / stdG;
-          else normalizedValue = (b - meanB) / stdB;
+          if (c == 0)
+            normalizedValue = (r - meanR) / stdR;
+          else if (c == 1)
+            normalizedValue = (g - meanG) / stdG;
+          else
+            normalizedValue = (b - meanB) / stdB;
           inputBuffer[idx++] = normalizedValue;
         }
       }
@@ -63,9 +68,9 @@ class ModelInfo {
   });
 }
 
-
 class ModelInferenceService {
-  static final ModelInferenceService _instance = ModelInferenceService._internal();
+  static final ModelInferenceService _instance =
+      ModelInferenceService._internal();
   factory ModelInferenceService() => _instance;
   ModelInferenceService._internal();
 
@@ -86,7 +91,13 @@ class ModelInferenceService {
 
   // Labels
   List<String> _labels = [];
-  final List<String> _classLabels = ['Benign', 'Healthy', 'OCA', 'OPMD', 'Unknown'];
+  final List<String> _classLabels = [
+    'Benign',
+    'Healthy',
+    'OCA',
+    'OPMD',
+    'Unknown',
+  ];
 
   // Ensemble configuration: 5-class only (keyed by 5-class asset names)
   final Map<String, double> _modelWeights = {
@@ -117,9 +128,9 @@ class ModelInferenceService {
   };
 
   final Map<String, double> _classWeights = {
-    'OCA': 1.5,     // Most critical - 50% higher weight
-    'OPMD': 1.2,    // High importance - 20% higher weight
-    'Benign': 1.0,  // Standard weight
+    'OCA': 1.5, // Most critical - 50% higher weight
+    'OPMD': 1.2, // High importance - 20% higher weight
+    'Benign': 1.0, // Standard weight
     'Healthy': 1.0, // Standard weight
     'Unknown': 0.8, // Lower weight - 20% reduction
   };
@@ -134,7 +145,9 @@ class ModelInferenceService {
     accuracy: 76.36,
     size: '36.9 MB', // 3 × 12.3 MB
     isLoaded: _ensembleReady,
-    error: _ensembleErrors.values.any((e) => e != null) ? 'Some models failed to load' : null,
+    error: _ensembleErrors.values.any((e) => e != null)
+        ? 'Some models failed to load'
+        : null,
   );
 
   ModelInfo get ensembleDualInfo => ModelInfo(
@@ -142,7 +155,9 @@ class ModelInferenceService {
     accuracy: 84.11,
     size: '36.9 MB', // 5-class + binary ensemble
     isLoaded: dualEnsembleReady,
-    error: (_ensembleErrors.values.any((e) => e != null) || _binaryEnsembleErrors.values.any((e) => e != null))
+    error:
+        (_ensembleErrors.values.any((e) => e != null) ||
+            _binaryEnsembleErrors.values.any((e) => e != null))
         ? 'Some models failed to load'
         : null,
   );
@@ -166,14 +181,20 @@ class ModelInferenceService {
 
     debugPrint('🔄 [BinaryEnsemble] Loading binary models (lazy)...');
     if (kIsWeb) {
-      debugPrint('🌐 [BinaryEnsemble] Web platform detected - using WebAssembly backend');
-      debugPrint('   User Agent: ${kIsWeb ? (identical(0, 0.0) ? "Unknown" : "") : ""}');
+      debugPrint(
+        '🌐 [BinaryEnsemble] Web platform detected - using WebAssembly backend',
+      );
+      debugPrint(
+        '   User Agent: ${kIsWeb ? (identical(0, 0.0) ? "Unknown" : "") : ""}',
+      );
     }
     try {
       for (String modelName in _binaryModelNames) {
         try {
           // On web, Flutter builds assets to assets/assets/ path
-          final assetPath = kIsWeb ? 'assets/assets/$modelName.onnx' : 'assets/$modelName.onnx';
+          final assetPath = kIsWeb
+              ? 'assets/assets/$modelName.onnx'
+              : 'assets/$modelName.onnx';
           debugPrint('   Attempting to load: $assetPath');
           final ort = OnnxRuntime();
           if (kIsWeb) {
@@ -181,13 +202,21 @@ class ModelInferenceService {
             // Add a small delay on web to ensure WASM is ready (especially for mobile)
             await Future.delayed(const Duration(milliseconds: 100));
           }
-          final session = await ort.createSessionFromAsset(assetPath).timeout(
-            const Duration(seconds: 60), // Longer timeout for mobile browsers
-            onTimeout: () {
-              debugPrint('⏱️ [BinaryEnsemble] Timeout loading $modelName (60s) - may be mobile browser WASM issue');
-              throw TimeoutException('Model loading timeout - mobile browser may have WASM loading issues');
-            },
-          );
+          final session = await ort
+              .createSessionFromAsset(assetPath)
+              .timeout(
+                const Duration(
+                  seconds: 60,
+                ), // Longer timeout for mobile browsers
+                onTimeout: () {
+                  debugPrint(
+                    '⏱️ [BinaryEnsemble] Timeout loading $modelName (60s) - may be mobile browser WASM issue',
+                  );
+                  throw TimeoutException(
+                    'Model loading timeout - mobile browser may have WASM loading issues',
+                  );
+                },
+              );
           _binaryEnsembleSessions[modelName] = session;
           _binaryEnsembleLoaded[modelName] = true;
           _binaryEnsembleErrors[modelName] = null;
@@ -198,7 +227,9 @@ class ModelInferenceService {
           debugPrint('❌ [BinaryEnsemble] Failed to load $modelName: $e');
           if (kIsWeb) {
             debugPrint('   Stack trace: $st');
-            debugPrint('   ⚠️ [Web] ONNX Runtime may not be properly initialized on web. Check if assets are accessible.');
+            debugPrint(
+              '   ⚠️ [Web] ONNX Runtime may not be properly initialized on web. Check if assets are accessible.',
+            );
           }
         }
       }
@@ -206,10 +237,14 @@ class ModelInferenceService {
       debugPrint('❌ [BinaryEnsemble] Error during binary load: $e\n$st');
     }
     _binaryEnsembleReady = _binaryEnsembleSessions.isNotEmpty;
-    debugPrint('📊 [BinaryEnsemble] Loaded ${_binaryEnsembleSessions.length}/3 binary models');
+    debugPrint(
+      '📊 [BinaryEnsemble] Loaded ${_binaryEnsembleSessions.length}/3 binary models',
+    );
     if (kIsWeb && !_binaryEnsembleReady) {
       debugPrint('⚠️ [Web] Binary models failed to load. This may indicate:');
-      debugPrint('   1. flutter_onnxruntime version may not support web (upgrade to 1.6.2+)');
+      debugPrint(
+        '   1. flutter_onnxruntime version may not support web (upgrade to 1.6.2+)',
+      );
       debugPrint('   2. Model assets may not be accessible on web');
       debugPrint('   3. WebAssembly files may be missing');
     }
@@ -221,12 +256,16 @@ class ModelInferenceService {
 
     debugPrint('🔄 [5ClassEnsemble] Loading 5-class models (lazy)...');
     if (kIsWeb) {
-      debugPrint('🌐 [5ClassEnsemble] Web platform detected - using WebAssembly backend');
+      debugPrint(
+        '🌐 [5ClassEnsemble] Web platform detected - using WebAssembly backend',
+      );
     }
     for (String modelName in _fiveClassModelNames) {
       try {
         // On web, Flutter builds assets to assets/assets/ path
-        final assetPath = kIsWeb ? 'assets/assets/$modelName.onnx' : 'assets/$modelName.onnx';
+        final assetPath = kIsWeb
+            ? 'assets/assets/$modelName.onnx'
+            : 'assets/$modelName.onnx';
         debugPrint('   Attempting to load: $assetPath');
         final ort = OnnxRuntime();
         if (kIsWeb) {
@@ -234,13 +273,19 @@ class ModelInferenceService {
           // Add a small delay on web to ensure WASM is ready (especially for mobile)
           await Future.delayed(const Duration(milliseconds: 100));
         }
-        final session = await ort.createSessionFromAsset(assetPath).timeout(
-          const Duration(seconds: 60), // Longer timeout for mobile browsers
-          onTimeout: () {
-            debugPrint('⏱️ [5ClassEnsemble] Timeout loading $modelName (60s) - may be mobile browser WASM issue');
-            throw TimeoutException('Model loading timeout - mobile browser may have WASM loading issues');
-          },
-        );
+        final session = await ort
+            .createSessionFromAsset(assetPath)
+            .timeout(
+              const Duration(seconds: 60), // Longer timeout for mobile browsers
+              onTimeout: () {
+                debugPrint(
+                  '⏱️ [5ClassEnsemble] Timeout loading $modelName (60s) - may be mobile browser WASM issue',
+                );
+                throw TimeoutException(
+                  'Model loading timeout - mobile browser may have WASM loading issues',
+                );
+              },
+            );
         _ensembleSessions[modelName] = session;
         _ensembleLoaded[modelName] = true;
         _ensembleErrors[modelName] = null;
@@ -251,19 +296,27 @@ class ModelInferenceService {
         debugPrint('❌ [5ClassEnsemble] Failed to load $modelName: $e');
         if (kIsWeb) {
           debugPrint('   Stack trace: $st');
-          debugPrint('   ⚠️ [Web] ONNX Runtime may not be properly initialized on web.');
+          debugPrint(
+            '   ⚠️ [Web] ONNX Runtime may not be properly initialized on web.',
+          );
         }
       }
     }
     _ensembleReady = _ensembleSessions.isNotEmpty;
-    debugPrint('📊 [5ClassEnsemble] Loaded ${_ensembleSessions.length}/3 5-class models');
+    debugPrint(
+      '📊 [5ClassEnsemble] Loaded ${_ensembleSessions.length}/3 5-class models',
+    );
     if (_binaryEnsembleReady && _ensembleReady) {
       debugPrint('🎯 [DualEnsemble] Dual-ensemble ready (binary + 5-class)');
     }
-    debugPrint('🎯 [5ClassEnsemble] Class weights: OCA=${_classWeights['OCA']}, OPMD=${_classWeights['OPMD']}');
+    debugPrint(
+      '🎯 [5ClassEnsemble] Class weights: OCA=${_classWeights['OCA']}, OPMD=${_classWeights['OPMD']}',
+    );
     if (kIsWeb && !_ensembleReady) {
       debugPrint('⚠️ [Web] 5-class models failed to load. This may indicate:');
-      debugPrint('   1. flutter_onnxruntime version may not support web (upgrade to 1.6.2+)');
+      debugPrint(
+        '   1. flutter_onnxruntime version may not support web (upgrade to 1.6.2+)',
+      );
       debugPrint('   2. Model assets may not be accessible on web');
       debugPrint('   3. WebAssembly files may be missing');
     }
@@ -290,7 +343,11 @@ class ModelInferenceService {
 
   /// Load labels
   Future<void> loadLabels(String labelsData) async {
-    _labels = labelsData.split('\n').map((e) => e.trim()).where((e) => e.isNotEmpty).toList();
+    _labels = labelsData
+        .split('\n')
+        .map((e) => e.trim())
+        .where((e) => e.isNotEmpty)
+        .toList();
     debugPrint('✅ [Labels] Loaded ${_labels.length} labels');
   }
 
@@ -327,14 +384,19 @@ class ModelInferenceService {
             final g = pixel.g.toDouble() / 255.0;
             final b = pixel.b.toDouble() / 255.0;
             double normalizedValue;
-            if (c == 0) normalizedValue = (r - meanR) / stdR;
-            else if (c == 1) normalizedValue = (g - meanG) / stdG;
-            else normalizedValue = (b - meanB) / stdB;
+            if (c == 0)
+              normalizedValue = (r - meanR) / stdR;
+            else if (c == 1)
+              normalizedValue = (g - meanG) / stdG;
+            else
+              normalizedValue = (b - meanB) / stdB;
             inputBuffer[idx++] = normalizedValue;
           }
         }
       }
-      debugPrint('✅ [Preprocess] Preprocessing complete, buffer size: ${inputBuffer.length}');
+      debugPrint(
+        '✅ [Preprocess] Preprocessing complete, buffer size: ${inputBuffer.length}',
+      );
       return inputBuffer;
     } catch (e, st) {
       debugPrint('❌ [Preprocess] ONNX preprocess error: $e\n$st');
@@ -346,7 +408,9 @@ class ModelInferenceService {
   /// isolate on mobile/desktop to avoid blocking the main thread and keep the
   /// questionnaire responsive during parallel analysis.
   Future<Float32List?> _preprocessImageFromBytesAsync(Uint8List raw) async {
-    debugPrint('🖼️ [Preprocess] Starting bytes preprocessing (size: ${raw.length} bytes)');
+    debugPrint(
+      '🖼️ [Preprocess] Starting bytes preprocessing (size: ${raw.length} bytes)',
+    );
     Float32List? result;
     if (kIsWeb) {
       result = _preprocessImageFromBytesIsolate(raw);
@@ -354,7 +418,9 @@ class ModelInferenceService {
       result = await compute(_preprocessImageFromBytesIsolate, raw);
     }
     if (result != null) {
-      debugPrint('✅ [Preprocess] Bytes preprocessing complete, buffer size: ${result.length}');
+      debugPrint(
+        '✅ [Preprocess] Bytes preprocessing complete, buffer size: ${result.length}',
+      );
     } else {
       debugPrint('❌ [Preprocess] Failed to preprocess image from bytes');
     }
@@ -379,9 +445,12 @@ class ModelInferenceService {
     try {
       // Get predictions from all loaded models
       final predictions = <Map<String, dynamic>>[];
-      
+
       for (String modelName in _ensembleSessions.keys) {
-        final prediction = await _predictSingleEnsembleModel(modelName, imageFile);
+        final prediction = await _predictSingleEnsembleModel(
+          modelName,
+          imageFile,
+        );
         if (prediction != null) {
           predictions.add(prediction);
         }
@@ -396,9 +465,11 @@ class ModelInferenceService {
 
       // Combine predictions using weighted average
       final combinedResult = _combineEnsemblePredictions(predictions);
-      
-      debugPrint('🎯 [5ClassEnsemble] Final prediction: ${combinedResult['label']} (${(combinedResult['confidence'] * 100).toStringAsFixed(1)}%)');
-      
+
+      debugPrint(
+        '🎯 [5ClassEnsemble] Final prediction: ${combinedResult['label']} (${(combinedResult['confidence'] * 100).toStringAsFixed(1)}%)',
+      );
+
       return combinedResult;
     } catch (e, st) {
       debugPrint('❌ [5ClassEnsemble] Inference error: $e\n$st');
@@ -407,7 +478,10 @@ class ModelInferenceService {
   }
 
   /// Get prediction from a single 5-class ensemble model (ensemble_model_1/2/3)
-  Future<Map<String, dynamic>?> _predictSingleEnsembleModel(String modelName, io.File imageFile) async {
+  Future<Map<String, dynamic>?> _predictSingleEnsembleModel(
+    String modelName,
+    io.File imageFile,
+  ) async {
     if (!_ensembleLoaded[modelName]!) {
       debugPrint('❌ [5ClassEnsemble] Model $modelName not loaded');
       return null;
@@ -419,7 +493,7 @@ class ModelInferenceService {
 
       final session = _ensembleSessions[modelName];
       final inputTensor = await OrtValue.fromList(inputData, [1, 3, 224, 224]);
-      
+
       final outputs = await session.run({'input': inputTensor});
       final outputTensor = outputs['output'];
       // 5-class ensemble must have exactly 5 outputs: Benign, Healthy, OCA, OPMD, Unknown
@@ -441,7 +515,9 @@ class ModelInferenceService {
       }
       final logits = logitsList.map<double>((e) => e.toDouble()).toList();
       if (logits.length != 5) {
-        debugPrint('❌ [5ClassEnsemble] $modelName has ${logits.length} outputs (expected 5); skipping');
+        debugPrint(
+          '❌ [5ClassEnsemble] $modelName has ${logits.length} outputs (expected 5); skipping',
+        );
         return null;
       }
       final probabilities = _softmax(logits);
@@ -454,16 +530,18 @@ class ModelInferenceService {
         }
       }
       final predictedClass = _classLabels[maxIdx];
-      
+
       final result = {
         'class': predictedClass,
         'confidence': maxVal,
         'probabilities': probabilities,
         'modelName': modelName,
       };
-      
-      debugPrint('🔍 [5ClassEnsemble] Prediction for $modelName: $predictedClass (${(maxVal * 100).toStringAsFixed(1)}%)');
-      
+
+      debugPrint(
+        '🔍 [5ClassEnsemble] Prediction for $modelName: $predictedClass (${(maxVal * 100).toStringAsFixed(1)}%)',
+      );
+
       return result;
     } catch (e) {
       debugPrint('❌ [5ClassEnsemble] Prediction failed for $modelName: $e');
@@ -472,7 +550,10 @@ class ModelInferenceService {
   }
 
   /// Run single 5-class model with preprocessed input (for web bytes path).
-  Future<Map<String, dynamic>?> _predictSingleEnsembleModelWithInput(String modelName, Float32List inputData) async {
+  Future<Map<String, dynamic>?> _predictSingleEnsembleModelWithInput(
+    String modelName,
+    Float32List inputData,
+  ) async {
     if (!_ensembleLoaded[modelName]!) return null;
     try {
       final session = _ensembleSessions[modelName];
@@ -483,14 +564,19 @@ class ModelInferenceService {
       final numClasses = outputShape.isNotEmpty ? outputShape.last : 0;
       if (numClasses != 5) return null;
       final rawOutput = await outputTensor.asList();
-      List<dynamic> logitsList = rawOutput.isNotEmpty && rawOutput[0] is List ? rawOutput[0] as List<dynamic> : rawOutput;
+      List<dynamic> logitsList = rawOutput.isNotEmpty && rawOutput[0] is List
+          ? rawOutput[0] as List<dynamic>
+          : rawOutput;
       final logits = logitsList.map<double>((e) => e.toDouble()).toList();
       if (logits.length != 5) return null;
       final probabilities = _softmax(logits);
       int maxIdx = 0;
       double maxVal = probabilities[0];
       for (int i = 1; i < probabilities.length; i++) {
-        if (probabilities[i] > maxVal) { maxVal = probabilities[i]; maxIdx = i; }
+        if (probabilities[i] > maxVal) {
+          maxVal = probabilities[i];
+          maxIdx = i;
+        }
       }
       return {
         'class': _classLabels[maxIdx],
@@ -505,12 +591,17 @@ class ModelInferenceService {
   }
 
   /// 5-class ensemble from preprocessed input (no extra preprocessing).
-  Future<Map<String, dynamic>?> _infer5ClassEnsembleWithInput(Float32List inputData) async {
+  Future<Map<String, dynamic>?> _infer5ClassEnsembleWithInput(
+    Float32List inputData,
+  ) async {
     if (!_ensembleReady) return null;
     final predictions = <Map<String, dynamic>>[];
     for (String modelName in _ensembleSessions.keys) {
       await _yieldUiFrameIfWeb();
-      final p = await _predictSingleEnsembleModelWithInput(modelName, inputData);
+      final p = await _predictSingleEnsembleModelWithInput(
+        modelName,
+        inputData,
+      );
       if (p != null) predictions.add(p);
     }
     if (predictions.isEmpty) return null;
@@ -518,7 +609,9 @@ class ModelInferenceService {
   }
 
   /// 5-class ensemble from image bytes (web-safe).
-  Future<Map<String, dynamic>?> infer5ClassEnsembleFromBytes(Uint8List imageBytes) async {
+  Future<Map<String, dynamic>?> infer5ClassEnsembleFromBytes(
+    Uint8List imageBytes,
+  ) async {
     await ensureFiveClassModelsLoaded();
     final inputData = await _preprocessImageFromBytesAsync(imageBytes);
     if (inputData == null) return null;
@@ -526,7 +619,9 @@ class ModelInferenceService {
   }
 
   /// Binary ensemble with preprocessed input (for web bytes path).
-  Future<Map<String, dynamic>?> _inferBinaryEnsembleWithInput(Float32List inputData) async {
+  Future<Map<String, dynamic>?> _inferBinaryEnsembleWithInput(
+    Float32List inputData,
+  ) async {
     if (!_binaryEnsembleReady) return null;
     try {
       double sumCancerProb = 0.0;
@@ -535,13 +630,20 @@ class ModelInferenceService {
         await _yieldUiFrameIfWeb();
         if (_binaryEnsembleLoaded[modelName] != true) continue;
         final session = _binaryEnsembleSessions[modelName];
-        final inputTensor = await OrtValue.fromList(inputData, [1, 3, 224, 224]);
+        final inputTensor = await OrtValue.fromList(inputData, [
+          1,
+          3,
+          224,
+          224,
+        ]);
         final outputs = await session.run({'input': inputTensor});
         final outputTensor = outputs['output'];
         final outputShape = outputTensor.shape;
         if (outputShape.isEmpty || outputShape.last != 2) continue;
         final rawOutput = await outputTensor.asList();
-        List<dynamic> logitsList = rawOutput.isNotEmpty && rawOutput[0] is List ? rawOutput[0] as List<dynamic> : rawOutput;
+        List<dynamic> logitsList = rawOutput.isNotEmpty && rawOutput[0] is List
+            ? rawOutput[0] as List<dynamic>
+            : rawOutput;
         final logits = logitsList.map<double>((e) => e.toDouble()).toList();
         if (logits.length != 2) continue;
         final probs = _softmax(logits);
@@ -552,7 +654,8 @@ class ModelInferenceService {
       if (sumWeight <= 0) return null;
       final cancerProbability = sumCancerProb / sumWeight;
       return {
-        'isCancer': cancerProbability >= ScreeningConfig.binaryScreeningThreshold,
+        'isCancer':
+            cancerProbability >= ScreeningConfig.binaryScreeningThreshold,
         'cancerProbability': cancerProbability,
       };
     } catch (e) {
@@ -563,7 +666,10 @@ class ModelInferenceService {
 
   /// V2 dual-ensemble from image bytes (web-safe).
   /// Binary model = screening authority. 5-class = informational subtype only.
-  Future<Map<String, dynamic>?> inferDualEnsembleFromBytes(Uint8List imageBytes, {double qualityScore = 1.0}) async {
+  Future<Map<String, dynamic>?> inferDualEnsembleFromBytes(
+    Uint8List imageBytes, {
+    double qualityScore = 1.0,
+  }) async {
     debugPrint('🔬 [DualEnsemble] Starting V2 inference from bytes');
     await ensureFiveClassModelsLoaded();
     if (!dualEnsembleReady) {
@@ -580,7 +686,9 @@ class ModelInferenceService {
     await _yieldUiFrameIfWeb();
     final fiveClassResult = await _infer5ClassEnsembleWithInput(inputData);
     if (binaryResult == null || fiveClassResult == null) {
-      debugPrint('❌ [DualEnsemble] Inference failed: binary=${binaryResult != null}, 5-class=${fiveClassResult != null}');
+      debugPrint(
+        '❌ [DualEnsemble] Inference failed: binary=${binaryResult != null}, 5-class=${fiveClassResult != null}',
+      );
       return null;
     }
     return _buildV2Result(binaryResult, fiveClassResult, qualityScore);
@@ -606,7 +714,8 @@ class ModelInferenceService {
           if (result == null) return null;
           return {
             ...result,
-            'label': result['displayLabel'] as String? ?? result['displayLabel'],
+            'label':
+                result['displayLabel'] as String? ?? result['displayLabel'],
             'confidence': result['confidence'],
           };
         }
@@ -615,9 +724,11 @@ class ModelInferenceService {
   }
 
   /// Combine ensemble predictions with class weights
-  Map<String, dynamic> _combineEnsemblePredictions(List<Map<String, dynamic>> predictions) {
+  Map<String, dynamic> _combineEnsemblePredictions(
+    List<Map<String, dynamic>> predictions,
+  ) {
     final allProbabilities = <String, double>{};
-    
+
     // Initialize probability sums
     for (String className in _classLabels) {
       allProbabilities[className] = 0.0;
@@ -628,9 +739,10 @@ class ModelInferenceService {
       final modelName = pred['modelName'] as String;
       final weight = _modelWeights[modelName] ?? 1.0;
       final probs = pred['probabilities'] as List<double>;
-      
+
       for (int i = 0; i < _classLabels.length; i++) {
-        allProbabilities[_classLabels[i]] = allProbabilities[_classLabels[i]]! + (probs[i] * weight);
+        allProbabilities[_classLabels[i]] =
+            allProbabilities[_classLabels[i]]! + (probs[i] * weight);
       }
     }
 
@@ -660,9 +772,14 @@ class ModelInferenceService {
     final confidence = maxProb / totalProb;
 
     // Generate reasoning
-    final individualPredictions = predictions.map((p) => p['class'] as String).toList();
-    final agreementCount = individualPredictions.where((p) => p == predictedClass).length;
-    final reasoning = 'Ensemble: $agreementCount/${predictions.length} models agree, OCA weight=${_classWeights['OCA']}';
+    final individualPredictions = predictions
+        .map((p) => p['class'] as String)
+        .toList();
+    final agreementCount = individualPredictions
+        .where((p) => p == predictedClass)
+        .length;
+    final reasoning =
+        'Ensemble: $agreementCount/${predictions.length} models agree, OCA weight=${_classWeights['OCA']}';
 
     return {
       'label': predictedClass,
@@ -685,11 +802,18 @@ class ModelInferenceService {
 
       for (String modelName in _binaryModelNames) {
         if (_binaryEnsembleLoaded[modelName] != true) {
-          debugPrint('⚠️ [BinaryEnsemble] Model $modelName not loaded, skipping');
+          debugPrint(
+            '⚠️ [BinaryEnsemble] Model $modelName not loaded, skipping',
+          );
           continue;
         }
         final session = _binaryEnsembleSessions[modelName];
-        final inputTensor = await OrtValue.fromList(inputData, [1, 3, 224, 224]);
+        final inputTensor = await OrtValue.fromList(inputData, [
+          1,
+          3,
+          224,
+          224,
+        ]);
         final outputs = await session.run({'input': inputTensor});
         final outputTensor = outputs['output'];
         // Confirm binary model: output shape should be [batch, 2] (expected classes: non-cancer, cancer)
@@ -702,7 +826,9 @@ class ModelInferenceService {
           );
           continue;
         }
-        debugPrint('✅ [BinaryEnsemble] $modelName output shape=$outputShape (expected classes: non-cancer, cancer)');
+        debugPrint(
+          '✅ [BinaryEnsemble] $modelName output shape=$outputShape (expected classes: non-cancer, cancer)',
+        );
         final rawOutput = await outputTensor.asList();
         List<dynamic> logitsList;
         if (rawOutput.isNotEmpty && rawOutput[0] is List) {
@@ -712,7 +838,9 @@ class ModelInferenceService {
         }
         final logits = logitsList.map<double>((e) => e.toDouble()).toList();
         if (logits.length != 2) {
-          debugPrint('❌ [BinaryEnsemble] $modelName has ${logits.length} outputs (expected 2); skipping — re-export ONNX with num_classes=2');
+          debugPrint(
+            '❌ [BinaryEnsemble] $modelName has ${logits.length} outputs (expected 2); skipping — re-export ONNX with num_classes=2',
+          );
           continue;
         }
         final probs = _softmax(logits);
@@ -727,15 +855,13 @@ class ModelInferenceService {
       }
       if (sumWeight <= 0) return null;
       final cancerProbability = sumCancerProb / sumWeight;
-      final isCancer = cancerProbability >= ScreeningConfig.binaryScreeningThreshold;
+      final isCancer =
+          cancerProbability >= ScreeningConfig.binaryScreeningThreshold;
       debugPrint(
         '🎯 [BinaryEnsemble] Combined: Screening risk score=${(cancerProbability * 100).toStringAsFixed(1)}% '
         '→ ${isCancer ? "REFER" : "Low risk"} (threshold=${ScreeningConfig.binaryScreeningThreshold.toStringAsFixed(4)})',
       );
-      return {
-        'isCancer': isCancer,
-        'cancerProbability': cancerProbability,
-      };
+      return {'isCancer': isCancer, 'cancerProbability': cancerProbability};
     } catch (e) {
       debugPrint('❌ [BinaryEnsemble] Inference error: $e');
       return null;
@@ -756,7 +882,9 @@ class ModelInferenceService {
     final binaryResult = await _inferBinaryEnsemble(imageFile);
     final fiveClassResult = await infer5ClassEnsemble(imageFile);
     if (binaryResult == null || fiveClassResult == null) {
-      debugPrint('❌ [DualEnsemble] Missing result: binary=${binaryResult != null}, 5-class=${fiveClassResult != null}');
+      debugPrint(
+        '❌ [DualEnsemble] Missing result: binary=${binaryResult != null}, 5-class=${fiveClassResult != null}',
+      );
       return null;
     }
     return _buildV2Result(binaryResult, fiveClassResult, qualityScore);
@@ -770,14 +898,17 @@ class ModelInferenceService {
   ) {
     final cancerProb = binaryResult['cancerProbability'] as double;
     final fiveClassLabel = fiveClassResult['label'] as String;
-    final fiveClassProbs = fiveClassResult['probabilities'] as Map<String, double>?;
+    final fiveClassProbs =
+        fiveClassResult['probabilities'] as Map<String, double>?;
     double confidence = (fiveClassResult['confidence'] as num).toDouble();
     if (confidence > 1.0) confidence = confidence / 100.0;
 
     final double pUnknown = fiveClassProbs?['Unknown'] ?? 0.0;
-    final bool oodUnclear = fiveClassLabel == 'Unknown' &&
+    final bool oodUnclear =
+        fiveClassLabel == 'Unknown' &&
         pUnknown > ScreeningConfig.oodUnknownThreshold;
-    final bool lowQuality = qualityScore < ScreeningConfig.qualityUnclearThreshold;
+    final bool lowQuality =
+        qualityScore < ScreeningConfig.qualityUnclearThreshold;
 
     RiskLevel? riskLevel;
     if (oodUnclear) {
@@ -797,13 +928,16 @@ class ModelInferenceService {
     String displayLabel = fiveClassLabel;
     if (fiveClassProbs != null) {
       maxProb = fiveClassProbs.values.fold(0.0, (max, v) => v > max ? v : max);
-      if (maxProb < ScreeningConfig.labelConfidenceThreshold) displayLabel = 'Uncertain';
+      if (maxProb < ScreeningConfig.labelConfidenceThreshold)
+        displayLabel = 'Uncertain';
     }
 
     // Per-photo display: resolve binary vs 5-class ambiguity for UI only.
     // When binary says positive but 5-class says Healthy/Benign, flag as disagreement.
-    final bool isPositive = cancerProb >= ScreeningConfig.binaryScreeningThreshold;
-    final bool fiveClassNonConcerning = displayLabel == 'Healthy' || displayLabel == 'Benign';
+    final bool isPositive =
+        cancerProb >= ScreeningConfig.binaryScreeningThreshold;
+    final bool fiveClassNonConcerning =
+        displayLabel == 'Healthy' || displayLabel == 'Benign';
     String? perPhotoSummaryLabel;
     if (isPositive && fiveClassNonConcerning) {
       perPhotoSummaryLabel = 'Retake or further analysis needed';
@@ -822,8 +956,10 @@ class ModelInferenceService {
       ];
     }
 
-    debugPrint('📊 [DualEnsemble] V2 result: P(abnormal)=${(cancerProb * 100).toStringAsFixed(1)}%, '
-        'label=$displayLabel, risk=${riskLevel?.displayName ?? "unassessable"}');
+    debugPrint(
+      '📊 [DualEnsemble] V2 result: P(abnormal)=${(cancerProb * 100).toStringAsFixed(1)}%, '
+      'label=$displayLabel, risk=${riskLevel?.displayName ?? "unassessable"}',
+    );
 
     return {
       'displayLabel': displayLabel,
@@ -831,7 +967,9 @@ class ModelInferenceService {
       'confidence': confidence > 1.0 ? confidence / 100.0 : confidence,
       'probabilities': fiveClassProbs,
       'probabilitiesList': probabilitiesList,
-      'classProbs': probabilitiesList != null ? ClassProbabilities.fromList(probabilitiesList) : null,
+      'classProbs': probabilitiesList != null
+          ? ClassProbabilities.fromList(probabilitiesList)
+          : null,
       'cancerProbability': cancerProb,
       'oodUnclear': oodUnclear,
       'lowQuality': lowQuality,
@@ -899,8 +1037,10 @@ class ModelInferenceService {
   }) {
     switch (outcome) {
       case ScreeningOutcome.lowRisk:
-        final note = (borderlineOpmdPlus != null &&
-                borderlineOpmdPlus > ScreeningConfig.borderlineMultiClassThreshold)
+        final note =
+            (borderlineOpmdPlus != null &&
+                borderlineOpmdPlus >
+                    ScreeningConfig.borderlineMultiClassThreshold)
             ? ' Some minor irregular patterns detected. Retake clearer photos if concerned.'
             : '';
         return (
@@ -910,7 +1050,8 @@ class ModelInferenceService {
       case ScreeningOutcome.retakeSuggested:
         return (
           title: 'Retake Suggested',
-          message: 'The result is near the decision boundary or image quality was '
+          message:
+              'The result is near the decision boundary or image quality was '
               'insufficient. Please retake with better lighting, ensuring full '
               'visibility of all required views.',
         );
@@ -922,13 +1063,16 @@ class ModelInferenceService {
           message: guidance.displayMessage.isNotEmpty
               ? guidance.displayMessage
               : 'Changes detected that may need professional review. '
-                  'Please consult a healthcare provider.',
+                    'Please consult a healthcare provider.',
         );
     }
   }
 
   /// Map [ScreeningOutcome] + [SubtypeGuidance] to legacy [RiskLevel].
-  RiskLevel outcomeToRiskLevel(ScreeningOutcome outcome, SubtypeGuidance guidance) {
+  RiskLevel outcomeToRiskLevel(
+    ScreeningOutcome outcome,
+    SubtypeGuidance guidance,
+  ) {
     switch (outcome) {
       case ScreeningOutcome.lowRisk:
         return RiskLevel.low;
@@ -941,7 +1085,10 @@ class ModelInferenceService {
   }
 
   /// Map [ScreeningOutcome] + [SubtypeGuidance] to [UrgencyLevel].
-  UrgencyLevel outcomeToUrgency(ScreeningOutcome outcome, SubtypeGuidance guidance) {
+  UrgencyLevel outcomeToUrgency(
+    ScreeningOutcome outcome,
+    SubtypeGuidance guidance,
+  ) {
     switch (outcome) {
       case ScreeningOutcome.lowRisk:
         return UrgencyLevel.routine;
@@ -954,13 +1101,16 @@ class ModelInferenceService {
   }
 
   /// Inference with detailed probabilities (for multi-photo aggregation)
-  Future<Map<String, dynamic>?> inferWithProbabilities(io.File imageFile) async {
+  Future<Map<String, dynamic>?> inferWithProbabilities(
+    io.File imageFile,
+  ) async {
     try {
       final result = await infer(imageFile);
       if (result == null) return null;
 
       // For ensemble and ensembleDual, probabilities are already included
-      if ((_currentModelType == ModelType.ensemble || _currentModelType == ModelType.ensembleDual) &&
+      if ((_currentModelType == ModelType.ensemble ||
+              _currentModelType == ModelType.ensembleDual) &&
           result.containsKey('probabilities')) {
         return result;
       }
@@ -974,13 +1124,21 @@ class ModelInferenceService {
 
   /// Analyze a single photo and return PhotoResult
   Future<PhotoResult> analyzePhoto(PhotoCapture photo) async {
-    debugPrint('🔍 [analyzePhoto] Starting analysis for ${photo.type.displayName}');
-    debugPrint('   Quality: ${(photo.qualityMetrics.overall * 100).toStringAsFixed(1)}% (acceptable: ${photo.qualityMetrics.isAcceptable})');
-    debugPrint('   Has image: ${photo.image != null}, Has bytes: ${photo.imageBytes != null}');
-    
+    debugPrint(
+      '🔍 [analyzePhoto] Starting analysis for ${photo.type.displayName}',
+    );
+    debugPrint(
+      '   Quality: ${(photo.qualityMetrics.overall * 100).toStringAsFixed(1)}% (acceptable: ${photo.qualityMetrics.isAcceptable})',
+    );
+    debugPrint(
+      '   Has image: ${photo.image != null}, Has bytes: ${photo.imageBytes != null}',
+    );
+
     final hasImageData = photo.image != null || photo.imageBytes != null;
     if (!hasImageData) {
-      debugPrint('❌ [analyzePhoto] No image data for ${photo.type.displayName}');
+      debugPrint(
+        '❌ [analyzePhoto] No image data for ${photo.type.displayName}',
+      );
       return PhotoResult(
         photoType: photo.type,
         classProbabilities: null,
@@ -994,11 +1152,16 @@ class ModelInferenceService {
     try {
       Map<String, dynamic>? result;
       final useBytes = photo.imageBytes != null;
-      debugPrint('   Using bytes path: $useBytes, Dual ensemble ready: $dualEnsembleReady');
+      debugPrint(
+        '   Using bytes path: $useBytes, Dual ensemble ready: $dualEnsembleReady',
+      );
 
-      if ((_currentModelType == ModelType.ensemble || _currentModelType == ModelType.ensembleDual) &&
+      if ((_currentModelType == ModelType.ensemble ||
+              _currentModelType == ModelType.ensembleDual) &&
           dualEnsembleReady) {
-        debugPrint('🔍 [DualEnsemble] Using binary + 5-class for ${photo.type.displayName}');
+        debugPrint(
+          '🔍 [DualEnsemble] Using binary + 5-class for ${photo.type.displayName}',
+        );
         if (useBytes) {
           result = await inferDualEnsembleFromBytes(
             photo.imageBytes!,
@@ -1020,7 +1183,9 @@ class ModelInferenceService {
       }
 
       if (result == null) {
-        debugPrint('❌ [analyzePhoto] Inference returned null for ${photo.type.displayName}');
+        debugPrint(
+          '❌ [analyzePhoto] Inference returned null for ${photo.type.displayName}',
+        );
         return PhotoResult(
           photoType: photo.type,
           classProbabilities: null,
@@ -1030,14 +1195,19 @@ class ModelInferenceService {
           isValidOralPhoto: true,
         );
       }
-      
-      debugPrint('✅ [analyzePhoto] Got inference result for ${photo.type.displayName}');
+
+      debugPrint(
+        '✅ [analyzePhoto] Got inference result for ${photo.type.displayName}',
+      );
 
       // Extract probabilities (dual-ensemble may already have classProbs)
-      ClassProbabilities? classProbs = result['classProbs'] as ClassProbabilities?;
+      ClassProbabilities? classProbs =
+          result['classProbs'] as ClassProbabilities?;
       if (classProbs == null) {
         if (result.containsKey('probabilitiesList')) {
-          classProbs = ClassProbabilities.fromList(result['probabilitiesList'] as List<double>);
+          classProbs = ClassProbabilities.fromList(
+            result['probabilitiesList'] as List<double>,
+          );
         } else if (result.containsKey('probabilities')) {
           final probMap = result['probabilities'] as Map<String, double>;
           classProbs = ClassProbabilities(
@@ -1052,7 +1222,8 @@ class ModelInferenceService {
 
       RiskLevel? riskLevel = result['riskLevel'] as RiskLevel?;
       if (riskLevel == null && classProbs != null) {
-        final pCancer = (result['cancerProbability'] as num?)?.toDouble() ?? 0.0;
+        final pCancer =
+            (result['cancerProbability'] as num?)?.toDouble() ?? 0.0;
         if (pCancer >= ScreeningConfig.binaryScreeningThreshold) {
           riskLevel = pCancer >= ScreeningConfig.highConfSingleViewThreshold
               ? RiskLevel.high
@@ -1073,16 +1244,23 @@ class ModelInferenceService {
       if (classProbs != null) {
         final isUnknownPredicted = classProbs.predictedClass == 'Unknown';
         final unknownProb = classProbs.unknown;
-        debugPrint('🔍 [MultiPhoto] ${photo.type.displayName}: predicted=${classProbs.predictedClass}, UNKNOWN=${(unknownProb * 100).toStringAsFixed(1)}%');
-        if (isUnknownPredicted && unknownProb > ScreeningConfig.oodUnknownThreshold) {
+        debugPrint(
+          '🔍 [MultiPhoto] ${photo.type.displayName}: predicted=${classProbs.predictedClass}, UNKNOWN=${(unknownProb * 100).toStringAsFixed(1)}%',
+        );
+        if (isUnknownPredicted &&
+            unknownProb > ScreeningConfig.oodUnknownThreshold) {
           isValidOralPhoto = false;
-          debugPrint('❌ [MultiPhoto] Photo ${photo.type.displayName} marked as NON-ORAL');
+          debugPrint(
+            '❌ [MultiPhoto] Photo ${photo.type.displayName} marked as NON-ORAL',
+          );
         }
       }
 
       final String? displayLabel = result['displayLabel'] as String?;
-      final double? cancerProbability = (result['cancerProbability'] as num?)?.toDouble();
-      final String? perPhotoSummaryLabel = result['perPhotoSummaryLabel'] as String?;
+      final double? cancerProbability = (result['cancerProbability'] as num?)
+          ?.toDouble();
+      final String? perPhotoSummaryLabel =
+          result['perPhotoSummaryLabel'] as String?;
 
       return PhotoResult(
         photoType: photo.type,
@@ -1096,7 +1274,9 @@ class ModelInferenceService {
         perPhotoSummaryLabel: perPhotoSummaryLabel,
       );
     } catch (e) {
-      debugPrint('❌ [MultiPhoto] Error analyzing photo ${photo.type.displayName}: $e');
+      debugPrint(
+        '❌ [MultiPhoto] Error analyzing photo ${photo.type.displayName}: $e',
+      );
       return PhotoResult(
         photoType: photo.type,
         classProbabilities: null,
@@ -1114,7 +1294,9 @@ class ModelInferenceService {
     List<PhotoCapture> photos, {
     void Function(int photoIndex)? onPhotoProgress,
   }) async {
-    debugPrint('🔄 [MultiPhoto] Starting multi-photo inference on ${photos.length} photos');
+    debugPrint(
+      '🔄 [MultiPhoto] Starting multi-photo inference on ${photos.length} photos',
+    );
 
     final photoResults = <PhotoResult>[];
     int capturedIndex = 0;
@@ -1177,7 +1359,11 @@ class ModelInferenceService {
 
       final bool usable = result.qualityScore >= ScreeningConfig.qualityMin;
       if (usable) {
-        usableCandidates.add({'photoResult': result, 'probs': probs, 'weight': weight});
+        usableCandidates.add({
+          'photoResult': result,
+          'probs': probs,
+          'weight': weight,
+        });
       } else {
         skippedDueToQuality++;
       }
@@ -1201,10 +1387,13 @@ class ModelInferenceService {
     // Uses ALL usable photos (not top-K) so no clinically relevant photo
     // is excluded by the confidence-based weight formula.
     // ------------------------------------------------------------------
-    final binaryScores = usableCandidates
-        .map((c) => (c['photoResult'] as PhotoResult).cancerProbability ?? 0.0)
-        .toList()
-      ..sort((a, b) => b.compareTo(a));
+    final binaryScores =
+        usableCandidates
+            .map(
+              (c) => (c['photoResult'] as PhotoResult).cancerProbability ?? 0.0,
+            )
+            .toList()
+          ..sort((a, b) => b.compareTo(a));
 
     final double maxScore = binaryScores.isNotEmpty ? binaryScores.first : 0.0;
     final double secondScore = binaryScores.length > 1 ? binaryScores[1] : 0.0;
@@ -1219,9 +1408,11 @@ class ModelInferenceService {
       screenPositive = false;
     }
 
-    debugPrint('📊 [Aggregation] V2 hybrid: maxScore=${maxScore.toStringAsFixed(4)}, '
-        'secondScore=${secondScore.toStringAsFixed(4)}, hybridAvg=${hybridAvg.toStringAsFixed(4)}, '
-        'screenPositive=$screenPositive');
+    debugPrint(
+      '📊 [Aggregation] V2 hybrid: maxScore=${maxScore.toStringAsFixed(4)}, '
+      'secondScore=${secondScore.toStringAsFixed(4)}, hybridAvg=${hybridAvg.toStringAsFixed(4)}, '
+      'screenPositive=$screenPositive',
+    );
 
     // ------------------------------------------------------------------
     // Determine ScreeningOutcome
@@ -1231,13 +1422,16 @@ class ModelInferenceService {
       outcome = ScreeningOutcome.reviewRecommended;
     } else {
       final effectiveScore = hybridAvg;
-      final hasLowQualityPhotos = photoResults.any((r) =>
-          r.isValidOralPhoto &&
-          r.isAnalyzed &&
-          r.qualityScore < ScreeningConfig.qualityUnclearThreshold);
+      final hasLowQualityPhotos = photoResults.any(
+        (r) =>
+            r.isValidOralPhoto &&
+            r.isAnalyzed &&
+            r.qualityScore < ScreeningConfig.qualityUnclearThreshold,
+      );
       if ((effectiveScore >= ScreeningConfig.retakeLowerBound &&
               effectiveScore < ScreeningConfig.retakeUpperBound) ||
-          (photosUsed < ScreeningConfig.minUsedPhotos && capturedCount >= ScreeningConfig.minUsedPhotos) ||
+          (photosUsed < ScreeningConfig.minUsedPhotos &&
+              capturedCount >= ScreeningConfig.minUsedPhotos) ||
           hasLowQualityPhotos) {
         outcome = ScreeningOutcome.retakeSuggested;
       } else {
@@ -1259,19 +1453,37 @@ class ModelInferenceService {
 
     final ClassProbabilities positiveClassProbs;
     if (positivePhotos.isNotEmpty) {
-      final posPreds = positivePhotos.map((c) => c['probs'] as List<double>).toList();
-      final posWeights = positivePhotos.map((c) => c['weight'] as double).toList();
-      positiveClassProbs = ClassProbabilities.fromList(_aggregatePredictions(posPreds, posWeights));
+      final posPreds = positivePhotos
+          .map((c) => c['probs'] as List<double>)
+          .toList();
+      final posWeights = positivePhotos
+          .map((c) => c['weight'] as double)
+          .toList();
+      positiveClassProbs = ClassProbabilities.fromList(
+        _aggregatePredictions(posPreds, posWeights),
+      );
     } else {
-      positiveClassProbs = const ClassProbabilities(healthy: 0, benign: 0, opmd: 0, oca: 0);
+      positiveClassProbs = const ClassProbabilities(
+        healthy: 0,
+        benign: 0,
+        opmd: 0,
+        oca: 0,
+      );
     }
 
-    final allPreds = usableCandidates.map((c) => c['probs'] as List<double>).toList();
-    final allWeights = usableCandidates.map((c) => c['weight'] as double).toList();
-    final allClassProbs = ClassProbabilities.fromList(_aggregatePredictions(allPreds, allWeights));
+    final allPreds = usableCandidates
+        .map((c) => c['probs'] as List<double>)
+        .toList();
+    final allWeights = usableCandidates
+        .map((c) => c['weight'] as double)
+        .toList();
+    final allClassProbs = ClassProbabilities.fromList(
+      _aggregatePredictions(allPreds, allWeights),
+    );
 
     // When screen-positive, subtype and label confidence come from positive photos only
-    final ClassProbabilities effectiveClassProbs = screenPositive && positivePhotos.isNotEmpty
+    final ClassProbabilities effectiveClassProbs =
+        screenPositive && positivePhotos.isNotEmpty
         ? positiveClassProbs
         : allClassProbs;
 
@@ -1305,14 +1517,18 @@ class ModelInferenceService {
       borderlineOpmdPlus: !screenPositive ? pOpmdPlus : null,
     );
 
-    final recommendations = ScreeningResult.generateRecommendations(overallRisk, photoResults);
+    final recommendations = ScreeningResult.generateRecommendations(
+      overallRisk,
+      photoResults,
+    );
 
     return ScreeningResult(
       overallRisk: overallRisk,
       overallConfidence: effectiveClassProbs.confidence,
       photoResults: photoResults,
       recommendations: recommendations,
-      specialistRequired: urgencyLevel == UrgencyLevel.prompt ||
+      specialistRequired:
+          urgencyLevel == UrgencyLevel.prompt ||
           urgencyLevel == UrgencyLevel.urgent ||
           overallRisk.specialistRequired,
       urgencyLevel: urgencyLevel,
@@ -1356,7 +1572,11 @@ class ModelInferenceService {
       urgencyLevel: UrgencyLevel.retake,
       urgencyText: UrgencyLevel.retake.displayText,
       aggregatedProbabilities: const ClassProbabilities(
-          healthy: 0.0, benign: 0.0, opmd: 0.0, oca: 0.0),
+        healthy: 0.0,
+        benign: 0.0,
+        opmd: 0.0,
+        oca: 0.0,
+      ),
       analyzedAt: DateTime.now(),
       overallAssessmentTitle: assessment.title,
       overallAssessmentMessage: assessment.message,
@@ -1371,7 +1591,10 @@ class ModelInferenceService {
   }
 
   /// Aggregate predictions using weighted average
-  List<double> _aggregatePredictions(List<List<double>> predictions, List<double> weights) {
+  List<double> _aggregatePredictions(
+    List<List<double>> predictions,
+    List<double> weights,
+  ) {
     if (predictions.isEmpty) return [0.0, 0.0, 0.0, 0.0, 0.0];
 
     // Normalize weights

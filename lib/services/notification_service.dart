@@ -23,7 +23,9 @@ class NotificationService {
     tz_data.initializeTimeZones();
 
     // Android settings
-    const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
+    const androidSettings = AndroidInitializationSettings(
+      '@mipmap/ic_launcher',
+    );
 
     // iOS settings
     const iosSettings = DarwinInitializationSettings(
@@ -49,7 +51,9 @@ class NotificationService {
 
   /// Handle notification tap
   void _onNotificationTapped(NotificationResponse response) {
-    debugPrint('📱 [NotificationService] Notification tapped: ${response.payload}');
+    debugPrint(
+      '📱 [NotificationService] Notification tapped: ${response.payload}',
+    );
     // Handle navigation based on payload
     // This could be handled by the main app through a stream or callback
   }
@@ -58,12 +62,9 @@ class NotificationService {
   Future<bool> requestPermissions() async {
     final result = await _notifications
         .resolvePlatformSpecificImplementation<
-            IOSFlutterLocalNotificationsPlugin>()
-        ?.requestPermissions(
-          alert: true,
-          badge: true,
-          sound: true,
-        );
+          IOSFlutterLocalNotificationsPlugin
+        >()
+        ?.requestPermissions(alert: true, badge: true, sound: true);
 
     return result ?? false;
   }
@@ -110,7 +111,9 @@ class NotificationService {
       payload: 'screening_reminder',
     );
 
-    debugPrint('📅 [NotificationService] Scheduled reminder for: $scheduledDate');
+    debugPrint(
+      '📅 [NotificationService] Scheduled reminder for: $scheduledDate',
+    );
   }
 
   /// Schedule default 3-month screening reminder. Pass [l10n] for localized strings; if null, English is used.

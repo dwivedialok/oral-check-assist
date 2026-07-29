@@ -186,8 +186,10 @@ class PhotoResult {
   final bool isValidOralPhoto;
   final String? displayLabel;
   final double? cancerProbability;
+
   /// Resolved per-photo summary label for UI (e.g. "Potential Concern") when binary and 5-class disagree; null otherwise.
   final String? perPhotoSummaryLabel;
+
   /// Short explanation when screening and visual pattern disagree; null when aligned.
   final String? disagreementNote;
 
@@ -396,8 +398,7 @@ class ScreeningResult {
 
   /// True when tobacco/exposure (ERI) raises the combined recommendation above AI-only image risk.
   bool get isFinalRiskElevatedAboveImageRisk =>
-      finalCombinedRisk != null &&
-      finalCombinedRisk!.index > overallRisk.index;
+      finalCombinedRisk != null && finalCombinedRisk!.index > overallRisk.index;
 
   ScreeningResult copyWith({
     RiskLevel? overallRisk,
@@ -480,7 +481,9 @@ class ScreeningResult {
 
   factory ScreeningResult.fromJson(Map<String, dynamic> json) {
     if (json['v'] != 2) {
-      throw FormatException('Unsupported screening result format (expected v2)');
+      throw FormatException(
+        'Unsupported screening result format (expected v2)',
+      );
     }
 
     final urgencyRaw = (json['urgencyLevel'] as String?) ?? 'routine';

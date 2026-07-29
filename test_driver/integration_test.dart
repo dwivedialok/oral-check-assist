@@ -12,7 +12,9 @@ Future<void> main() {
           final map = entry as Map<String, dynamic>;
           final name = map['name'] as String? ?? '?';
           final result = map['result'] as String? ?? '?';
-          final icon = result == 'passed' ? '✓' : (result == 'skipped' ? '⊘' : '✗');
+          final icon = result == 'passed'
+              ? '✓'
+              : (result == 'skipped' ? '⊘' : '✗');
           print('  $icon $name -> $result');
         }
         print('------------------------');

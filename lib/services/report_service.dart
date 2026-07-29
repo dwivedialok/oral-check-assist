@@ -207,7 +207,10 @@ class ReportService {
           pw.Row(
             mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
             children: [
-              pw.Text('${l10n.urgencyLabel}:', style: const pw.TextStyle(fontSize: 14)),
+              pw.Text(
+                '${l10n.urgencyLabel}:',
+                style: const pw.TextStyle(fontSize: 14),
+              ),
               pw.Text(
                 _pdfSafe(urgencyText).toUpperCase(),
                 style: pw.TextStyle(
@@ -518,7 +521,8 @@ class ReportService {
                 _tableCell(l10n.photoTableDetailPeakHeader, isHeader: true),
                 _tableCell('Quality', isHeader: true),
                 if (hasDualEnsemble) _tableCell('Label', isHeader: true),
-                if (hasDualEnsemble) _tableCell('Screening Risk Score', isHeader: true),
+                if (hasDualEnsemble)
+                  _tableCell('Screening Risk Score', isHeader: true),
               ],
             ),
             ...result.photoResults.map((photo) {
@@ -538,11 +542,14 @@ class ReportService {
                     _tableCell(
                       photo.displayLabel != null
                           ? (photo.perPhotoSummaryLabel != null &&
-                                  photo.perPhotoSummaryLabel != 'Healthy'
-                              ? 'Retake or further analysis needed'
-                              : _pdfSafe(
-                                  classLabelFriendly(l10n, photo.displayLabel!),
-                                ))
+                                    photo.perPhotoSummaryLabel != 'Healthy'
+                                ? 'Retake or further analysis needed'
+                                : _pdfSafe(
+                                    classLabelFriendly(
+                                      l10n,
+                                      photo.displayLabel!,
+                                    ),
+                                  ))
                           : '-',
                     ),
                   if (hasDualEnsemble)

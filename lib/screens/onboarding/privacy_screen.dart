@@ -71,7 +71,9 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                AppLocalizations.of(context)!.yourPrivacyMatters,
+                                AppLocalizations.of(
+                                  context,
+                                )!.yourPrivacyMatters,
                                 style: const TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
@@ -79,7 +81,9 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                               ),
                               const SizedBox(height: 4),
                               Text(
-                                AppLocalizations.of(context)!.heresHowWeProtectYou,
+                                AppLocalizations.of(
+                                  context,
+                                )!.heresHowWeProtectYou,
                                 style: const TextStyle(
                                   color: Colors.grey,
                                   fontSize: 14,
@@ -173,7 +177,8 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
 
                     // Terms checkbox
                     GestureDetector(
-                      onTap: () => setState(() => _acceptedTerms = !_acceptedTerms),
+                      onTap: () =>
+                          setState(() => _acceptedTerms = !_acceptedTerms),
                       child: Row(
                         children: [
                           AnimatedContainer(
@@ -181,10 +186,14 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                             width: 24,
                             height: 24,
                             decoration: BoxDecoration(
-                              color: _acceptedTerms ? Colors.blue[600] : Colors.transparent,
+                              color: _acceptedTerms
+                                  ? Colors.blue[600]
+                                  : Colors.transparent,
                               borderRadius: BorderRadius.circular(6),
                               border: Border.all(
-                                color: _acceptedTerms ? Colors.blue[600]! : Colors.grey[400]!,
+                                color: _acceptedTerms
+                                    ? Colors.blue[600]!
+                                    : Colors.grey[400]!,
                                 width: 2,
                               ),
                             ),

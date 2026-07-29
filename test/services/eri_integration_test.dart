@@ -15,12 +15,11 @@ ExposureData _exposure({
   List<TobaccoType> types = const [],
   DurationCategory? duration,
   FrequencyCategory? frequency,
-}) =>
-    ERIService().computeExposureData(
-      tobaccoTypes: types,
-      duration: duration,
-      frequency: frequency,
-    );
+}) => ERIService().computeExposureData(
+  tobaccoTypes: types,
+  duration: duration,
+  frequency: frequency,
+);
 
 void main() {
   final eri = ERIService();

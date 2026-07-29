@@ -85,7 +85,10 @@ class ResultsScreen extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             result.subtypeGuidance != SubtypeGuidance.none
-                ? subtypeGuidanceTitleL10n(AppLocalizations.of(context)!, result.subtypeGuidance)
+                ? subtypeGuidanceTitleL10n(
+                    AppLocalizations.of(context)!,
+                    result.subtypeGuidance,
+                  )
                 : result.overallAssessmentTitle,
             style: TextStyle(
               fontSize: 24,
@@ -155,14 +158,21 @@ class ResultsScreen extends StatelessWidget {
               children: [
                 Text(
                   result.subtypeGuidance != SubtypeGuidance.none
-                      ? subtypeGuidanceMessageL10n(AppLocalizations.of(context)!, result.subtypeGuidance)
-                      : localizeAssessmentMessage(AppLocalizations.of(context)!, result.overallAssessmentMessage),
+                      ? subtypeGuidanceMessageL10n(
+                          AppLocalizations.of(context)!,
+                          result.subtypeGuidance,
+                        )
+                      : localizeAssessmentMessage(
+                          AppLocalizations.of(context)!,
+                          result.overallAssessmentMessage,
+                        ),
                   style: const TextStyle(fontSize: 16, height: 1.5),
                   textAlign: TextAlign.center,
                 ),
                 if ((result.finalCombinedRisk ?? result.overallRisk)
                         .specialistRequired &&
-                    result.screeningOutcome != ScreeningOutcome.retakeSuggested) ...[
+                    result.screeningOutcome !=
+                        ScreeningOutcome.retakeSuggested) ...[
                   const SizedBox(height: 16),
                   Container(
                     padding: const EdgeInsets.all(12),
@@ -367,8 +377,9 @@ class ResultsScreen extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      AppLocalizations.of(context)!
-                          .eriFinalRecommendationElevatedNote,
+                      AppLocalizations.of(
+                        context,
+                      )!.eriFinalRecommendationElevatedNote,
                       style: TextStyle(
                         fontSize: 12,
                         height: 1.35,

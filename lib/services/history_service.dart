@@ -15,8 +15,10 @@ class ScreeningHistoryItem {
   final int photosAnalyzed;
   final Map<String, dynamic>? aggregatedProbabilities;
   final List<String> recommendations;
+
   /// Full result JSON for detail view (ScreeningResult.toJson() encoded).
   final String? resultJson;
+
   /// Photo type name -> absolute path for images persisted for this screening.
   final Map<String, String>? savedPhotoPaths;
 
@@ -33,16 +35,16 @@ class ScreeningHistoryItem {
   });
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'date': date.toIso8601String(),
-        'riskLevel': riskLevel,
-        'confidence': confidence,
-        'photosAnalyzed': photosAnalyzed,
-        'aggregatedProbabilities': aggregatedProbabilities,
-        'recommendations': recommendations,
-        'resultJson': resultJson,
-        'savedPhotoPaths': savedPhotoPaths,
-      };
+    'id': id,
+    'date': date.toIso8601String(),
+    'riskLevel': riskLevel,
+    'confidence': confidence,
+    'photosAnalyzed': photosAnalyzed,
+    'aggregatedProbabilities': aggregatedProbabilities,
+    'recommendations': recommendations,
+    'resultJson': resultJson,
+    'savedPhotoPaths': savedPhotoPaths,
+  };
 
   factory ScreeningHistoryItem.fromJson(Map<String, dynamic> json) {
     final paths = json['savedPhotoPaths'];
@@ -52,7 +54,8 @@ class ScreeningHistoryItem {
       riskLevel: json['riskLevel'] as String,
       confidence: (json['confidence'] as num).toDouble(),
       photosAnalyzed: json['photosAnalyzed'] as int,
-      aggregatedProbabilities: json['aggregatedProbabilities'] as Map<String, dynamic>?,
+      aggregatedProbabilities:
+          json['aggregatedProbabilities'] as Map<String, dynamic>?,
       recommendations: (json['recommendations'] as List<dynamic>)
           .map((e) => e.toString())
           .toList(),
@@ -119,7 +122,7 @@ class HistoryService {
   /// Initialize Hive storage
   Future<void> initialize() async {
     if (_initialized) return;
-    
+
     try {
       await Hive.initFlutter();
       _box = await Hive.openBox<String>(_boxName);
@@ -157,7 +160,10 @@ class HistoryService {
   }
 
   /// Save a screening result to history. Optionally copies session photos to app storage.
-  Future<void> saveScreening(ScreeningResult result, [List<PhotoCapture>? photos]) async {
+  Future<void> saveScreening(
+    ScreeningResult result, [
+    List<PhotoCapture>? photos,
+  ]) async {
     await _ensureInitialized();
     if (_box == null) return;
 
@@ -185,7 +191,11 @@ class HistoryService {
     }
 
     try {
-      final item = ScreeningHistoryItem.fromResult(result, id: id, savedPhotoPaths: savedPhotoPaths);
+      final item = ScreeningHistoryItem.fromResult(
+        result,
+        id: id,
+        savedPhotoPaths: savedPhotoPaths,
+      );
       final jsonStr = jsonEncode(item.toJson());
       await _box!.put(item.id, jsonStr);
       debugPrint('✅ [HistoryService] Saved screening: ${item.id}');
@@ -202,7 +212,7 @@ class HistoryService {
 
     try {
       final items = <ScreeningHistoryItem>[];
-      
+
       for (final key in _box!.keys) {
         final jsonStr = _box!.get(key);
         if (jsonStr != null) {
@@ -213,7 +223,7 @@ class HistoryService {
 
       // Sort by date, newest first
       items.sort((a, b) => b.date.compareTo(a.date));
-      
+
       debugPrint('📊 [HistoryService] Loaded ${items.length} screenings');
       return items;
     } catch (e) {

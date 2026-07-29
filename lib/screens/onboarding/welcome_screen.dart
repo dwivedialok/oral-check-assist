@@ -27,17 +27,15 @@ class WelcomeScreen extends StatelessWidget {
                   if (onLocaleChanged != null)
                     IconButton(
                       icon: const Icon(Icons.language),
-                      onPressed: () => showAppLanguagePicker(
-                        context,
-                        onLocaleChanged!,
-                      ),
+                      onPressed: () =>
+                          showAppLanguagePicker(context, onLocaleChanged!),
                       tooltip: AppLocalizations.of(context)!.language,
                       color: Colors.blue[600],
                     ),
                 ],
               ),
               const Spacer(),
-              
+
               // Logo/Icon
               Container(
                 width: 120,
@@ -132,7 +130,12 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildFeatureRow(BuildContext context, IconData icon, String title, String subtitle) {
+  Widget _buildFeatureRow(
+    BuildContext context,
+    IconData icon,
+    String title,
+    String subtitle,
+  ) {
     return Row(
       children: [
         Container(
@@ -158,10 +161,7 @@ class WelcomeScreen extends StatelessWidget {
               ),
               Text(
                 subtitle,
-                style: TextStyle(
-                  color: Colors.grey[600],
-                  fontSize: 13,
-                ),
+                style: TextStyle(color: Colors.grey[600], fontSize: 13),
               ),
             ],
           ),

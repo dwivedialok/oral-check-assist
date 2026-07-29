@@ -255,7 +255,8 @@ class ERIService {
 
     var eriMessage = matrix.eriMessage;
     if (guidanceChanged) {
-      eriMessage = (eriMessage != null && eriMessage.isNotEmpty
+      eriMessage =
+          (eriMessage != null && eriMessage.isNotEmpty
               ? '$eriMessage\n\n'
               : '') +
           'Exposure history influenced the final recommendation.';

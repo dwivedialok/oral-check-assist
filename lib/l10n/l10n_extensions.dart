@@ -189,7 +189,10 @@ String subtypeGuidanceMessageL10n(AppLocalizations l10n, SubtypeGuidance g) {
 }
 
 /// Localize per-photo summary label. Returns null if [perPhotoSummaryLabel] is null.
-String? localizePerPhotoSummaryLabel(AppLocalizations l10n, String? perPhotoSummaryLabel) {
+String? localizePerPhotoSummaryLabel(
+  AppLocalizations l10n,
+  String? perPhotoSummaryLabel,
+) {
   if (perPhotoSummaryLabel == null) return null;
   switch (perPhotoSummaryLabel) {
     case 'Potential Concern':
@@ -254,31 +257,43 @@ String localizeRecommendation(BuildContext context, String rec) {
   const needClearerPrefix = 'Need clearer photos for: ';
   const payAttentionPrefix = 'Pay special attention to: ';
   if (rec.startsWith(needClearerPrefix)) {
-    final list = rec.substring(needClearerPrefix.length).split(',').map((s) => s.trim()).toList();
-    final localized = list.map((name) {
-      PhotoType? type;
-      for (final t in PhotoType.values) {
-        if (t.displayName == name) {
-          type = t;
-          break;
-        }
-      }
-      return type != null ? type.localizedName(context) : name;
-    }).join(', ');
+    final list = rec
+        .substring(needClearerPrefix.length)
+        .split(',')
+        .map((s) => s.trim())
+        .toList();
+    final localized = list
+        .map((name) {
+          PhotoType? type;
+          for (final t in PhotoType.values) {
+            if (t.displayName == name) {
+              type = t;
+              break;
+            }
+          }
+          return type != null ? type.localizedName(context) : name;
+        })
+        .join(', ');
     return l10n.recNeedClearerPhotosFor(localized);
   }
   if (rec.startsWith(payAttentionPrefix)) {
-    final list = rec.substring(payAttentionPrefix.length).split(',').map((s) => s.trim()).toList();
-    final localized = list.map((name) {
-      PhotoType? type;
-      for (final t in PhotoType.values) {
-        if (t.displayName == name) {
-          type = t;
-          break;
-        }
-      }
-      return type != null ? type.localizedName(context) : name;
-    }).join(', ');
+    final list = rec
+        .substring(payAttentionPrefix.length)
+        .split(',')
+        .map((s) => s.trim())
+        .toList();
+    final localized = list
+        .map((name) {
+          PhotoType? type;
+          for (final t in PhotoType.values) {
+            if (t.displayName == name) {
+              type = t;
+              break;
+            }
+          }
+          return type != null ? type.localizedName(context) : name;
+        })
+        .join(', ');
     return l10n.recPaySpecialAttentionTo(localized);
   }
   switch (rec) {
@@ -316,22 +331,32 @@ String localizeRecommendation(BuildContext context, String rec) {
 /// are preserved or localized where possible.
 String localizeVerdictExplanation(BuildContext context, String text) {
   final l10n = AppLocalizations.of(context)!;
-  const lowRisk = 'Both checks suggest low risk. No immediate follow-up needed; routine check-ups are still recommended.';
+  const lowRisk =
+      'Both checks suggest low risk. No immediate follow-up needed; routine check-ups are still recommended.';
   if (text == lowRisk) return l10n.verdictBothLowRisk;
-  const referralAppro = 'Both checks suggest referral is appropriate. Please see a healthcare provider for further evaluation.';
+  const referralAppro =
+      'Both checks suggest referral is appropriate. Please see a healthcare provider for further evaluation.';
   if (text == referralAppro) return l10n.verdictReferralAppropriate;
-  if (text.startsWith('Both checks suggest some concern (') && text.endsWith('). We recommend follow-up with a healthcare provider.')) {
+  if (text.startsWith('Both checks suggest some concern (') &&
+      text.endsWith('). We recommend follow-up with a healthcare provider.')) {
     final label = text.substring(34, text.length - 49);
     return l10n.verdictBothSomeConcern(classLabelFriendly(l10n, label));
   }
-  if (text.startsWith('The two checks gave different signals. We show ') && text.endsWith(' and recommend follow-up so a professional can decide.')) {
+  if (text.startsWith('The two checks gave different signals. We show ') &&
+      text.endsWith(' and recommend follow-up so a professional can decide.')) {
     final risk = text.substring(45, text.length - 55);
-    final riskLocalized = risk == 'Low Risk' ? l10n.riskLow : (risk == 'Moderate Risk' ? l10n.riskModerate : (risk == 'High Risk' ? l10n.riskHigh : risk));
+    final riskLocalized = risk == 'Low Risk'
+        ? l10n.riskLow
+        : (risk == 'Moderate Risk'
+              ? l10n.riskModerate
+              : (risk == 'High Risk' ? l10n.riskHigh : risk));
     return l10n.verdictDifferentSignals(riskLocalized);
   }
   if (text.startsWith('This photo could not be assessed. ')) {
     final note = text.substring(34);
-    final noteLocalized = note == 'Please retake.' ? l10n.verdictPleaseRetake : note;
+    final noteLocalized = note == 'Please retake.'
+        ? l10n.verdictPleaseRetake
+        : note;
     return l10n.verdictCouldNotAssess(noteLocalized);
   }
   return text;
@@ -435,10 +460,7 @@ String photoCaptureEffectiveLabelText(
 ///    [OralPhotoLabel.custom] and text is non-empty.
 /// 2. Localized preset name for any other user-selected label.
 /// 3. Legacy fallback: localized slot name from [PhotoResult.photoType].
-String photoResultEffectiveLabelText(
-  AppLocalizations l10n,
-  PhotoResult photo,
-) {
+String photoResultEffectiveLabelText(AppLocalizations l10n, PhotoResult photo) {
   final label = photo.photoLabel;
   if (label == null) {
     return photo.photoType.localizedNameL10n(l10n);

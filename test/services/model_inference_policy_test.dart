@@ -115,7 +115,10 @@ void main() {
         oca: 0.20,
         unknown: 0.10,
       );
-      expect(service.deriveSubtypeGuidance(probs), SubtypeGuidance.opmdDominant);
+      expect(
+        service.deriveSubtypeGuidance(probs),
+        SubtypeGuidance.opmdDominant,
+      );
     });
 
     test('benign dominant', () {
@@ -126,7 +129,10 @@ void main() {
         oca: 0.10,
         unknown: 0.10,
       );
-      expect(service.deriveSubtypeGuidance(probs), SubtypeGuidance.benignDominant);
+      expect(
+        service.deriveSubtypeGuidance(probs),
+        SubtypeGuidance.benignDominant,
+      );
     });
 
     test('none when all subtypes below threshold', () {
@@ -143,28 +149,88 @@ void main() {
 
   group('V2 outcome to risk/urgency mapping', () {
     test('lowRisk -> RiskLevel.low, routine', () {
-      expect(service.outcomeToRiskLevel(ScreeningOutcome.lowRisk, SubtypeGuidance.none), RiskLevel.low);
-      expect(service.outcomeToUrgency(ScreeningOutcome.lowRisk, SubtypeGuidance.none), UrgencyLevel.routine);
+      expect(
+        service.outcomeToRiskLevel(
+          ScreeningOutcome.lowRisk,
+          SubtypeGuidance.none,
+        ),
+        RiskLevel.low,
+      );
+      expect(
+        service.outcomeToUrgency(
+          ScreeningOutcome.lowRisk,
+          SubtypeGuidance.none,
+        ),
+        UrgencyLevel.routine,
+      );
     });
 
     test('retakeSuggested -> RiskLevel.moderate, retake', () {
-      expect(service.outcomeToRiskLevel(ScreeningOutcome.retakeSuggested, SubtypeGuidance.none), RiskLevel.moderate);
-      expect(service.outcomeToUrgency(ScreeningOutcome.retakeSuggested, SubtypeGuidance.none), UrgencyLevel.retake);
+      expect(
+        service.outcomeToRiskLevel(
+          ScreeningOutcome.retakeSuggested,
+          SubtypeGuidance.none,
+        ),
+        RiskLevel.moderate,
+      );
+      expect(
+        service.outcomeToUrgency(
+          ScreeningOutcome.retakeSuggested,
+          SubtypeGuidance.none,
+        ),
+        UrgencyLevel.retake,
+      );
     });
 
     test('reviewRecommended + OCA -> high, urgent', () {
-      expect(service.outcomeToRiskLevel(ScreeningOutcome.reviewRecommended, SubtypeGuidance.ocaDominant), RiskLevel.high);
-      expect(service.outcomeToUrgency(ScreeningOutcome.reviewRecommended, SubtypeGuidance.ocaDominant), UrgencyLevel.urgent);
+      expect(
+        service.outcomeToRiskLevel(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.ocaDominant,
+        ),
+        RiskLevel.high,
+      );
+      expect(
+        service.outcomeToUrgency(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.ocaDominant,
+        ),
+        UrgencyLevel.urgent,
+      );
     });
 
     test('reviewRecommended + OPMD -> moderate, prompt', () {
-      expect(service.outcomeToRiskLevel(ScreeningOutcome.reviewRecommended, SubtypeGuidance.opmdDominant), RiskLevel.moderate);
-      expect(service.outcomeToUrgency(ScreeningOutcome.reviewRecommended, SubtypeGuidance.opmdDominant), UrgencyLevel.prompt);
+      expect(
+        service.outcomeToRiskLevel(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.opmdDominant,
+        ),
+        RiskLevel.moderate,
+      );
+      expect(
+        service.outcomeToUrgency(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.opmdDominant,
+        ),
+        UrgencyLevel.prompt,
+      );
     });
 
     test('reviewRecommended + benign -> moderate, prompt', () {
-      expect(service.outcomeToRiskLevel(ScreeningOutcome.reviewRecommended, SubtypeGuidance.benignDominant), RiskLevel.moderate);
-      expect(service.outcomeToUrgency(ScreeningOutcome.reviewRecommended, SubtypeGuidance.benignDominant), UrgencyLevel.prompt);
+      expect(
+        service.outcomeToRiskLevel(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.benignDominant,
+        ),
+        RiskLevel.moderate,
+      );
+      expect(
+        service.outcomeToUrgency(
+          ScreeningOutcome.reviewRecommended,
+          SubtypeGuidance.benignDominant,
+        ),
+        UrgencyLevel.prompt,
+      );
     });
   });
 }

@@ -14,20 +14,22 @@ ScreeningResult _buildResult({
   String? title,
   String? message,
 }) {
-  final effectiveRisk = overallRisk ??
+  final effectiveRisk =
+      overallRisk ??
       (outcome == ScreeningOutcome.lowRisk
           ? RiskLevel.low
           : (guidance == SubtypeGuidance.ocaDominant
-              ? RiskLevel.high
-              : RiskLevel.moderate));
-  final effectiveUrgency = urgency ??
+                ? RiskLevel.high
+                : RiskLevel.moderate));
+  final effectiveUrgency =
+      urgency ??
       (outcome == ScreeningOutcome.lowRisk
           ? UrgencyLevel.routine
           : (outcome == ScreeningOutcome.retakeSuggested
-              ? UrgencyLevel.retake
-              : (guidance == SubtypeGuidance.ocaDominant
-                  ? UrgencyLevel.urgent
-                  : UrgencyLevel.prompt)));
+                ? UrgencyLevel.retake
+                : (guidance == SubtypeGuidance.ocaDominant
+                      ? UrgencyLevel.urgent
+                      : UrgencyLevel.prompt)));
 
   const probs = ClassProbabilities(
     healthy: 0.1,
@@ -100,8 +102,9 @@ void main() {
       expect(find.text('Retake Suggested'), findsWidgets);
     });
 
-    testWidgets('reviewRecommended + OCA shows subtype explanation card',
-        (tester) async {
+    testWidgets('reviewRecommended + OCA shows subtype explanation card', (
+      tester,
+    ) async {
       final result = _buildResult(
         outcome: ScreeningOutcome.reviewRecommended,
         guidance: SubtypeGuidance.ocaDominant,
@@ -113,14 +116,12 @@ void main() {
         _wrapWithLocalizations(DetailedResultsScreen(result: result)),
       );
 
-      expect(
-        find.textContaining('Urgent Clinical Review'),
-        findsWidgets,
-      );
+      expect(find.textContaining('Urgent Clinical Review'), findsWidgets);
     });
 
-    testWidgets('lowRisk does NOT show subtype explanation card',
-        (tester) async {
+    testWidgets('lowRisk does NOT show subtype explanation card', (
+      tester,
+    ) async {
       final result = _buildResult(outcome: ScreeningOutcome.lowRisk);
 
       await tester.pumpWidget(
@@ -152,11 +153,7 @@ void main() {
 
       await tester.pumpWidget(
         _wrapWithLocalizations(
-          ResultsScreen(
-            result: result,
-            onViewDetails: () {},
-            onDone: () {},
-          ),
+          ResultsScreen(result: result, onViewDetails: () {}, onDone: () {}),
         ),
       );
 
@@ -171,11 +168,7 @@ void main() {
 
       await tester.pumpWidget(
         _wrapWithLocalizations(
-          ResultsScreen(
-            result: result,
-            onViewDetails: () {},
-            onDone: () {},
-          ),
+          ResultsScreen(result: result, onViewDetails: () {}, onDone: () {}),
         ),
       );
 
@@ -183,8 +176,9 @@ void main() {
       expect(find.byIcon(Icons.camera_alt_outlined), findsOneWidget);
     });
 
-    testWidgets('reviewRecommended + OCA shows subtype guidance card',
-        (tester) async {
+    testWidgets('reviewRecommended + OCA shows subtype guidance card', (
+      tester,
+    ) async {
       final result = _buildResult(
         outcome: ScreeningOutcome.reviewRecommended,
         guidance: SubtypeGuidance.ocaDominant,
@@ -194,11 +188,7 @@ void main() {
 
       await tester.pumpWidget(
         _wrapWithLocalizations(
-          ResultsScreen(
-            result: result,
-            onViewDetails: () {},
-            onDone: () {},
-          ),
+          ResultsScreen(result: result, onViewDetails: () {}, onDone: () {}),
         ),
       );
 

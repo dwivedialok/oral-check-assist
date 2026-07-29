@@ -80,32 +80,32 @@ class _HomeScreenState extends State<HomeScreen> {
                           FutureBuilder<PackageInfo>(
                             future: PackageInfo.fromPlatform(),
                             builder: (context, snapshot) {
-                                final style = TextStyle(
-                                  fontSize: 12,
-                                  color: Colors.grey[600],
-                                  fontWeight: FontWeight.normal,
+                              final style = TextStyle(
+                                fontSize: 12,
+                                color: Colors.grey[600],
+                                fontWeight: FontWeight.normal,
+                              );
+                              if (snapshot.connectionState ==
+                                  ConnectionState.waiting) {
+                                return Text('…', style: style);
+                              }
+                              String versionText = '—';
+                              if (snapshot.hasError) {
+                                debugPrint(
+                                  'Failed to load package info: ${snapshot.error}',
                                 );
-                                if (snapshot.connectionState ==
-                                    ConnectionState.waiting) {
-                                  return Text('…', style: style);
+                              } else if (snapshot.hasData) {
+                                final info = snapshot.data!;
+                                final token = runningVersionToken(
+                                  packageVersion: info.version,
+                                  packageBuildNumber: info.buildNumber,
+                                );
+                                if (token.isNotEmpty) {
+                                  versionText = 'v$token';
                                 }
-                                String versionText = '—';
-                                if (snapshot.hasError) {
-                                  debugPrint(
-                                    'Failed to load package info: ${snapshot.error}',
-                                  );
-                                } else if (snapshot.hasData) {
-                                  final info = snapshot.data!;
-                                  final token = runningVersionToken(
-                                    packageVersion: info.version,
-                                    packageBuildNumber: info.buildNumber,
-                                  );
-                                  if (token.isNotEmpty) {
-                                    versionText = 'v$token';
-                                  }
-                                }
-                                return Text(versionText, style: style);
-                              },
+                              }
+                              return Text(versionText, style: style);
+                            },
                           ),
                         ],
                       ),
@@ -184,11 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(
-            Icons.camera_alt_outlined,
-            color: Colors.white,
-            size: 36,
-          ),
+          const Icon(Icons.camera_alt_outlined, color: Colors.white, size: 36),
           const SizedBox(height: 16),
           Text(
             AppLocalizations.of(context)!.startNewCheck,
@@ -293,10 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         Text(
           AppLocalizations.of(context)!.whyFivePhotos,
-          style: const TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-          ),
+          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 12),
         Container(
@@ -326,7 +319,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      AppLocalizations.of(context)!.ninetyTwoPercentMoreAccurate,
+                      AppLocalizations.of(
+                        context,
+                      )!.ninetyTwoPercentMoreAccurate,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.green[800],
@@ -335,10 +330,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     const SizedBox(height: 4),
                     Text(
                       AppLocalizations.of(context)!.multipleAnglesDesc,
-                      style: TextStyle(
-                        fontSize: 13,
-                        color: Colors.green[700],
-                      ),
+                      style: TextStyle(fontSize: 13, color: Colors.green[700]),
                     ),
                   ],
                 ),
@@ -380,10 +372,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         Text(
           l10n.howItWorks,
-          style: TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 12),
         Row(
@@ -398,10 +387,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       if (index > 0)
                         Expanded(
-                          child: Container(
-                            height: 2,
-                            color: Colors.grey[300],
-                          ),
+                          child: Container(height: 2, color: Colors.grey[300]),
                         ),
                       Container(
                         width: 44,
@@ -418,10 +404,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       if (index < steps.length - 1)
                         Expanded(
-                          child: Container(
-                            height: 2,
-                            color: Colors.grey[300],
-                          ),
+                          child: Container(height: 2, color: Colors.grey[300]),
                         ),
                     ],
                   ),
@@ -435,10 +418,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   Text(
                     step['desc'] as String,
-                    style: TextStyle(
-                      fontSize: 10,
-                      color: Colors.grey[600],
-                    ),
+                    style: TextStyle(fontSize: 10, color: Colors.grey[600]),
                   ),
                 ],
               ),
@@ -458,16 +438,15 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Text(
               AppLocalizations.of(context)!.recentChecks,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             TextButton(
               onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(builder: (_) => const HistoryScreen()),
-                ).then((_) => _refreshRecentChecks());
+                Navigator.of(context)
+                    .push(
+                      MaterialPageRoute(builder: (_) => const HistoryScreen()),
+                    )
+                    .then((_) => _refreshRecentChecks());
               },
               child: Text(AppLocalizations.of(context)!.viewAll),
             ),
@@ -484,7 +463,9 @@ class _HomeScreenState extends State<HomeScreen> {
             final recent = list.take(3).toList();
             return Column(
               children: recent
-                  .map((screening) => _buildHistoryPreviewCard(context, screening))
+                  .map(
+                    (screening) => _buildHistoryPreviewCard(context, screening),
+                  )
                   .toList(),
             );
           },
@@ -502,11 +483,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       child: Column(
         children: [
-          Icon(
-            Icons.history,
-            color: Colors.grey[400],
-            size: 40,
-          ),
+          Icon(Icons.history, color: Colors.grey[400], size: 40),
           const SizedBox(height: 12),
           Text(
             AppLocalizations.of(context)!.noChecksYet,
@@ -518,10 +495,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 4),
           Text(
             AppLocalizations.of(context)!.startFirstCheckDesc,
-            style: TextStyle(
-              fontSize: 12,
-              color: Colors.grey[500],
-            ),
+            style: TextStyle(fontSize: 12, color: Colors.grey[500]),
             textAlign: TextAlign.center,
           ),
         ],
@@ -530,21 +504,20 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildHistoryPreviewCard(
-      BuildContext context, ScreeningHistoryItem screening) {
+    BuildContext context,
+    ScreeningHistoryItem screening,
+  ) {
     final riskLevel = screening.resolvedRiskLevel;
     final l10n = AppLocalizations.of(context)!;
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: InkWell(
         onTap: () {
           final result = screening.decodedResult;
           if (result == null) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                  content: Text(l10n.detailedHistoryComingSoon)),
+              SnackBar(content: Text(l10n.detailedHistoryComingSoon)),
             );
             return;
           }
@@ -553,8 +526,20 @@ class _HomeScreenState extends State<HomeScreen> {
               builder: (_) => DetailedResultsScreen(
                 result: result,
                 savedPhotoPaths: screening.savedPhotoPaths,
-                onShareReport: (BuildContext screenContext) => _shareOrDownloadReport(screenContext, result, l10n, share: true),
-                onDownloadPDF: (BuildContext screenContext) => _shareOrDownloadReport(screenContext, result, l10n, share: false),
+                onShareReport: (BuildContext screenContext) =>
+                    _shareOrDownloadReport(
+                      screenContext,
+                      result,
+                      l10n,
+                      share: true,
+                    ),
+                onDownloadPDF: (BuildContext screenContext) =>
+                    _shareOrDownloadReport(
+                      screenContext,
+                      result,
+                      l10n,
+                      share: false,
+                    ),
               ),
             ),
           );
@@ -586,17 +571,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     const SizedBox(height: 4),
                     Text(
                       _formatDateShort(context, screening.date),
-                      style: TextStyle(
-                        color: Colors.grey[600],
-                        fontSize: 12,
-                      ),
+                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
                     ),
                     Text(
                       l10n.photosAnalyzedCount(screening.photosAnalyzed),
-                      style: TextStyle(
-                        color: Colors.grey[500],
-                        fontSize: 11,
-                      ),
+                      style: TextStyle(color: Colors.grey[500], fontSize: 11),
                     ),
                   ],
                 ),
@@ -626,7 +605,8 @@ class _HomeScreenState extends State<HomeScreen> {
     final diff = now.difference(date);
     if (diff.inDays == 0) {
       return l10n.todayAt(
-          '${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}');
+        '${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}',
+      );
     } else if (diff.inDays == 1) {
       return l10n.yesterday;
     } else if (diff.inDays < 7) {
@@ -656,9 +636,11 @@ class _HomeScreenState extends State<HomeScreen> {
       if (screenContext.mounted && messenger != null) {
         messenger.showSnackBar(
           SnackBar(
-            content: Text(share
-                ? '${l10n.shareReport} – share sheet opened.'
-                : 'PDF ready – use the share sheet to save or share.'),
+            content: Text(
+              share
+                  ? '${l10n.shareReport} – share sheet opened.'
+                  : 'PDF ready – use the share sheet to save or share.',
+            ),
           ),
         );
       }
@@ -680,13 +662,12 @@ class _HomeScreenState extends State<HomeScreen> {
     final provider = Provider.of<ScreeningProvider>(context, listen: false);
     provider.startNewSession();
 
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (context) => const ScreeningFlowScreen(),
-      ),
-    ).then((_) => _refreshRecentChecks());
+    Navigator.of(context)
+        .push(
+          MaterialPageRoute(builder: (context) => const ScreeningFlowScreen()),
+        )
+        .then((_) => _refreshRecentChecks());
   }
-
 }
 
 /// Manages the screening flow navigation
@@ -825,8 +806,10 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
             onError: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text(provider.errorMessage ??
-                      AppLocalizations.of(context)!.analysisFailed),
+                  content: Text(
+                    provider.errorMessage ??
+                        AppLocalizations.of(context)!.analysisFailed,
+                  ),
                   backgroundColor: Colors.red,
                 ),
               );
@@ -847,15 +830,19 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
             onSetReminder: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                    content: Text(AppLocalizations.of(context)!
-                        .reminderComingSoon)),
+                  content: Text(
+                    AppLocalizations.of(context)!.reminderComingSoon,
+                  ),
+                ),
               );
             },
             onFindSpecialist: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                    content: Text(AppLocalizations.of(context)!
-                        .findSpecialistComingSoon)),
+                  content: Text(
+                    AppLocalizations.of(context)!.findSpecialistComingSoon,
+                  ),
+                ),
               );
             },
           );
@@ -883,8 +870,10 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
                 if (screenContext.mounted && messenger != null) {
                   messenger.showSnackBar(
                     SnackBar(
-                        content: Text(
-                            '${l10n.shareReport} – share sheet opened.')),
+                      content: Text(
+                        '${l10n.shareReport} – share sheet opened.',
+                      ),
+                    ),
                   );
                 }
               } catch (e, stack) {
@@ -893,7 +882,8 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
                   messenger.showSnackBar(
                     SnackBar(
                       content: Text(
-                          'Failed to share: ${e.toString().split('\n').first}'),
+                        'Failed to share: ${e.toString().split('\n').first}',
+                      ),
                       backgroundColor: Colors.red,
                       duration: const Duration(seconds: 5),
                     ),
@@ -928,7 +918,8 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
                     messenger.showSnackBar(
                       const SnackBar(
                         content: Text(
-                            'PDF ready – use the share sheet to save or share.'),
+                          'PDF ready – use the share sheet to save or share.',
+                        ),
                       ),
                     );
                   }
@@ -939,7 +930,8 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
                   messenger.showSnackBar(
                     SnackBar(
                       content: Text(
-                          'Failed to create PDF: ${e.toString().split('\n').first}'),
+                        'Failed to create PDF: ${e.toString().split('\n').first}',
+                      ),
                       backgroundColor: Colors.red,
                       duration: const Duration(seconds: 5),
                     ),
@@ -950,9 +942,7 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
           );
         }
 
-        return const Scaffold(
-          body: Center(child: CircularProgressIndicator()),
-        );
+        return const Scaffold(body: Center(child: CircularProgressIndicator()));
       },
     );
   }

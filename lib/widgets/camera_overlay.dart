@@ -15,10 +15,7 @@ class CameraOverlay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomPaint(
-      painter: _OverlayPainter(
-        photoType: photoType,
-        isReady: isReady,
-      ),
+      painter: _OverlayPainter(photoType: photoType, isReady: isReady),
       child: Container(),
     );
   }
@@ -28,15 +25,14 @@ class _OverlayPainter extends CustomPainter {
   final PhotoType photoType;
   final bool isReady;
 
-  _OverlayPainter({
-    required this.photoType,
-    required this.isReady,
-  });
+  _OverlayPainter({required this.photoType, required this.isReady});
 
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = isReady ? Colors.green.withOpacity(0.8) : Colors.white.withOpacity(0.6)
+      ..color = isReady
+          ? Colors.green.withOpacity(0.8)
+          : Colors.white.withOpacity(0.6)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 3;
 
@@ -68,12 +64,8 @@ class _OverlayPainter extends CustomPainter {
     final height = size.height * 0.35;
 
     // Draw oval mouth guide
-    final rect = Rect.fromCenter(
-      center: center,
-      width: width,
-      height: height,
-    );
-    
+    final rect = Rect.fromCenter(center: center, width: width, height: height);
+
     // Draw dashed oval
     final path = Path()..addOval(rect);
     _drawDashedPath(canvas, path, paint);
@@ -137,7 +129,7 @@ class _OverlayPainter extends CustomPainter {
       Rect.fromCenter(center: center, width: width, height: height),
       const Radius.circular(40),
     );
-    
+
     final path = Path()..addRRect(rect);
     _drawDashedPath(canvas, path, paint);
 
@@ -168,7 +160,7 @@ class _OverlayPainter extends CustomPainter {
       center.dx + width / 2,
       center.dy + height / 2,
     );
-    
+
     _drawDashedPath(canvas, path, paint);
 
     // Draw horizontal guides

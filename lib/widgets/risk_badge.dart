@@ -8,16 +8,12 @@ class RiskBadge extends StatelessWidget {
   final RiskLevel riskLevel;
   final bool large;
 
-  const RiskBadge({
-    super.key,
-    required this.riskLevel,
-    this.large = false,
-  });
+  const RiskBadge({super.key, required this.riskLevel, this.large = false});
 
   @override
   Widget build(BuildContext context) {
     final color = Color(riskLevel.colorValue);
-    
+
     return Container(
       padding: EdgeInsets.symmetric(
         horizontal: large ? 16 : 12,
@@ -31,11 +27,7 @@ class RiskBadge extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(
-            _getIcon(),
-            color: color,
-            size: large ? 20 : 16,
-          ),
+          Icon(_getIcon(), color: color, size: large ? 20 : 16),
           const SizedBox(width: 6),
           Flexible(
             child: Text(
@@ -69,15 +61,12 @@ class RiskBadge extends StatelessWidget {
 class RiskIndicator extends StatelessWidget {
   final RiskLevel riskLevel;
 
-  const RiskIndicator({
-    super.key,
-    required this.riskLevel,
-  });
+  const RiskIndicator({super.key, required this.riskLevel});
 
   @override
   Widget build(BuildContext context) {
     final color = Color(riskLevel.colorValue);
-    
+
     return Column(
       children: [
         // Large icon
@@ -89,14 +78,10 @@ class RiskIndicator extends StatelessWidget {
             shape: BoxShape.circle,
             border: Border.all(color: color, width: 3),
           ),
-          child: Icon(
-            _getIcon(),
-            color: color,
-            size: 50,
-          ),
+          child: Icon(_getIcon(), color: color, size: 50),
         ),
         const SizedBox(height: 16),
-        
+
         // Risk level text
         Text(
           riskLevel.localizedName(context).toUpperCase(),
@@ -153,7 +138,11 @@ class PhotoStatusChip extends StatelessWidget {
             const SizedBox(width: 4),
             Text(
               AppLocalizations.of(context)!.notOral,
-              style: const TextStyle(color: Colors.purple, fontSize: 11, fontWeight: FontWeight.w600),
+              style: const TextStyle(
+                color: Colors.purple,
+                fontSize: 11,
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ],
         ),
@@ -216,7 +205,11 @@ class PhotoStatusChip extends StatelessWidget {
           const SizedBox(width: 4),
           Text(
             riskLevel!.localizedName(context),
-            style: TextStyle(color: color, fontSize: 11, fontWeight: FontWeight.w500),
+            style: TextStyle(
+              color: color,
+              fontSize: 11,
+              fontWeight: FontWeight.w500,
+            ),
           ),
         ],
       ),

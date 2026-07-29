@@ -1,4 +1,6 @@
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:math' as math;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -35,8 +37,10 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
   bool _isCapturing = false;
   PhotoQualityMetrics _currentQuality = PhotoQualityMetrics.empty;
   io.File? _previewImage;
+
   /// On web, bytes for confirm/inference (stub File cannot be read).
   Uint8List? _previewImageBytes;
+
   /// On web, resized bytes for display (prevents WebGL errors).
   Uint8List? _displayImageBytes;
 
@@ -57,7 +61,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
   @override
   void didUpdateWidget(PhotoCaptureScreen oldWidget) {
     super.didUpdateWidget(oldWidget);
-      if (oldWidget.photoType != widget.photoType) {
+    if (oldWidget.photoType != widget.photoType) {
       _previewImage = null;
       _previewImageBytes = null;
       _displayImageBytes = null;
@@ -109,7 +113,10 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
               children: [
                 // Top bar
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 8,
+                  ),
                   color: Colors.black,
                   child: Column(
                     children: [
@@ -120,27 +127,37 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                             icon: const Icon(Icons.close, color: Colors.white),
                             onPressed: () => _showExitConfirmation(context),
                           ),
-                        Text(
-                          AppLocalizations.of(context)!.photoXOfY(currentIndex, _isRequiredPhoto ? AppLocalizations.of(context)!.requiredLabel : AppLocalizations.of(context)!.optionalLabel),
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w500,
+                          Text(
+                            AppLocalizations.of(context)!.photoXOfY(
+                              currentIndex,
+                              _isRequiredPhoto
+                                  ? AppLocalizations.of(context)!.requiredLabel
+                                  : AppLocalizations.of(context)!.optionalLabel,
+                            ),
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
-                        ),
-                        if (widget.onSkip != null)
-                          TextButton(
-                            onPressed: () => widget.onSkip!(),
-                            child: Text(AppLocalizations.of(context)!.skip, style: const TextStyle(color: Colors.white70)),
-                          )
-                        else
-                          const SizedBox(width: 48),
+                          if (widget.onSkip != null)
+                            TextButton(
+                              onPressed: () => widget.onSkip!(),
+                              child: Text(
+                                AppLocalizations.of(context)!.skip,
+                                style: const TextStyle(color: Colors.white70),
+                              ),
+                            )
+                          else
+                            const SizedBox(width: 48),
                         ],
                       ),
                       LinearProgressIndicator(
                         value: currentIndex / 5,
                         backgroundColor: Colors.white24,
-                        valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
+                        valueColor: const AlwaysStoppedAnimation<Color>(
+                          Colors.green,
+                        ),
                       ),
                     ],
                   ),
@@ -151,29 +168,46 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      _previewImage != null || (kIsWeb && _displayImageBytes != null && _displayImageBytes!.isNotEmpty)
+                      _previewImage != null ||
+                              (kIsWeb &&
+                                  _displayImageBytes != null &&
+                                  _displayImageBytes!.isNotEmpty)
                           ? GestureDetector(
                               onTap: () => _openFullScreenViewer(context),
-                              child: kIsWeb && _displayImageBytes != null && _displayImageBytes!.isNotEmpty
+                              child:
+                                  kIsWeb &&
+                                      _displayImageBytes != null &&
+                                      _displayImageBytes!.isNotEmpty
                                   ? Image.memory(
                                       _displayImageBytes!,
                                       fit: BoxFit.contain,
                                       gaplessPlayback: true,
                                       filterQuality: FilterQuality.medium,
                                       errorBuilder: (context, error, stackTrace) {
-                                        debugPrint('❌ [Image] Failed to display image: $error');
-                                        debugPrint('   Stack trace: $stackTrace');
+                                        debugPrint(
+                                          '❌ [Image] Failed to display image: $error',
+                                        );
+                                        debugPrint(
+                                          '   Stack trace: $stackTrace',
+                                        );
                                         return Container(
                                           color: Colors.grey[900],
                                           child: Center(
                                             child: Column(
-                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
                                               children: [
-                                                const Icon(Icons.error_outline, color: Colors.red, size: 48),
+                                                const Icon(
+                                                  Icons.error_outline,
+                                                  color: Colors.red,
+                                                  size: 48,
+                                                ),
                                                 const SizedBox(height: 8),
                                                 Text(
                                                   'Failed to display image',
-                                                  style: TextStyle(color: Colors.white),
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -295,7 +329,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                             OutlinedButton.icon(
                               onPressed: () => _cropPreviewImage(provider),
                               icon: const Icon(Icons.crop, size: 18),
-                              label: Text(AppLocalizations.of(context)!.cropPhoto),
+                              label: Text(
+                                AppLocalizations.of(context)!.cropPhoto,
+                              ),
                               style: OutlinedButton.styleFrom(
                                 foregroundColor: Colors.white,
                                 side: const BorderSide(color: Colors.white),
@@ -310,7 +346,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                                   ? () => _confirmPhoto(provider)
                                   : null,
                               icon: const Icon(Icons.check, size: 18),
-                              label: Text(AppLocalizations.of(context)!.usePhoto),
+                              label: Text(
+                                AppLocalizations.of(context)!.usePhoto,
+                              ),
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.green,
                                 foregroundColor: Colors.white,
@@ -365,10 +403,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
           ),
         ),
         const SizedBox(height: 4),
-        Text(
-          label,
-          style: const TextStyle(color: Colors.white, fontSize: 12),
-        ),
+        Text(label, style: const TextStyle(color: Colors.white, fontSize: 12)),
       ],
     );
   }
@@ -413,7 +448,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
       final XFile? image = await _picker.pickImage(
         source: ImageSource.camera,
         imageQuality: 90,
-        maxWidth: kIsWeb ? 1920 : null, // Add maxWidth on web to prevent oversized images
+        maxWidth: kIsWeb
+            ? 1920
+            : null, // Add maxWidth on web to prevent oversized images
       );
 
       if (image != null) {
@@ -421,37 +458,52 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
         final file = io.File(image.path);
         final bytes = await image.readAsBytes();
         debugPrint('📷 [Camera] Read ${bytes.length} bytes');
-        
+
         // Validate bytes on web
         if (kIsWeb && (bytes.isEmpty || bytes.length < 100)) {
           debugPrint('❌ [Camera] Invalid image bytes: ${bytes.length} bytes');
           setState(() => _isCapturing = false);
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text(AppLocalizations.of(context)!.failedToCapture('Invalid image data'))),
+              SnackBar(
+                content: Text(
+                  AppLocalizations.of(
+                    context,
+                  )!.failedToCapture('Invalid image data'),
+                ),
+              ),
             );
           }
           return;
         }
-        
+
         final quality = kIsWeb
             ? await provider.assessQualityFromBytes(bytes)
             : await provider.assessQuality(file);
-        
-        debugPrint('📷 [Camera] Quality assessed: ${(quality.overall * 100).toStringAsFixed(1)}% (acceptable: ${quality.isAcceptable})');
-        
-        final displayBytes =
-            kIsWeb ? _prepareDisplayBytes(bytes, 'Camera') : null;
-        
+
+        debugPrint(
+          '📷 [Camera] Quality assessed: ${(quality.overall * 100).toStringAsFixed(1)}% (acceptable: ${quality.isAcceptable})',
+        );
+
+        final displayBytes = kIsWeb
+            ? _prepareDisplayBytes(bytes, 'Camera')
+            : null;
+
         setState(() {
           _previewImage = file;
-          _previewImageBytes = kIsWeb ? bytes : null; // Keep original for inference
-          _displayImageBytes = kIsWeb ? displayBytes : null; // Use resized for display
+          _previewImageBytes = kIsWeb
+              ? bytes
+              : null; // Keep original for inference
+          _displayImageBytes = kIsWeb
+              ? displayBytes
+              : null; // Use resized for display
           _currentQuality = quality;
           _isCapturing = false;
         });
-        
-        debugPrint('📷 [Camera] Preview updated - has preview: ${_previewImage != null}, has bytes: ${_previewImageBytes != null}, has display: ${_displayImageBytes != null}');
+
+        debugPrint(
+          '📷 [Camera] Preview updated - has preview: ${_previewImage != null}, has bytes: ${_previewImageBytes != null}, has display: ${_displayImageBytes != null}',
+        );
       } else {
         debugPrint('📷 [Camera] No image captured (user cancelled)');
         setState(() => _isCapturing = false);
@@ -462,7 +514,11 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
       setState(() => _isCapturing = false);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.failedToCapture(e.toString()))),
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context)!.failedToCapture(e.toString()),
+            ),
+          ),
         );
       }
     }
@@ -484,25 +540,34 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
         final file = io.File(image.path);
         final bytes = await image.readAsBytes();
         debugPrint('📷 [Gallery] Read ${bytes.length} bytes');
-        
+
         final quality = kIsWeb
             ? await provider.assessQualityFromBytes(bytes)
             : await provider.assessQuality(file);
-        
-        debugPrint('📷 [Gallery] Quality assessed: ${(quality.overall * 100).toStringAsFixed(1)}% (acceptable: ${quality.isAcceptable})');
-        
-        final displayBytes =
-            kIsWeb ? _prepareDisplayBytes(bytes, 'Gallery') : null;
-        
+
+        debugPrint(
+          '📷 [Gallery] Quality assessed: ${(quality.overall * 100).toStringAsFixed(1)}% (acceptable: ${quality.isAcceptable})',
+        );
+
+        final displayBytes = kIsWeb
+            ? _prepareDisplayBytes(bytes, 'Gallery')
+            : null;
+
         setState(() {
           _previewImage = file;
-          _previewImageBytes = kIsWeb ? bytes : null; // Keep original for inference
-          _displayImageBytes = kIsWeb ? displayBytes : null; // Use resized for display
+          _previewImageBytes = kIsWeb
+              ? bytes
+              : null; // Keep original for inference
+          _displayImageBytes = kIsWeb
+              ? displayBytes
+              : null; // Use resized for display
           _currentQuality = quality;
           _isCapturing = false;
         });
-        
-        debugPrint('📷 [Gallery] Preview updated - has preview: ${_previewImage != null}, has bytes: ${_previewImageBytes != null}, has display: ${_displayImageBytes != null}');
+
+        debugPrint(
+          '📷 [Gallery] Preview updated - has preview: ${_previewImage != null}, has bytes: ${_previewImageBytes != null}, has display: ${_displayImageBytes != null}',
+        );
       } else {
         debugPrint('📷 [Gallery] No image selected');
         setState(() => _isCapturing = false);
@@ -513,7 +578,11 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
       setState(() => _isCapturing = false);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.failedToPickImage(e.toString()))),
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context)!.failedToPickImage(e.toString()),
+            ),
+          ),
         );
       }
     }
@@ -534,7 +603,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     try {
       final decoded = img.decodeImage(bytes);
       if (decoded == null) return bytes;
-      debugPrint('📷 [$source] Decoded image: ${decoded.width}x${decoded.height}');
+      debugPrint(
+        '📷 [$source] Decoded image: ${decoded.width}x${decoded.height}',
+      );
       const maxDisplaySize = 1920;
       img.Image resized = decoded;
       if (decoded.width > maxDisplaySize || decoded.height > maxDisplaySize) {
@@ -633,7 +704,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
       }
 
       if (cropGuard.tightAreaWarning && mounted) {
-        final percent = (cropGuard.areaRatio * 100).clamp(0, 100).toStringAsFixed(0);
+        final percent = (cropGuard.areaRatio * 100)
+            .clamp(0, 100)
+            .toStringAsFixed(0);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(l10n.cropTightWarning(percent)),
@@ -647,8 +720,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
           ? await provider.assessQualityFromBytes(croppedBytes)
           : await provider.assessQuality(editedFile);
 
-      final displayBytes =
-          kIsWeb ? _prepareDisplayBytes(croppedBytes, 'Crop') : null;
+      final displayBytes = kIsWeb
+          ? _prepareDisplayBytes(croppedBytes, 'Crop')
+          : null;
 
       setState(() {
         _previewImage = editedFile;
@@ -668,7 +742,11 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.failedToCropImage(e.toString()))),
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context)!.failedToCropImage(e.toString()),
+            ),
+          ),
         );
       }
     } finally {
@@ -685,7 +763,11 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     final before = img.decodeImage(beforeBytes);
     final after = img.decodeImage(afterBytes);
     if (after == null) {
-      return const _CropGuardResult(tooSmall: true, tightAreaWarning: false, areaRatio: 0);
+      return const _CropGuardResult(
+        tooSmall: true,
+        tightAreaWarning: false,
+        areaRatio: 0,
+      );
     }
 
     final tooSmall =
@@ -693,8 +775,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
 
     double areaRatio = 1.0;
     if (before != null && before.width > 0 && before.height > 0) {
-      areaRatio =
-          (after.width * after.height) / (before.width * before.height);
+      areaRatio = (after.width * after.height) / (before.width * before.height);
     }
 
     return _CropGuardResult(
@@ -740,7 +821,11 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppLocalizations.of(context)!.failedToSavePhoto(e.toString()))),
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context)!.failedToSavePhoto(e.toString()),
+            ),
+          ),
         );
       }
     } finally {
@@ -857,7 +942,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                 const Icon(Icons.lightbulb, color: Colors.amber),
                 const SizedBox(width: 8),
                 Text(
-                  AppLocalizations.of(context)!.tipsForPhotoType(widget.photoType.localizedName(context)),
+                  AppLocalizations.of(
+                    context,
+                  )!.tipsForPhotoType(widget.photoType.localizedName(context)),
                   style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -866,17 +953,23 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
               ],
             ),
             const SizedBox(height: 16),
-            ..._getTipsForPhotoType(context).map((tip) => Padding(
-              padding: const EdgeInsets.only(bottom: 8),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Icon(Icons.check_circle, color: Colors.green, size: 20),
-                  const SizedBox(width: 8),
-                  Expanded(child: Text(tip)),
-                ],
+            ..._getTipsForPhotoType(context).map(
+              (tip) => Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Icon(
+                      Icons.check_circle,
+                      color: Colors.green,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(child: Text(tip)),
+                  ],
+                ),
               ),
-            )),
+            ),
             const SizedBox(height: 16),
             SizedBox(
               width: double.infinity,
@@ -895,15 +988,40 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     final l10n = AppLocalizations.of(context)!;
     switch (widget.photoType) {
       case PhotoType.frontView:
-        return [l10n.tipFrontView1, l10n.tipFrontView2, l10n.tipFrontView3, l10n.tipFrontView4];
+        return [
+          l10n.tipFrontView1,
+          l10n.tipFrontView2,
+          l10n.tipFrontView3,
+          l10n.tipFrontView4,
+        ];
       case PhotoType.rightCheek:
-        return [l10n.tipRightCheek1, l10n.tipRightCheek2, l10n.tipRightCheek3, l10n.tipRightCheek4];
+        return [
+          l10n.tipRightCheek1,
+          l10n.tipRightCheek2,
+          l10n.tipRightCheek3,
+          l10n.tipRightCheek4,
+        ];
       case PhotoType.leftCheek:
-        return [l10n.tipLeftCheek1, l10n.tipLeftCheek2, l10n.tipLeftCheek3, l10n.tipLeftCheek4];
+        return [
+          l10n.tipLeftCheek1,
+          l10n.tipLeftCheek2,
+          l10n.tipLeftCheek3,
+          l10n.tipLeftCheek4,
+        ];
       case PhotoType.tongue:
-        return [l10n.tipTongue1, l10n.tipTongue2, l10n.tipTongue3, l10n.tipTongue4];
+        return [
+          l10n.tipTongue1,
+          l10n.tipTongue2,
+          l10n.tipTongue3,
+          l10n.tipTongue4,
+        ];
       case PhotoType.palate:
-        return [l10n.tipPalate1, l10n.tipPalate2, l10n.tipPalate3, l10n.tipPalate4];
+        return [
+          l10n.tipPalate1,
+          l10n.tipPalate2,
+          l10n.tipPalate3,
+          l10n.tipPalate4,
+        ];
     }
   }
 
@@ -932,13 +1050,19 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
   }
 
   void _openFullScreenViewer(BuildContext context) {
-    if (_previewImage == null && (kIsWeb ? (_displayImageBytes == null && _previewImageBytes == null) : true)) return;
+    if (_previewImage == null &&
+        (kIsWeb
+            ? (_displayImageBytes == null && _previewImageBytes == null)
+            : true))
+      return;
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         fullscreenDialog: true,
         builder: (context) => _PhotoFullScreenViewer(
           file: _previewImage,
-          imageBytes: kIsWeb ? (_displayImageBytes ?? _previewImageBytes) : _previewImageBytes,
+          imageBytes: kIsWeb
+              ? (_displayImageBytes ?? _previewImageBytes)
+              : _previewImageBytes,
         ),
       ),
     );
@@ -950,10 +1074,7 @@ class _PhotoFullScreenViewer extends StatefulWidget {
   final io.File? file;
   final Uint8List? imageBytes;
 
-  const _PhotoFullScreenViewer({
-    this.file,
-    this.imageBytes,
-  });
+  const _PhotoFullScreenViewer({this.file, this.imageBytes});
 
   @override
   State<_PhotoFullScreenViewer> createState() => _PhotoFullScreenViewerState();
@@ -1026,14 +1147,16 @@ class _PhotoLabelPickerSheetState extends State<_PhotoLabelPickerSheet> {
 
     // Null = "revert to slot default" so PhotoCapture.photoLabel stays
     // null and legacy/default behavior is preserved for that slot.
-    final OralPhotoLabel? resolved =
-        _selected == widget.slotDefault ? null : _selected;
-    final String? customText =
-        _selected == OralPhotoLabel.custom ? trimmed : null;
+    final OralPhotoLabel? resolved = _selected == widget.slotDefault
+        ? null
+        : _selected;
+    final String? customText = _selected == OralPhotoLabel.custom
+        ? trimmed
+        : null;
 
-    Navigator.of(context).pop(
-      _LabelPickerResult(label: resolved, customText: customText),
-    );
+    Navigator.of(
+      context,
+    ).pop(_LabelPickerResult(label: resolved, customText: customText));
   }
 
   @override
@@ -1068,10 +1191,7 @@ class _PhotoLabelPickerSheetState extends State<_PhotoLabelPickerSheet> {
                     const SizedBox(height: 4),
                     Text(
                       l10n.photoLabelPickerHelper,
-                      style: TextStyle(
-                        color: Colors.grey[700],
-                        fontSize: 12,
-                      ),
+                      style: TextStyle(color: Colors.grey[700], fontSize: 12),
                     ),
                   ],
                 ),
@@ -1094,8 +1214,7 @@ class _PhotoLabelPickerSheetState extends State<_PhotoLabelPickerSheet> {
               title: Text(
                 title,
                 style: TextStyle(
-                  fontWeight:
-                      isSelected ? FontWeight.w600 : FontWeight.normal,
+                  fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
                 ),
               ),
               onChanged: (v) {
@@ -1155,14 +1274,8 @@ class _PhotoFullScreenViewerState extends State<_PhotoFullScreenViewer> {
               child: Transform.rotate(
                 angle: _rotationRad,
                 child: kIsWeb && widget.imageBytes != null
-                    ? Image.memory(
-                        widget.imageBytes!,
-                        fit: BoxFit.contain,
-                      )
-                    : Image.file(
-                        widget.file! as dynamic,
-                        fit: BoxFit.contain,
-                      ),
+                    ? Image.memory(widget.imageBytes!, fit: BoxFit.contain)
+                    : Image.file(widget.file! as dynamic, fit: BoxFit.contain),
               ),
             ),
           ),

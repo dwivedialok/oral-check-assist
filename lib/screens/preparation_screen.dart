@@ -5,10 +5,7 @@ import '../l10n/app_localizations.dart';
 class PreparationScreen extends StatefulWidget {
   final VoidCallback onReady;
 
-  const PreparationScreen({
-    super.key,
-    required this.onReady,
-  });
+  const PreparationScreen({super.key, required this.onReady});
 
   @override
   State<PreparationScreen> createState() => _PreparationScreenState();
@@ -176,10 +173,7 @@ class _PreparationScreenState extends State<PreparationScreen> {
                       padding: const EdgeInsets.only(bottom: 12),
                       child: Text(
                         'Please confirm all items above',
-                        style: TextStyle(
-                          color: Colors.grey[600],
-                          fontSize: 13,
-                        ),
+                        style: TextStyle(color: Colors.grey[600], fontSize: 13),
                       ),
                     ),
                   SizedBox(
@@ -279,10 +273,7 @@ class _PreparationScreenState extends State<PreparationScreen> {
                     const SizedBox(height: 2),
                     Text(
                       subtitle,
-                      style: TextStyle(
-                        fontSize: 13,
-                        color: Colors.grey[600],
-                      ),
+                      style: TextStyle(fontSize: 13, color: Colors.grey[600]),
                     ),
                   ],
                 ),
@@ -347,10 +338,7 @@ class _PreparationScreenState extends State<PreparationScreen> {
               const SizedBox(height: 6),
               Text(
                 photo['name'] as String,
-                style: TextStyle(
-                  fontSize: 10,
-                  color: Colors.grey[600],
-                ),
+                style: TextStyle(fontSize: 10, color: Colors.grey[600]),
                 textAlign: TextAlign.center,
               ),
             ],

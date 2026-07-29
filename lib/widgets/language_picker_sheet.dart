@@ -25,12 +25,15 @@ void showAppLanguagePicker(
   final l10n = AppLocalizations.of(context)!;
   final currentLocale = Localizations.localeOf(context);
   final supported = AppLocalizations.supportedLocales.toList();
-  final others = supported
-      .where((l) => l.languageCode != currentLocale.languageCode)
-      .toList()
-    ..sort((a, b) => appLocaleDisplayName(a.languageCode)
-        .toLowerCase()
-        .compareTo(appLocaleDisplayName(b.languageCode).toLowerCase()));
+  final others =
+      supported
+          .where((l) => l.languageCode != currentLocale.languageCode)
+          .toList()
+        ..sort(
+          (a, b) => appLocaleDisplayName(a.languageCode)
+              .toLowerCase()
+              .compareTo(appLocaleDisplayName(b.languageCode).toLowerCase()),
+        );
 
   showModalBottomSheet<void>(
     context: context,

@@ -1,4 +1,6 @@
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:async';
 import 'dart:typed_data';
 
@@ -26,7 +28,8 @@ import 'screens/onboarding/onboarding_flow.dart';
 import 'widgets/language_picker_sheet.dart';
 import 'widgets/risk_badge.dart';
 import 'services/web_update_probe_stub.dart'
-    if (dart.library.html) 'services/web_update_probe_web.dart' as webUpdateProbe;
+    if (dart.library.html) 'services/web_update_probe_web.dart'
+    as webUpdateProbe;
 import 'web_plugin_registration_stub.dart'
     if (dart.library.js_interop) 'web_plugin_registration.dart';
 
@@ -36,7 +39,7 @@ void main() async {
 
   // Initialize Hive for local storage
   await Hive.initFlutter();
-  
+
   runApp(const MyApp());
 }
 
@@ -75,9 +78,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ScreeningProvider()),
-      ],
+      providers: [ChangeNotifierProvider(create: (_) => ScreeningProvider())],
       child: MaterialApp(
         title: 'Oral Cavity Check',
         debugShowCheckedModeBanner: false,
@@ -99,10 +100,7 @@ class _MyAppState extends State<MyApp> {
             brightness: Brightness.light,
           ),
           useMaterial3: true,
-          appBarTheme: const AppBarTheme(
-            centerTitle: true,
-            elevation: 0,
-          ),
+          appBarTheme: const AppBarTheme(centerTitle: true, elevation: 0),
           cardTheme: CardThemeData(
             elevation: 2,
             shape: RoundedRectangleBorder(
@@ -149,10 +147,10 @@ class _AppInitializerState extends State<AppInitializer> {
     try {
       // Check if onboarding is complete
       final onboardingComplete = await isOnboardingComplete();
-      
+
       // Initialize models
       final inferenceService = ModelInferenceService();
-      
+
       // Load labels
       final labelsData = await rootBundle.loadString('assets/labels.txt');
       await inferenceService.loadLabels(labelsData);
@@ -220,7 +218,10 @@ class _AppInitializerState extends State<AppInitializer> {
                 const SizedBox(height: 16),
                 Text(
                   AppLocalizations.of(context)!.failedToInitialize,
-                  style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 8),
                 Text(
@@ -269,7 +270,8 @@ class MainNavigator extends StatefulWidget {
   State<MainNavigator> createState() => _MainNavigatorState();
 }
 
-class _MainNavigatorState extends State<MainNavigator> with WidgetsBindingObserver {
+class _MainNavigatorState extends State<MainNavigator>
+    with WidgetsBindingObserver {
   int _currentIndex = 0;
   Timer? _versionPollTimer;
   String? _installedVersionToken;
@@ -342,7 +344,9 @@ class _MainNavigatorState extends State<MainNavigator> with WidgetsBindingObserv
   }
 
   Widget _buildUpdateBanner({required bool isScreeningInProgress}) {
-    final details = _latestVersionToken == null ? '' : ' (new: $_latestVersionToken)';
+    final details = _latestVersionToken == null
+        ? ''
+        : ' (new: $_latestVersionToken)';
     final message = isScreeningInProgress
         ? 'A new app update is ready$details. Finish the current screening before applying.'
         : 'A new app update is ready$details. Apply now to use the latest improvements.';
@@ -425,74 +429,94 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
   final ModelInferenceService _inferenceService = ModelInferenceService();
   io.File? _image;
   Uint8List? _imageBytes; // Web: original bytes for inference
-  Uint8List? _displayImageBytes; // Web: resized bytes for display (prevents WebGL errors)
+  Uint8List?
+  _displayImageBytes; // Web: resized bytes for display (prevents WebGL errors)
   Map<String, dynamic>? _lastInferResult;
   final ImagePicker _picker = ImagePicker();
   bool _isAnalyzing = false;
   bool _isLoadingModels = false;
 
-  bool get _hasImage => kIsWeb ? (_displayImageBytes != null && _displayImageBytes!.isNotEmpty) : (_image != null);
+  bool get _hasImage => kIsWeb
+      ? (_displayImageBytes != null && _displayImageBytes!.isNotEmpty)
+      : (_image != null);
 
   Future<void> _pickImage(ImageSource source) async {
-    debugPrint('📷 [QuickCheck] Picking image from ${source == ImageSource.camera ? "camera" : "gallery"}');
+    debugPrint(
+      '📷 [QuickCheck] Picking image from ${source == ImageSource.camera ? "camera" : "gallery"}',
+    );
     final pickedFile = await _picker.pickImage(
       source: source,
       imageQuality: 90,
-      maxWidth: kIsWeb ? 1920 : null, // Limit size on web to prevent WebGL issues
+      maxWidth: kIsWeb
+          ? 1920
+          : null, // Limit size on web to prevent WebGL issues
     );
     if (pickedFile != null) {
       debugPrint('📷 [QuickCheck] Image picked: ${pickedFile.path}');
       if (kIsWeb) {
         final bytes = await pickedFile.readAsBytes();
         debugPrint('📷 [QuickCheck] Read ${bytes.length} bytes');
-        
+
         // Validate bytes on web
         if (bytes.isEmpty || bytes.length < 100) {
-          debugPrint('❌ [QuickCheck] Invalid image bytes: ${bytes.length} bytes');
+          debugPrint(
+            '❌ [QuickCheck] Invalid image bytes: ${bytes.length} bytes',
+          );
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text('Failed to load image: Invalid image data')),
+              SnackBar(
+                content: Text('Failed to load image: Invalid image data'),
+              ),
             );
           }
           return;
         }
-        
+
         // Resize image for display to prevent WebGL errors (max 1920px on longest side)
         Uint8List? displayBytes;
         try {
           final decoded = img.decodeImage(bytes);
           if (decoded != null) {
-            debugPrint('📷 [QuickCheck] Decoded image: ${decoded.width}x${decoded.height}');
+            debugPrint(
+              '📷 [QuickCheck] Decoded image: ${decoded.width}x${decoded.height}',
+            );
             // Resize if too large (WebGL has texture size limits)
             img.Image? resized = decoded;
             const maxDisplaySize = 1920;
-            if (decoded.width > maxDisplaySize || decoded.height > maxDisplaySize) {
-              final ratio = decoded.width > decoded.height 
-                  ? maxDisplaySize / decoded.width 
+            if (decoded.width > maxDisplaySize ||
+                decoded.height > maxDisplaySize) {
+              final ratio = decoded.width > decoded.height
+                  ? maxDisplaySize / decoded.width
                   : maxDisplaySize / decoded.height;
               resized = img.copyResize(
                 decoded,
                 width: (decoded.width * ratio).round(),
                 height: (decoded.height * ratio).round(),
               );
-              debugPrint('📷 [QuickCheck] Resized for display: ${resized.width}x${resized.height}');
+              debugPrint(
+                '📷 [QuickCheck] Resized for display: ${resized.width}x${resized.height}',
+              );
             }
             displayBytes = Uint8List.fromList(img.encodePng(resized));
-            debugPrint('📷 [QuickCheck] Display bytes: ${displayBytes.length} bytes');
+            debugPrint(
+              '📷 [QuickCheck] Display bytes: ${displayBytes.length} bytes',
+            );
           }
         } catch (e) {
           debugPrint('❌ [QuickCheck] Failed to resize image for display: $e');
           // Fallback to original bytes
           displayBytes = bytes;
         }
-        
+
         setState(() {
           _imageBytes = bytes; // Keep original for inference
           _displayImageBytes = displayBytes ?? bytes; // Use resized for display
           _image = null;
           _lastInferResult = null;
         });
-        debugPrint('📷 [QuickCheck] Image set - has bytes: ${_imageBytes != null && _imageBytes!.isNotEmpty}, has display: ${_displayImageBytes != null && _displayImageBytes!.isNotEmpty}');
+        debugPrint(
+          '📷 [QuickCheck] Image set - has bytes: ${_imageBytes != null && _imageBytes!.isNotEmpty}, has display: ${_displayImageBytes != null && _displayImageBytes!.isNotEmpty}',
+        );
       } else {
         setState(() {
           _image = io.File(pickedFile.path);
@@ -532,9 +556,12 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
   }
 
   PhotoResult _photoResultFromInfer(Map<String, dynamic> result) {
-    ClassProbabilities? classProbs = result['classProbs'] as ClassProbabilities?;
+    ClassProbabilities? classProbs =
+        result['classProbs'] as ClassProbabilities?;
     if (classProbs == null && result['probabilitiesList'] != null) {
-      classProbs = ClassProbabilities.fromList(result['probabilitiesList'] as List<double>);
+      classProbs = ClassProbabilities.fromList(
+        result['probabilitiesList'] as List<double>,
+      );
     }
     if (classProbs == null && result['probabilities'] != null) {
       final pm = result['probabilities'] as Map<String, double>;
@@ -578,8 +605,16 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
 
   ScreeningResult _screeningResultFromInfer(Map<String, dynamic> result) {
     final photoResult = _photoResultFromInfer(result);
-    final agg = photoResult.classProbabilities ?? const ClassProbabilities(healthy: 0.0, benign: 0.0, opmd: 0.0, oca: 0.0);
-    final double cancerProb = (result['cancerProbability'] as num?)?.toDouble() ?? 0.0;
+    final agg =
+        photoResult.classProbabilities ??
+        const ClassProbabilities(
+          healthy: 0.0,
+          benign: 0.0,
+          opmd: 0.0,
+          oca: 0.0,
+        );
+    final double cancerProb =
+        (result['cancerProbability'] as num?)?.toDouble() ?? 0.0;
     final bool oodUnclear = result['oodUnclear'] as bool? ?? false;
     final bool lowQuality = result['lowQuality'] as bool? ?? false;
 
@@ -589,7 +624,8 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
       outcome = ScreeningOutcome.retakeSuggested;
     } else if (cancerProb >= ScreeningConfig.binaryScreeningThreshold) {
       outcome = ScreeningOutcome.reviewRecommended;
-    } else if ((cancerProb >= ScreeningConfig.retakeLowerBound && cancerProb < ScreeningConfig.retakeUpperBound) ||
+    } else if ((cancerProb >= ScreeningConfig.retakeLowerBound &&
+            cancerProb < ScreeningConfig.retakeUpperBound) ||
         lowQuality) {
       outcome = ScreeningOutcome.retakeSuggested;
     } else {
@@ -599,15 +635,23 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
     final subtypeGuidance = outcome == ScreeningOutcome.reviewRecommended
         ? _inferenceService.deriveSubtypeGuidance(agg)
         : SubtypeGuidance.none;
-    final overallRisk = _inferenceService.outcomeToRiskLevel(outcome, subtypeGuidance);
-    final urgencyLevel = _inferenceService.outcomeToUrgency(outcome, subtypeGuidance);
+    final overallRisk = _inferenceService.outcomeToRiskLevel(
+      outcome,
+      subtypeGuidance,
+    );
+    final urgencyLevel = _inferenceService.outcomeToUrgency(
+      outcome,
+      subtypeGuidance,
+    );
     final double pOpmdPlus = agg.opmd + agg.oca;
     final assessment = _inferenceService.buildV2AssessmentMessage(
       outcome: outcome,
       guidance: subtypeGuidance,
       photosUsed: 1,
       photosCaptured: 1,
-      borderlineOpmdPlus: outcome == ScreeningOutcome.lowRisk ? pOpmdPlus : null,
+      borderlineOpmdPlus: outcome == ScreeningOutcome.lowRisk
+          ? pOpmdPlus
+          : null,
     );
 
     double overallConfidence = 0.0;
@@ -616,14 +660,19 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
       overallConfidence = c is double ? c : (c as num).toDouble();
       if (overallConfidence > 1.0) overallConfidence /= 100.0;
     }
-    final recommendations = ScreeningResult.generateRecommendations(overallRisk, [photoResult]);
+    final recommendations = ScreeningResult.generateRecommendations(
+      overallRisk,
+      [photoResult],
+    );
 
     return ScreeningResult(
       overallRisk: overallRisk,
       overallConfidence: overallConfidence,
       photoResults: [photoResult],
       recommendations: recommendations,
-      specialistRequired: urgencyLevel == UrgencyLevel.prompt || urgencyLevel == UrgencyLevel.urgent,
+      specialistRequired:
+          urgencyLevel == UrgencyLevel.prompt ||
+          urgencyLevel == UrgencyLevel.urgent,
       urgencyLevel: urgencyLevel,
       urgencyText: urgencyLevel.displayText,
       aggregatedProbabilities: agg,
@@ -670,11 +719,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(
-            Icons.bolt,
-            color: Colors.white,
-            size: 36,
-          ),
+          const Icon(Icons.bolt, color: Colors.white, size: 36),
           const SizedBox(height: 16),
           Text(
             l10n.quickCheckTitle,
@@ -728,10 +773,19 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
     final l10n = AppLocalizations.of(context)!;
     final hasImage = _hasImage;
     final hasResult = _lastInferResult != null;
-    final riskLevel = hasResult ? _lastInferResult!['riskLevel'] as RiskLevel? : null;
-    final displayLabel = hasResult ? (_lastInferResult!['displayLabel'] ?? _lastInferResult!['label']) as String? : null;
-    final perPhotoSummaryLabel = hasResult ? _lastInferResult!['perPhotoSummaryLabel'] as String? : null;
-    final cancerProbability = hasResult ? (_lastInferResult!['cancerProbability'] as num?)?.toDouble() : null;
+    final riskLevel = hasResult
+        ? _lastInferResult!['riskLevel'] as RiskLevel?
+        : null;
+    final displayLabel = hasResult
+        ? (_lastInferResult!['displayLabel'] ?? _lastInferResult!['label'])
+              as String?
+        : null;
+    final perPhotoSummaryLabel = hasResult
+        ? _lastInferResult!['perPhotoSummaryLabel'] as String?
+        : null;
+    final cancerProbability = hasResult
+        ? (_lastInferResult!['cancerProbability'] as num?)?.toDouble()
+        : null;
     double? confidence;
     if (hasResult && _lastInferResult!.containsKey('confidence')) {
       final c = _lastInferResult!['confidence'];
@@ -804,7 +858,10 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
               if (hasImage)
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
-                  child: kIsWeb && _displayImageBytes != null && _displayImageBytes!.isNotEmpty
+                  child:
+                      kIsWeb &&
+                          _displayImageBytes != null &&
+                          _displayImageBytes!.isNotEmpty
                       ? Image.memory(
                           _displayImageBytes!,
                           height: 250,
@@ -812,7 +869,9 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                           gaplessPlayback: true,
                           filterQuality: FilterQuality.medium,
                           errorBuilder: (context, error, stackTrace) {
-                            debugPrint('❌ [QuickCheck] Failed to display image: $error');
+                            debugPrint(
+                              '❌ [QuickCheck] Failed to display image: $error',
+                            );
                             debugPrint('   Stack trace: $stackTrace');
                             return Container(
                               height: 250,
@@ -824,7 +883,11 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    const Icon(Icons.error_outline, color: Colors.red, size: 48),
+                                    const Icon(
+                                      Icons.error_outline,
+                                      color: Colors.red,
+                                      size: 48,
+                                    ),
                                     const SizedBox(height: 8),
                                     Text(
                                       'Failed to display image',
@@ -836,7 +899,11 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                             );
                           },
                         )
-                      : Image.file(_image! as dynamic, height: 250, fit: BoxFit.contain),
+                      : Image.file(
+                          _image! as dynamic,
+                          height: 250,
+                          fit: BoxFit.contain,
+                        ),
                 )
               else
                 Container(
@@ -849,7 +916,11 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.image_search, size: 64, color: Colors.grey[600]),
+                        Icon(
+                          Icons.image_search,
+                          size: 64,
+                          color: Colors.grey[600],
+                        ),
                         const SizedBox(height: 8),
                         Text(
                           l10n.quickCheckTakeOrSelectPhoto,
@@ -866,7 +937,9 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                 children: [
                   Expanded(
                     child: ElevatedButton.icon(
-                      onPressed: (_isAnalyzing || _isLoadingModels) ? null : () => _pickImage(ImageSource.camera),
+                      onPressed: (_isAnalyzing || _isLoadingModels)
+                          ? null
+                          : () => _pickImage(ImageSource.camera),
                       icon: const Icon(Icons.camera_alt),
                       label: Text(l10n.quickCheckCamera),
                     ),
@@ -874,7 +947,9 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                   const SizedBox(width: 8),
                   Expanded(
                     child: ElevatedButton.icon(
-                      onPressed: (_isAnalyzing || _isLoadingModels) ? null : () => _pickImage(ImageSource.gallery),
+                      onPressed: (_isAnalyzing || _isLoadingModels)
+                          ? null
+                          : () => _pickImage(ImageSource.gallery),
                       icon: const Icon(Icons.photo_library),
                       label: Text(l10n.gallery),
                     ),
@@ -913,7 +988,10 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                           padding: const EdgeInsets.only(top: 8),
                           child: Text(
                             'One-time setup for best accuracy.',
-                            style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.grey[600],
+                            ),
                           ),
                         ),
                     ],
@@ -939,7 +1017,10 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                     children: [
                       Text(
                         l10n.quickCheckClassificationResult,
-                        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                        style: const TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       const SizedBox(height: 12),
                       if (riskLevel != null) ...[
@@ -954,7 +1035,9 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeight.w600,
-                              color: cancerProbability >= ScreeningConfig.binaryScreeningThreshold
+                              color:
+                                  cancerProbability >=
+                                      ScreeningConfig.binaryScreeningThreshold
                                   ? Colors.red[700]
                                   : Colors.green[700],
                             ),
@@ -962,24 +1045,41 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                         ),
                       if (displayLabel != null)
                         Text(
-                          localizePerPhotoSummaryLabel(l10n, perPhotoSummaryLabel) ?? classLabelFriendly(l10n, displayLabel!),
+                          localizePerPhotoSummaryLabel(
+                                l10n,
+                                perPhotoSummaryLabel,
+                              ) ??
+                              classLabelFriendly(l10n, displayLabel!),
                           style: const TextStyle(fontSize: 16),
                         ),
-                      if (displayLabel != null && cancerProbability != null && confidence != null &&
-                          (perPhotoSummaryLabel == null || perPhotoSummaryLabel == 'Healthy'))
+                      if (displayLabel != null &&
+                          cancerProbability != null &&
+                          confidence != null &&
+                          (perPhotoSummaryLabel == null ||
+                              perPhotoSummaryLabel == 'Healthy'))
                         Padding(
                           padding: const EdgeInsets.only(top: 4),
                           child: Text(
                             l10n.perPhotoVisualDetailMostly(
                               classLabelFriendly(l10n, displayLabel!),
-                              (confidence <= 1.0 ? confidence * 100 : confidence).toStringAsFixed(0),
+                              (confidence <= 1.0
+                                      ? confidence * 100
+                                      : confidence)
+                                  .toStringAsFixed(0),
                             ),
-                            style: TextStyle(fontSize: 13, color: Colors.grey[700]),
+                            style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.grey[700],
+                            ),
                           ),
                         ),
-                      if (confidence != null && (displayLabel == null || cancerProbability == null))
+                      if (confidence != null &&
+                          (displayLabel == null || cancerProbability == null))
                         Text(
-                          l10n.detailModelPeakPercent((confidence <= 1.0 ? confidence * 100 : confidence).toStringAsFixed(1)),
+                          l10n.detailModelPeakPercent(
+                            (confidence <= 1.0 ? confidence * 100 : confidence)
+                                .toStringAsFixed(1),
+                          ),
                           style: const TextStyle(fontSize: 16),
                         ),
                       const SizedBox(height: 16),

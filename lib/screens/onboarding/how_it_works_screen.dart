@@ -173,7 +173,9 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                         ),
                       ),
                       child: Text(
-                        _currentPage < steps.length - 1 ? l10n.nextButton : l10n.continueButton,
+                        _currentPage < steps.length - 1
+                            ? l10n.nextButton
+                            : l10n.continueButton,
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -211,10 +213,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
             ),
             child: Text(
               l10n.stepXOfY(stepNumber, stepsLength),
-              style: TextStyle(
-                color: color,
-                fontWeight: FontWeight.w600,
-              ),
+              style: TextStyle(color: color, fontWeight: FontWeight.w600),
             ),
           ),
           const SizedBox(height: 24),
@@ -234,10 +233,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
           // Title
           Text(
             title,
-            style: const TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-            ),
+            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 16),

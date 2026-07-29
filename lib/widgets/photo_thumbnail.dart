@@ -9,8 +9,10 @@ class PhotoThumbnail extends StatelessWidget {
   final PhotoCapture photo;
   final VoidCallback? onTap;
   final VoidCallback? onRetake;
+
   /// Shown on captured photos (e.g. "Retake" for poor quality, "Replace" when acceptable).
   final String? retakeActionLabel;
+
   /// Empty slot: opens capture for this angle (e.g. from Review Photos).
   final VoidCallback? onCaptureEmpty;
   final String? captureEmptyLabel;
@@ -37,8 +39,8 @@ class PhotoThumbnail extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
-            color: selected 
-                ? Theme.of(context).primaryColor 
+            color: selected
+                ? Theme.of(context).primaryColor
                 : Colors.grey.shade300,
             width: selected ? 3 : 1,
           ),
@@ -49,16 +51,11 @@ class PhotoThumbnail extends StatelessWidget {
             fit: StackFit.expand,
             children: [
               // Photo or placeholder (on web use bytes when available)
-              if (photo.isCaptured && (photo.imageBytes != null || photo.image != null))
+              if (photo.isCaptured &&
+                  (photo.imageBytes != null || photo.image != null))
                 photo.imageBytes != null
-                    ? Image.memory(
-                        photo.imageBytes!,
-                        fit: BoxFit.cover,
-                      )
-                    : Image.file(
-                        photo.image! as dynamic,
-                        fit: BoxFit.cover,
-                      )
+                    ? Image.memory(photo.imageBytes!, fit: BoxFit.cover)
+                    : Image.file(photo.image! as dynamic, fit: BoxFit.cover)
               else
                 Container(
                   color: Colors.grey[200],
@@ -73,10 +70,7 @@ class PhotoThumbnail extends StatelessWidget {
                       const SizedBox(height: 4),
                       Text(
                         'Not captured',
-                        style: TextStyle(
-                          color: Colors.grey[500],
-                          fontSize: 10,
-                        ),
+                        style: TextStyle(color: Colors.grey[500], fontSize: 10),
                       ),
                     ],
                   ),
@@ -150,7 +144,10 @@ class PhotoThumbnail extends StatelessWidget {
                 left: 0,
                 right: 0,
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 6,
+                  ),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       begin: Alignment.topCenter,
@@ -205,7 +202,9 @@ class PhotoThumbnail extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         CompactQualityIndicator(metrics: photo.qualityMetrics),
-                        if (showRetakeButton && photo.isCaptured && onRetake != null)
+                        if (showRetakeButton &&
+                            photo.isCaptured &&
+                            onRetake != null)
                           GestureDetector(
                             onTap: onRetake,
                             child: Container(
@@ -287,6 +286,7 @@ class PhotoThumbnailGrid extends StatelessWidget {
   final Function(PhotoType)? onRetake;
   final String retakeLabel;
   final String replaceLabel;
+
   /// When set, empty slots show a capture button that calls this with the slot type.
   final Function(PhotoType)? onCaptureEmpty;
   final String? captureEmptyLabel;
@@ -324,8 +324,7 @@ class PhotoThumbnailGrid extends StatelessWidget {
           photo: photo,
           onTap: onPhotoTap != null ? () => onPhotoTap!(photo.type) : null,
           onRetake: onRetake != null ? () => onRetake!(photo.type) : null,
-          retakeActionLabel:
-              photo.isAcceptable ? replaceLabel : retakeLabel,
+          retakeActionLabel: photo.isAcceptable ? replaceLabel : retakeLabel,
           onCaptureEmpty: !photo.isCaptured && onCaptureEmpty != null
               ? () => onCaptureEmpty!(photo.type)
               : null,

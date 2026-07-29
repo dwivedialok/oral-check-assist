@@ -1,4 +1,6 @@
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:math' as math;
 import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
@@ -6,7 +8,7 @@ import 'package:image/image.dart' as img;
 import '../models/photo_capture.dart';
 
 /// Service for assessing photo quality before model inference
-/// 
+///
 /// Evaluates brightness, sharpness, and contrast to ensure
 /// photos are suitable for accurate AI analysis.
 class PhotoQualityService {
@@ -43,7 +45,9 @@ class PhotoQualityService {
     try {
       return await compute(_assessQualityFromBytes, bytes);
     } catch (e) {
-      debugPrint('❌ [PhotoQualityService] Error assessing quality from bytes: $e');
+      debugPrint(
+        '❌ [PhotoQualityService] Error assessing quality from bytes: $e',
+      );
       return PhotoQualityMetrics.empty;
     }
   }
@@ -68,7 +72,8 @@ class PhotoQualityService {
 
     // Weighted overall score
     // Sharpness is most important (40%), then brightness (30%), then contrast (30%)
-    final overallScore = 0.3 * brightnessScore + 0.4 * sharpnessScore + 0.3 * contrastScore;
+    final overallScore =
+        0.3 * brightnessScore + 0.4 * sharpnessScore + 0.3 * contrastScore;
 
     return PhotoQualityMetrics(
       brightness: brightnessScore,
@@ -102,7 +107,10 @@ class PhotoQualityService {
       return math.max(0.0, averageBrightness / minBrightness);
     } else if (averageBrightness > maxBrightness) {
       // Too bright - score decreases as it gets brighter
-      return math.max(0.0, 1.0 - (averageBrightness - maxBrightness) / (255 - maxBrightness));
+      return math.max(
+        0.0,
+        1.0 - (averageBrightness - maxBrightness) / (255 - maxBrightness),
+      );
     } else {
       // In ideal range
       return 1.0;

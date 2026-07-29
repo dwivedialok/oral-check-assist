@@ -26,7 +26,9 @@ class PhotoReviewScreen extends StatelessWidget {
 
     if (session == null) {
       return Scaffold(
-        body: Center(child: Text(AppLocalizations.of(context)!.noActiveSession)),
+        body: Center(
+          child: Text(AppLocalizations.of(context)!.noActiveSession),
+        ),
       );
     }
 
@@ -34,10 +36,11 @@ class PhotoReviewScreen extends StatelessWidget {
     final readyToAnalyze = session.readyToAnalyze;
     final allFiveGood = session.allFiveSlotsFilledAndAcceptable;
     final needsQualityAttention = photosNeedingRetake.isNotEmpty;
-    final summarySuccess =
-        !needsQualityAttention && readyToAnalyze;
+    final summarySuccess = !needsQualityAttention && readyToAnalyze;
     final summaryNeedMorePhotos =
-        !needsQualityAttention && !readyToAnalyze && session.needsMoreAcceptablePhotosForAnalysis;
+        !needsQualityAttention &&
+        !readyToAnalyze &&
+        session.needsMoreAcceptablePhotosForAnalysis;
 
     final l10n = AppLocalizations.of(context)!;
 
@@ -252,24 +255,14 @@ class PhotoReviewScreen extends StatelessWidget {
       decoration: BoxDecoration(
         color: bg,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: border,
-          width: 1,
-        ),
+        border: Border.all(color: border, width: 1),
       ),
       child: Row(
         children: [
           Container(
             padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: iconBg,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(
-              iconData,
-              color: iconColor,
-              size: 28,
-            ),
+            decoration: BoxDecoration(color: iconBg, shape: BoxShape.circle),
+            child: Icon(iconData, color: iconColor, size: 28),
           ),
           const SizedBox(width: 16),
           Expanded(
@@ -287,10 +280,7 @@ class PhotoReviewScreen extends StatelessWidget {
                 const SizedBox(height: 4),
                 Text(
                   subtitle,
-                  style: TextStyle(
-                    fontSize: 13,
-                    color: subtitleColor,
-                  ),
+                  style: TextStyle(fontSize: 13, color: subtitleColor),
                 ),
               ],
             ),
@@ -300,7 +290,10 @@ class PhotoReviewScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildQualityWarning(BuildContext context, List<PhotoCapture> photosNeedingRetake) {
+  Widget _buildQualityWarning(
+    BuildContext context,
+    List<PhotoCapture> photosNeedingRetake,
+  ) {
     final l10n = AppLocalizations.of(context)!;
     return Container(
       padding: const EdgeInsets.all(16),
@@ -338,7 +331,10 @@ class PhotoReviewScreen extends StatelessWidget {
                   Expanded(
                     child: RichText(
                       text: TextSpan(
-                        style: TextStyle(color: Colors.yellow[900], fontSize: 13),
+                        style: TextStyle(
+                          color: Colors.yellow[900],
+                          fontSize: 13,
+                        ),
                         children: [
                           TextSpan(
                             text: '${photo.type.localizedName(context)}: ',

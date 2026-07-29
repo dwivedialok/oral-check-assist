@@ -1,4 +1,6 @@
-import 'dart:io' if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart' as io;
+import 'dart:io'
+    if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
+    as io;
 import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import '../models/exposure_data.dart';
@@ -22,24 +24,29 @@ class ScreeningProvider extends ChangeNotifier {
   // Getters
   ScreeningSession? get currentSession => _currentSession;
   bool get isAnalyzing => _isAnalyzing;
+
   /// True while 5-class models are loading on first screening (lazy load).
   bool get isLoadingModels => _isLoadingModels;
   String? get errorMessage => _errorMessage;
   int get currentAnalyzingPhotoIndex => _currentAnalyzingPhotoIndex;
-  
+
   bool get hasActiveSession => _currentSession != null;
-  bool get canStartCapture => _currentSession != null && 
+  bool get canStartCapture =>
+      _currentSession != null &&
       _currentSession!.status == ScreeningStatus.notStarted;
-  bool get canAnalyze => _currentSession != null && 
-      _currentSession!.readyToAnalyze;
-  bool get isCompleted => _currentSession != null && 
+  bool get canAnalyze =>
+      _currentSession != null && _currentSession!.readyToAnalyze;
+  bool get isCompleted =>
+      _currentSession != null &&
       _currentSession!.status == ScreeningStatus.completed;
 
   /// Start a new screening session
   void startNewSession() {
     _currentSession = ScreeningSession.create();
     _errorMessage = null;
-    debugPrint('📋 [ScreeningProvider] New session started: ${_currentSession!.id}');
+    debugPrint(
+      '📋 [ScreeningProvider] New session started: ${_currentSession!.id}',
+    );
     notifyListeners();
   }
 
@@ -69,7 +76,8 @@ class ScreeningProvider extends ChangeNotifier {
       throw StateError('No active screening session');
     }
 
-    final qualityMetrics = knownQuality ?? await _qualityService.assessQuality(imageFile);
+    final qualityMetrics =
+        knownQuality ?? await _qualityService.assessQuality(imageFile);
 
     // Preserve any pre-existing label selection on this slot unless the
     // caller supplies a new one.
@@ -91,7 +99,9 @@ class ScreeningProvider extends ChangeNotifier {
 
     _currentSession = _currentSession!.updatePhoto(capture);
 
-    debugPrint('📸 [ScreeningProvider] Captured ${type.displayName}: quality=${(qualityMetrics.overall * 100).toStringAsFixed(1)}%, acceptable=${qualityMetrics.isAcceptable}');
+    debugPrint(
+      '📸 [ScreeningProvider] Captured ${type.displayName}: quality=${(qualityMetrics.overall * 100).toStringAsFixed(1)}%, acceptable=${qualityMetrics.isAcceptable}',
+    );
 
     notifyListeners();
     return capture;
@@ -116,23 +126,25 @@ class ScreeningProvider extends ChangeNotifier {
       photoLabel: label,
       customLabelText: (label == OralPhotoLabel.custom)
           ? (trimmedCustom != null && trimmedCustom.isNotEmpty
-              ? trimmedCustom
-              : existing.customLabelText)
+                ? trimmedCustom
+                : existing.customLabelText)
           : null,
       clearPhotoLabel: label == null,
       clearCustomLabelText: label != OralPhotoLabel.custom,
     );
     _currentSession = _currentSession!.updatePhoto(updated);
-    debugPrint('🏷️ [ScreeningProvider] Label for ${type.name} set to '
-        '${label?.name ?? 'default'}'
-        '${label == OralPhotoLabel.custom ? ' ("${updated.customLabelText}")' : ''}');
+    debugPrint(
+      '🏷️ [ScreeningProvider] Label for ${type.name} set to '
+      '${label?.name ?? 'default'}'
+      '${label == OralPhotoLabel.custom ? ' ("${updated.customLabelText}")' : ''}',
+    );
     notifyListeners();
   }
 
   /// Retake a specific photo
   void retakePhoto(PhotoType type) {
     if (_currentSession == null) return;
-    
+
     _currentSession = _currentSession!.clearPhoto(type);
     debugPrint('🔄 [ScreeningProvider] Cleared ${type.displayName} for retake');
     notifyListeners();
@@ -145,7 +157,9 @@ class ScreeningProvider extends ChangeNotifier {
 
   /// Assess quality from image bytes (use on web where File.readAsBytes is not available)
   Future<PhotoQualityMetrics> assessQualityFromBytes(List<int> bytes) async {
-    return await _qualityService.assessQualityFromBytes(bytes is Uint8List ? bytes : Uint8List.fromList(bytes));
+    return await _qualityService.assessQualityFromBytes(
+      bytes is Uint8List ? bytes : Uint8List.fromList(bytes),
+    );
   }
 
   /// Get quality feedback for display
@@ -175,7 +189,9 @@ class ScreeningProvider extends ChangeNotifier {
     // Lazy load 5-class models on first screening so UI can show "Loading detailed models…"
     if (!_inferenceService.isFiveClassModelsLoaded) {
       _isLoadingModels = true;
-      _currentSession = _currentSession!.copyWith(status: ScreeningStatus.analyzing);
+      _currentSession = _currentSession!.copyWith(
+        status: ScreeningStatus.analyzing,
+      );
       notifyListeners();
       await _inferenceService.ensureFiveClassModelsLoaded();
       _isLoadingModels = false;
@@ -184,15 +200,19 @@ class ScreeningProvider extends ChangeNotifier {
 
     _isAnalyzing = true;
     _currentAnalyzingPhotoIndex = 0;
-    _currentSession = _currentSession!.copyWith(status: ScreeningStatus.analyzing);
+    _currentSession = _currentSession!.copyWith(
+      status: ScreeningStatus.analyzing,
+    );
     notifyListeners();
-    
+
     // Ensure UI has time to show initial progress state (especially on web where analysis might be fast)
     await Future.delayed(const Duration(milliseconds: 100));
 
     try {
       // Get only captured photos
-      final capturedPhotos = _currentSession!.photos.where((p) => p.isCaptured).toList();
+      final capturedPhotos = _currentSession!.photos
+          .where((p) => p.isCaptured)
+          .toList();
 
       // Run multi-photo inference with progress so UI can show P1..P5.
       // Inference is called with only the captured photos and their raw
