@@ -1,7 +1,7 @@
 # Model Development and Usage Documentation
 
 **Version:** 1.0  
-**Last Updated:** 10 February 2026  
+**Last Updated:** 29 July 2026  
 **Target Audience:** Collaborators - AI/ML Engineers
 
 This document serves as the definitive reference for understanding how the oral cavity classification models used in the mobile app were developed, their current performance characteristics, and how they are integrated into the application.
