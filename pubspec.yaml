@@ -54,7 +54,7 @@ dependencies:
   flutter_local_notifications: ^18.0.1 # Reminders
   timezone: ^0.9.4 # Required for scheduled notifications
   pdf: ^3.11.1 # Report generation
-  share_plus: ^10.1.2 # Share functionality
+  share_plus: ^12.0.2 # Share functionality
   package_info_plus: ^8.1.1 # Get app version/build number
   image_cropper: ^12.1.1
 
