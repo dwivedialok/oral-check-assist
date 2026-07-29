@@ -1,0 +1,4447 @@
+[
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-124-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-162-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-172-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-247-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-247-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-154-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-162-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-163-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-124-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-247-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-172-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-172-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-154-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-238-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-238-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-245-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-162-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-232-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-154-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-247-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-232-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-107-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-154-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-162-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-019-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-50-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-076-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-238-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-245-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-162-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-172-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-95-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-172-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-154-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-232-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-245-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-238-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-011-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-232-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-40-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-232-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-09.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-19-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-226-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-226-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-40-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-107-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-003-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-09.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-232-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-226-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-78-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-81-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-107-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-232-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-003-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-107-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-216-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-226-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-226-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-025-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-232-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-107-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-110-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-09.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-80-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-008-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-020-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-230-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-110-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-198-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-263-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-110-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-008-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-008-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-020-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/K-008-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-51-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-268-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-185-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-305-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-114-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-169-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-116-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-36-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-36-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-225-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-169-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-14-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-156-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-116-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-36-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-116-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-188-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-114-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-169-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-281-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-169-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-012-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-114-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-188-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-114-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-169-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-116-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/N-281-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/S-117-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-146-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Benign/R-221-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-35-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-245-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-113-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-17-4-1.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-154-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-127-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-17-6-2.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-245-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-238-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-245-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-206-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-154-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-127-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-127-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-164-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-206-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-245-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-113-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-113-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-113-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-040-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-206-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-127-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-206-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/K-003-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-40-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/K-003-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-17-7-3.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-232-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-9-5.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-9-4.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-17-5-5.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/K-003-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-06.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-259-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/S-108-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-17-7-4.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-6-2.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-271-08.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-7-3.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/K-020-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-80-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-80-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-4-6.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-7-2.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-110-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-80-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-7-1.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-8-8.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-221-07.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-6-6-6.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-248-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-258-01.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-14-03.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-14-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-1-1.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-5-7.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-14-05.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-7-5.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-1-3.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/N-136-02.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/C-36-7-4.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/Healthy/R-14-04.jpg",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/S-147-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-206-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/S-173-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/S-173-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-259-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-259-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/S-69-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/K-022-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/R-145-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/R-136-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/N-296-08.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/R-242-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OCA/R-242-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-150-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-07-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-015-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-021-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-021-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-015-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-150-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-150-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-07-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-021-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-93-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-93-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-015-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-031-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-021-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-93-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-35-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-27-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-93-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-93-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-234-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-015-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-09.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-062-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-216-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-228-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-166-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-166-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-228-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-216-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-062-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-08.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-152-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-17-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-228-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-169-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-166-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-216-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-17-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-152-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-09.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-10.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-062-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-108-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-152-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-17-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-216-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-228-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-166-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-216-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-062-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-08.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-062-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-152-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-108-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-17-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-17-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-152-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-21-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-145-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-30-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-014-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-104-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-086-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-030-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-268-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-195-08.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-145-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-08.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-136-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-30-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-100-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-014-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-104-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-030-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-086-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-030-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-104-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-014-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-100-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-268-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-259-09.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-10.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-136-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-065-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-16-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-16-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-94-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-100-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-065-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-065-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-136-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-100-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-014-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-104-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-030-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-24-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-148-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-030-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/K-014-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-16-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-100-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-278-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-225-10.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-12-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-18-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-115-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-090-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-12-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-12-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-258-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-18-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-18-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-258-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-12-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-090-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-227-03.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-258-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-090-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-227-02.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/S-12-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-06.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-258-05.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-18-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/R-84-07.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-258-04.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-227-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise/test/OPMD/N-090-01.jpg",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA02064_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA02064_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA00409_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA00404_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_DT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_RB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_VT.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_UL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_LA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LL.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LB.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_UA.jpg",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1806.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/009.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/R333.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/261.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4406.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-03.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/227.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/097.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-51.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4917.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/234.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/152.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/171.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_squamous-cell-carinoma-of-the-tongue.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_5236.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/302.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/224.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/076.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/065.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/420.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/412.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/418.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/WP_20141029_18_42_38_Pro2.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/138.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/378.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/236.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-46.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/124.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/078.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4472.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_280x190_tongue_cancer_facts_ref_guide.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7034.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/118.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_702.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/103.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9409.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-15.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/288.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/377.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/087.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/125.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-51.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_1200px-ZungenCa2a.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/452.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1767.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1254.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5207.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4278.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4077.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-29-45.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/016.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/279.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6439.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/297.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/241.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5256.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_left_lateral_tongue_dysplasia_3.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/180.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/167.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/mouth-photo-3.png",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6151.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/20191129_1827192.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/090.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/308.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/067.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/054.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/163.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/155.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_565.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/222.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/159.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7772.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/068.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/461.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_3181.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9190.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/351.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/375.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5736.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/465.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9518.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S14.png",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-21.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/skin-cancer-on-lips-treatment.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-19-22.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/473.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_cancer 6.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/275.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/477.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/314.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1981.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/306.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_41457tn.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/041.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/500.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9005.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5141.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/308.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/434.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/098.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/347.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-28-19.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/336.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/download (4).jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_8954.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/096.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1706.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/438.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4806.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/381.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6368.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/345.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-11.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_1366.fig.1.png",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7578.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/431.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/346.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/325.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/283.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/433.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/20200314_1117132.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/182.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/273.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/058.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/194.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/054.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_5304.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/225.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4591.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/194.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/073.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/420.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2333.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S7.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/009.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9418.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-27.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/154.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/SRMJResDentSci_2013_4_1_35_116830_u1.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/449.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/117.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-21-04.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/395.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/207.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-19.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S11.png",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/images (4).jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-19-41.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/143.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_8.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/mouth-cancer.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/187.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/168.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/057.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/428.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9088.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2428.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/048.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/093.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/278.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2727.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/tongue-1.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-39.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-21-44.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/C0235749-Mouth_cancer-SPL-20170511085515620.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/081.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4658.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/404.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/027.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/212.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5323.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/366.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-34.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7179.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/949b9f09-aa54-454e-b631-b6d98e079f45.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/036.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/1366.fig.1.png",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/423.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/first-sign-lip-cancer_c3094f88d448d26b.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/oral-cancer__ProtectWyJQcm90ZWN0Il0_FocusFillWzI5NCwyMjIsIngiLDIwXQ.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-47.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/395.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/175.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7717.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/364.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-25-13.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_3131.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/162.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/126.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/280.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/S NORMAL.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5258.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/407.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/246.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/335.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-27-47.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/367.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/359.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4794.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7249.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/206.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/243.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/105.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/DSC_02062.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6095.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-29-50.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/244.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/143.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/164.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/365.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/cancer 6.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/185.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/oral-leukoplakia-br-image-credit-dermnet-new-zealand-br.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/043.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_6561.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/459.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/024.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4383.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/224.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/061.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/175.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_41.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-28-54.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1790.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_8794.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-30-14.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/448.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/290.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/286.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4286.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/dataset__654-What_Does_Mouth_Cancer_Look-642x361-Side-2.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4054.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_6232.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/464.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/295.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/410.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/184.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-22-19.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9204.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/017.jpeg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/342.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/IMG_57592.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7756.jpg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/003.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/129.jpeg",
+    "label_binary": 0,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1204.jpg",
+    "label_binary": 1,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/42.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/80.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/94.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/65.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/13.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/67.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/145.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/141.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/124.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/6.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/91.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/73.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/132.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/124.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/26.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/13.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/82.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/46.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/131.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/164.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/14.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/81.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/86.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/77.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/31.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/127.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/146.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/28.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/121.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/88.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/55.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/3.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/12.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/79.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/7.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/83.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/105.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/46.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/69.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/155.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/21.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/119.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/117.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/123.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/78.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/27.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/148.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/1.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/120.jpg",
+    "label_binary": 0,
+    "source": "C"
+  }
+]

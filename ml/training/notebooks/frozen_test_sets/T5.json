@@ -1,0 +1,3206 @@
+[
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-103-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-124-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-97-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/88.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-200-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-066-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-277-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-271-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-185-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-247-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-139-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-277-14.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-132-08.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/163.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-155-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-291-08.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-247-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-172-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-29-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-273-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/65.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-216-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/158.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-05-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-271-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-142-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-129-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-11-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-185-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-019-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-277-12.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-50-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/K-017-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-273-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-356-09.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-119-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-277-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-200-07.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-011-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-269-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-261-06.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-001-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-247-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/100.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-139-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-261-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-64-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-42-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/K-013-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-230-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-230-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-174-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-185-07.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-232-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-175-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-238-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-78-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-197-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-81-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-273-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-197-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-99-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-33-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-174-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-185-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-305-08.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-116-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-109-06.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-95-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/K-011-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-273-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-232-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/139.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/111.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-230-09.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-96-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-161-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-132-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-230-08.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-235-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-71-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-02-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-262-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-173-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-174-08.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/27.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-149-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-147-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-02-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-79-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-262-06.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-162-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-53-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-49-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/K-008-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-79-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-262-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/42.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-43-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-119-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-169-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/156.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-67-10.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-186-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/82.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/140.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-256-06.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-36-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-116-03.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-96-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/54.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-102-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-159-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/145.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-169-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-291-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-291-05.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/K-002-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-130-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/S-57-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/150.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/45.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/47.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-221-02.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-22-04.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-169-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-252-07.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/N-235-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Benign/R-130-01.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-25-8-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-154-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-22-7-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-351-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-157-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-103-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-46-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-70-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-13-6-8.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-5-9-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-89-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-351-06.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-20-8-8.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-174-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-46-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-11-12-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-40-7-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-39-4-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-33-7-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-16-6-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-271-10.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-30-6-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-43-6-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-8-7-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-139-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-22-5-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-351-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-139-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-24-6-8.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-117-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-20-5-5.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-07-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-164-06.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/K-003-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-121-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-135-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-261-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-302-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-38-7-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-151-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-33-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-127-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-32-4-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-23-6-5.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-257-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-271-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-22-6-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-43-1-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-101-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-9-4-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-40-6-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-02-08.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-6-9-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-15-6-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-17-5-5.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-091-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-168-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-15-6-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-108-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-62-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-15-4-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-119-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-24-5-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-102-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-098-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-227-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-36-6-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-34-5-5.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-260-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-138-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-46-1-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-4-6-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-154-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-24-1-2.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-26-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-13-7-7.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-227-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-36-4-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-227-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-24-1-7.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-45-6-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-154-06.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-47-1-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-124-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-5-6-1.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-36-8-8.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-128-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-276-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-73-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-88-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-28-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-148-08.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-41-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/N-192-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-46-6-6.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-107-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-205-04.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-67-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-27-7-3.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-04-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-120-06.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-175-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-240-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-120-07.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-106-03.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-194-05.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-177-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/R-106-01.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/C-36-7-4.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Healthy/S-49-02.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-214-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-296-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-353-02.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/158.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-296-07.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/98.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/73.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-259-02.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-259-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-142-04.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/S-44-02.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-292-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/139.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-163-06.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/121.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/34.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/K-022-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-342-05.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/27.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-124-01.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-352-04.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/26.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-194-03.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/80.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/96.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-296-08.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/155.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/83.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/150.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/45.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/79.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-242-02.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/R-274-03.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/N-358-04.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/153.jpg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OCA/142.jpeg",
+    "label_5class": "OCA",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-089-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-157-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-08.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-52-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-249-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-021-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-128-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-085-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-101-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-137-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-023-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-193-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-09.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-56-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-220-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-197-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-13-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-125-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-150-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-265-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-226-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-197-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-58-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-279-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-064-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-261-11.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-279-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-56-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-197-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-40-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-219-08.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-105-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-220-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-197-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-279-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-99-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-019-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-226-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-272-08.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-009-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-005-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-234-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-183-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-137-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-110-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-009-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-099-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-125-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-66-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-204-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-09-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-062-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-236-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-56-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-170-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-216-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-280-10.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-280-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-52-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-195-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-09-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-357-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-234-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-241-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-103-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-123-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-97-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-140-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-355-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-167-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-029-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-178-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-103-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-187-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-241-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-17-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-09-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-251-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-259-10.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-037-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-357-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-150-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-66-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-76-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-167-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-355-10.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-168-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-274-08.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-218-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-150-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-101-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-85-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-259-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-119-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-195-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-09-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-241-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-35-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-179-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-167-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-208-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-355-13.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-248-08.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-93-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-234-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-85-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-21-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-38-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-248-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-006-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-59-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-24-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-272-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-12-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-239-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-248-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-268-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-203-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-258-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-165-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-278-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-016-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-240-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-180-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-006-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-259-09.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-82-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-192-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-118-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-270-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-155-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-260-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-242-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-160-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-135-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-272-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-244-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-264-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-126-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-16-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-260-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-100-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-75-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-192-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-278-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-55-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-82-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-38-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-180-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-217-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-243-09.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-016-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-006-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-217-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-122-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-239-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-180-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-237-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/K-014-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-45-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-179-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-98-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-196-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-272-10.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-20-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-268-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-18-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-246-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-94-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-269-09.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-14.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-272-11.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-115-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-198-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-178-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-237-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-219-14.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-254-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-120-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-185-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-196-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-272-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-98-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-239-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-133-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-223-10.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-270-13.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-16-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-260-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-84-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-223-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-354-07.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-34-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-179-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-217-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-354-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-167-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-84-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-258-05.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-266-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-45-02.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-10-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-223-06.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/N-047-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-196-03.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/S-178-01.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/OPMD/R-151-04.jpg",
+    "label_5class": "OPMD",
+    "label_binary": 1,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000361268.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000252701.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000372349.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000548339.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000035682.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000515982.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000282046.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000502347.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000181859.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000340930.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000239773.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000288584.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000440617.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000437110.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000248400.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000573626.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000556498.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000344614.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000553669.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000098261.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000100274.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000433515.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000491613.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000411774.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000420230.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000350003.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000293071.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000240767.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000284725.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000190307.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000134856.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000363207.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000406570.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000069356.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000376625.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000338560.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000295797.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000049810.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000571943.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000431140.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000060932.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000280930.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000327769.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000530099.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000243204.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000002592.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000002431.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000037689.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000148707.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset/test/Unknown/000000369771.jpg",
+    "label_5class": "Unknown",
+    "label_binary": null,
+    "source": "A"
+  }
+]

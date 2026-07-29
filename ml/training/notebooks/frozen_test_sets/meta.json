@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "seed": 42,
+  "binary_test_fraction": 0.15,
+  "T5_count": 534,
+  "TB_count": 246,
+  "TC_count": 49,
+  "TM_count": 779,
+  "T5_binary_eligible": 484,
+  "data_dir_5class": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset",
+  "data_dir_binary": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset",
+  "data_dir_small_binary": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset"
+}

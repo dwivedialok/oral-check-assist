@@ -1,0 +1,18 @@
+{
+  "data_dir": "/Users/alokdwivedi/dev/oral_cavity_dataset_clean",
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 8,
+  "epochs": 2,
+  "class_names": [
+    "Benign",
+    "Healthy",
+    "OCA",
+    "OPMD",
+    "Unknown"
+  ],
+  "model_name": "basic_cnn",
+  "output_root": "./ml/training/results/basic_m1"
+}

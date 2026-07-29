@@ -1,0 +1,1478 @@
+[
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1806.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/009.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/R333.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/261.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4406.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-03.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/227.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/097.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-51.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4917.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/234.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/152.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/171.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_squamous-cell-carinoma-of-the-tongue.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_5236.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/302.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/224.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/076.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/065.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/420.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/412.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/418.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/WP_20141029_18_42_38_Pro2.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/138.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/378.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/236.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-46.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/124.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/078.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4472.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_280x190_tongue_cancer_facts_ref_guide.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7034.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/118.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_702.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/103.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9409.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-15.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/288.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/377.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/087.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/125.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-51.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_1200px-ZungenCa2a.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/452.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1767.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1254.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5207.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4278.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4077.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-29-45.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/016.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/279.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6439.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/297.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/241.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5256.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_left_lateral_tongue_dysplasia_3.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/180.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/167.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/mouth-photo-3.png",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6151.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/20191129_1827192.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/090.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/308.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/067.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/054.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/163.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/155.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_565.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/222.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/159.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7772.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/068.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/461.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_3181.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9190.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/351.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/375.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5736.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/465.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9518.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S14.png",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-21.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/skin-cancer-on-lips-treatment.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-19-22.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/473.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_cancer 6.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/275.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/477.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/314.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1981.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/306.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_41457tn.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/041.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/500.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9005.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5141.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/308.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/434.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/098.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/347.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-28-19.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/336.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/download (4).jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_8954.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/096.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_1706.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/438.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4806.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/381.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6368.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/345.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-11.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/dataset_1366.fig.1.png",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7578.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/431.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/346.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/325.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/283.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/433.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/20200314_1117132.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/182.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/273.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/058.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/194.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/054.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_5304.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/225.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4591.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/194.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/073.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/420.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2333.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S7.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/009.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9418.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-27.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/154.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/SRMJResDentSci_2013_4_1_35_116830_u1.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/449.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/117.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-21-04.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/395.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/207.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-20-19.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/S11.png",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/images (4).jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-19-41.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/143.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_8.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/mouth-cancer.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/187.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/168.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/057.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/428.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_9088.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2428.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/048.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/093.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/278.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_2727.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/tongue-1.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-39.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-21-44.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/C0235749-Mouth_cancer-SPL-20170511085515620.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/081.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4658.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/404.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/027.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/212.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5323.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/366.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-26-34.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7179.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/949b9f09-aa54-454e-b631-b6d98e079f45.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/036.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/1366.fig.1.png",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/423.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/first-sign-lip-cancer_c3094f88d448d26b.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/oral-cancer__ProtectWyJQcm90ZWN0Il0_FocusFillWzI5NCwyMjIsIngiLDIwXQ.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-31-47.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/395.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/175.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_7717.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/364.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-25-13.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_3131.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/162.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/126.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/280.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/S NORMAL.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_5258.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/407.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/246.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/335.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-27-47.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/367.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/359.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4794.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7249.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/206.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/243.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/105.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/DSC_02062.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_6095.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-29-50.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/244.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/143.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/164.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/365.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/cancer 6.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/185.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/oral-leukoplakia-br-image-credit-dermnet-new-zealand-br.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/043.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_6561.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/459.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/024.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4383.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/224.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/061.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/175.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_41.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-28-54.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1790.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_8794.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/photo_2025-01-26_17-30-14.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/448.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/290.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/286.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_4286.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/dataset__654-What_Does_Mouth_Cancer_Look-642x361-Side-2.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_4054.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_6232.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/464.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/295.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/410.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/184.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/photo_2025-01-26_17-22-19.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_9204.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/017.jpeg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/342.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/IMG_57592.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/augmented_0_7756.jpg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/003.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/non-cancer/129.jpeg",
+    "label_binary": 0,
+    "label_5class": null,
+    "source": "B"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset/cancer/augmented_0_1204.jpg",
+    "label_binary": 1,
+    "label_5class": null,
+    "source": "B"
+  }
+]

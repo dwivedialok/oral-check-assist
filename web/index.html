@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description"
+    content="AI-assisted initial visual check of oral images to help determine whether professional evaluation may be advisable.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://oralcheck.3amwave.com/">
+  <meta property="og:title" content="Oral Check Assist">
+  <meta property="og:description"
+    content="AI-assisted initial visual check of oral images to help determine whether professional evaluation may be advisable.">
+  <meta property="og:image" content="https://oralcheck.3amwave.com/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://oralcheck.3amwave.com/">
+  <meta property="twitter:title" content="Oral Check Assist">
+  <meta property="twitter:description"
+    content="AI-assisted initial visual check of oral images to help determine whether professional evaluation may be advisable.">
+  <meta property="twitter:image" content="https://oralcheck.3amwave.com/og-image.png">
+
+  <!-- PWA meta tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Oral Check Assist">
+
+  <!-- iOS icons -->
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>Oral Check Assist</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- image_cropper_for_web dependency (Cropper.js) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+
+  <!-- ONNX Runtime Web - Required for flutter_onnxruntime plugin on web -->
+  <!-- Load synchronously before Flutter bootstrap to ensure it's available when plugin initializes -->
+  <!-- Using CDN version which automatically handles WASM file loading -->
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.19.2/dist/ort.min.js"></script>
+</head>
+
+<body>
+  <script>
+    // Ensure ONNX Runtime is loaded before Flutter initializes
+    if (typeof ort === 'undefined') {
+      console.error('ONNX Runtime Web library failed to load');
+    } else {
+      console.log('ONNX Runtime Web library loaded successfully');
+
+      // Configure ONNX Runtime Web for mobile browser compatibility
+      if (ort.env && ort.env.wasm) {
+        // Use simpler WASM backend for better mobile compatibility
+        // Avoid SIMD/threaded versions which may fail on mobile browsers
+        if (typeof ort.env.wasm.numThreads !== 'undefined') {
+          ort.env.wasm.numThreads = 1; // Disable threading for mobile compatibility
+        }
+
+        // Use basic WASM backend (more compatible with mobile browsers)
+        // The CDN will automatically serve the appropriate WASM files
+        console.log('ONNX Runtime Web configured for mobile compatibility');
+        console.log('User Agent:', navigator.userAgent);
+        console.log('Is Mobile:', /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+      }
+    }
+  </script>
+  <script>
+    // Force service worker update check on page load
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (const registration of registrations) {
+            registration.update(); // Force check for updates
+          }
+        });
+      });
+    }
+
+    // Add version to console for debugging
+    console.log('Build version check - check home screen for version number');
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>

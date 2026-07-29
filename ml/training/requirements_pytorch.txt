@@ -1,0 +1,42 @@
+# Core PyTorch packages
+torch
+torchvision
+tensorboard
+opencv-python
+
+# Image processing
+Pillow
+
+# Jupyter environment
+jupyter 
+ipykernel
+
+# Data visualization and analysis
+matplotlib
+seaborn
+numpy
+
+# Machine learning utilities
+scikit-learn
+
+# Additional packages for enhanced training
+tqdm
+albumentations>=2.0.0
+
+# Synthetic data generation packages
+glob2
+pathlib
+
+# ONNX packages
+onnx>=1.14.0
+onnxruntime>=1.16.0
+onnx-tf>=1.9.0  # For ONNX to TensorFlow conversion (if needed for TFLite)
+
+# Optional but recommended
+onnx-simplifier>=0.4.0  # For model optimization
+
+onnxscript==0.6.0   
+
+
+# Excel file reading
+openpyxl==3.1.5

@@ -1,0 +1,19 @@
+{
+  "task": "binary",
+  "strategy": "progressive_K5",
+  "optimizer": "adam",
+  "weight_decay": 0.0,
+  "freeze_bn": true,
+  "loss": "ce",
+  "epochs": 50,
+  "warmup_epochs": 5,
+  "batch_size": 32,
+  "lr": 1e-4,
+  "lr_head": 1e-3,
+  "lr_backbone": 1e-4,
+  "patience": 12,
+  "dropout_rate": 0.2,
+  "label_smoothing": 0.05,
+  "cancer_weight_multiplier": 1.5,
+  "seed": 42
+}

@@ -1,0 +1,14 @@
+# One config JSON path per line (same directory as this file). Blank lines and # comments ignored.
+# This file lists 10 sequential runs — one `autoresearch_loop.py run --recipe ...` processes all overnight.
+# Duplicate lines = repeat that experiment (run_id still unique). Trim or edit as you like.
+
+baseline_progressive_K5.json
+adamw.json
+focal_loss.json
+freeze_bn.json
+temperature_scaling.json
+autoresearch_minimal.json
+baseline_progressive_K5.json
+adamw.json
+focal_loss.json
+autoresearch_minimal.json

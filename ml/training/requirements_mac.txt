@@ -1,0 +1,19 @@
+# Install TensorFlow for M1
+tensorflow-macos==2.15.0
+tensorflow-metal==1.1.0
+
+# Install core dependencies
+numpy==1.24.3
+pandas==2.0.3
+opencv-python==4.8.1.78
+pillow==10.0.1
+albumentations==1.3.1
+matplotlib==3.7.2
+seaborn==0.12.2
+scikit-learn==1.3.0
+tqdm==4.66.1
+scipy==1.11.2  # For temperature scaling calibration
+
+# Optional dependencies
+jupyter 
+ipykernel  # For experimentation

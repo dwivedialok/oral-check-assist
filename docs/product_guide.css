@@ -1,0 +1,215 @@
+/* Oral Check Assist Product Guide – WeasyPrint styles
+   Brand colors: #114F7D (primary blue), #2AB099 (teal), #D1EDF7 (light blue) */
+
+@page {
+  size: A4;
+  margin: 2cm;
+  @top-center {
+    content: "Oral Check Assist";
+    font-size: 9pt;
+    color: #114F7D;
+    font-weight: 600;
+  }
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-size: 9pt;
+    color: #5a6a7a;
+  }
+}
+
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #2c3e50;
+  max-width: 100%;
+}
+
+/* Title and cover block (first page) */
+body .cover {
+  padding-top: 1.5cm;
+  page-break-after: always;
+}
+
+/* Pandoc wraps the cover image in <p>; keep the block centered without extra gap */
+.cover > p:has(img.logo) {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.cover .logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.cover h1 {
+  font-size: 24pt;
+  font-weight: 700;
+  color: #114F7D;
+  text-align: center;
+  margin: 0.5em 0 0.2em;
+  border: none;
+}
+
+.cover .subtitle {
+  font-size: 12pt;
+  color: #5a6a7a;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.cover .meta {
+  font-size: 10pt;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #114F7D;
+  font-weight: 600;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 18pt;
+  margin: 1.2em 0 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid #2AB099;
+}
+
+h2 {
+  font-size: 14pt;
+  margin: 1.2em 0 0.4em;
+  padding-bottom: 0.15em;
+  border-bottom: 1px solid #D1EDF7;
+}
+
+h3 {
+  font-size: 12pt;
+  margin: 1em 0 0.35em;
+}
+
+h4 {
+  font-size: 11pt;
+  margin: 0.8em 0 0.3em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  page-break-inside: avoid;
+  font-size: 10pt;
+}
+
+th, td {
+  border: 1px solid #D1EDF7;
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+th {
+  background: #114F7D;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #f8fbfc;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0.5em 0 1em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+/* Links (keep readable in PDF) */
+a {
+  color: #114F7D;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Strong and emphasis */
+strong {
+  font-weight: 600;
+  color: #114F7D;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #D1EDF7;
+  margin: 1.5em 0;
+}
+
+/* Block content spacing */
+p {
+  margin: 0.5em 0 1em;
+}
+
+/* FAQ / troubleshooting items */
+blockquote {
+  margin: 0.75em 0 1em;
+  padding: 0.5em 0 0.5em 1em;
+  border-left: 3px solid #2AB099;
+  background: #f8fbfc;
+  color: #34495e;
+}
+
+/* Code or key names */
+code {
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 0.95em;
+  background: #f0f6f9;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  color: #114F7D;
+}
+
+/* TOC styling */
+#toc {
+  margin: 1em 0 2em;
+  padding: 1em 1.25em;
+  background: #f0f8fc;
+  border: 1px solid #D1EDF7;
+  border-radius: 4px;
+  page-break-inside: avoid;
+}
+
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5em 0 0;
+}
+
+#toc li {
+  margin: 0.35em 0;
+  padding-left: 0;
+}
+
+#toc a {
+  color: #114F7D;
+  font-weight: 500;
+}

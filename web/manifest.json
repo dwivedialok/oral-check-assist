@@ -1,0 +1,37 @@
+{
+    "name": "Oral Check Assist",
+    "short_name": "Oral Check",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "AI-assisted initial visual check of oral images to help determine whether professional evaluation may be advisable. By 3AM Wave.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "categories": ["health", "medical"],
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

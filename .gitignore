@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Local secrets / env (never commit)
+.env
+.env.*
+!.env.example
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android signing (never commit keystore or key.properties)
+/android/key.properties
+*.jks
+
+ml/training/results/
+ml/training/notebooks/results/
+ml/training/notebooks/results/*
+ml/.venv/
+ml/training/venv_*
+ml/training/venv_oral_cancer_classifier/*
+
+ml/training/notebooks/ml/training/results/*
+*-checkpoint.ipynb
+
+# Legacy local model dumps (production weights live in assets/ via Git LFS)
+ml/training/notebooks/best_model_m1.pth
+ml/training/notebooks/backup_5class_ensemble/
+
+ml/training/notebooks/ml/training/synthetic_data/*
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Product guide PDF: icon is copied from assets/ by scripts/generate_product_guide_pdf.sh
+docs/product_guide_assets/app_icon.png

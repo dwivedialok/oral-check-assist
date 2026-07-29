@@ -1,0 +1,1372 @@
+[
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/69.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/100.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/47.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/125.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/84.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/30.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/43.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/99.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/137.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/30.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/10.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/23.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/78.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/42.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/112.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/17.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/122.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/65.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/85.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/139.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/150.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/163.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/97.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/129.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/41.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/35.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/58.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/86.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/27.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/153.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/149.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/110.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/22.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/110.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/123.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/130.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/32.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/26.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/145.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/109.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/90.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/10.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/97.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/71.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/40.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/2.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/90.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/70.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/87.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/53.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/121.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/98.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/116.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/101.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/16.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/135.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/48.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/64.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/144.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/144.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/101.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/77.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/44.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/111.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/18.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/4.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/32.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/29.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/1.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/115.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/107.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/113.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/43.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/92.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/59.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/89.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/51.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/126.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/93.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/139.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/37.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/140.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/114.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/94.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/159.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/148.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/9.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/2.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/147.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/58.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/76.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/51.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/49.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/75.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/39.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/5.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/92.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/68.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/62.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/104.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/25.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/64.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/127.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/74.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/54.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/106.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/84.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/63.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/128.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/52.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/67.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/89.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/128.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/120.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/39.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/66.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/142.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/54.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/118.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/79.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/136.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/4.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/87.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/7.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/8.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/109.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/150.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/73.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/59.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/143.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/72.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/157.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/61.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/116.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/158.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/136.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/11.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/141.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/23.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/6.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/74.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/33.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/75.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/102.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/20.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/70.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/161.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/50.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/133.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/96.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/60.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/95.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/53.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/19.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/45.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/38.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/15.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/103.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/156.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/40.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/28.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/44.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/149.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/76.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/129.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/122.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/157.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/47.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/20.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/155.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/57.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/24.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/137.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/102.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/105.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/142.jpeg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/113.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/29.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/165.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/63.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/50.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/111.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/146.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/108.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/132.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/72.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/115.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/160.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/98.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/3.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/153.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/125.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/41.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/11.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/104.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/21.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/52.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/135.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/57.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/82.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/85.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/36.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/16.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/81.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/61.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/134.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/18.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/34.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/107.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/114.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/49.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/96.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/12.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/38.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/31.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/152.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/80.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/35.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/9.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/5.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/117.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/34.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/156.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/138.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/17.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/134.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/45.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/151.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/126.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/62.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/56.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/158.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/36.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/108.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/60.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/103.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/140.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/147.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/93.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/33.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/133.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/71.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/99.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/19.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/88.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/48.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/91.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/130.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/56.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/112.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/24.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/95.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/83.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/37.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/152.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/55.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/119.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/15.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/22.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/118.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/66.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/14.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/25.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/151.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/8.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/68.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/154.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/143.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/162.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/106.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/154.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/138.jpg",
+    "label_binary": 0,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/malignant_lesions/100.jpg",
+    "label_binary": 1,
+    "source": "C"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset/original_data/benign_lesions/131.jpg",
+    "label_binary": 0,
+    "source": "C"
+  }
+]

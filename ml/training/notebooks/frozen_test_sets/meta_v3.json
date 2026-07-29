@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "seed": 42,
+  "binary_test_fraction": 0.15,
+  "T5_count": 478,
+  "TSMART_count": 166,
+  "TB_count": 246,
+  "TC_count": 49,
+  "TM_count": 889,
+  "T5_binary_eligible": 428,
+  "TSMART_binary_eligible": 166,
+  "data_dir_5class": "/Users/alokdwivedi/dev/oral_cavity_5class_dataset_patientwise",
+  "data_dir_smart": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise",
+  "data_dir_binary": "/Users/alokdwivedi/dev/oral_cavity_binary_dataset",
+  "data_dir_small_binary": "/Users/alokdwivedi/dev/oral-images-dataset/Oral-Image-small-binary-dataset"
+}

@@ -1,0 +1,5 @@
+{
+  "use_class_weights": true,
+  "augmentation": "light",
+  "phase1_epochs": 20
+}

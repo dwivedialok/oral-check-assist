@@ -1,0 +1,38 @@
+{
+    "experiment_settings": {
+      "experiment_name": "m1_pro_quick_test",
+      "description": "Quick test run on M1 Pro - 5 epochs only",
+      "random_seed": 42
+    },
+    "model_architecture": {
+      "base_model": "MobileNetV3Large",
+      "input_size": [224, 224, 3],
+      "num_classes": 5,
+      "dropout_rate": 0.3,
+      "fine_tune_layers": 30
+    },
+    "training_parameters": {
+      "batch_size": 16,
+      "epochs": 5,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "label_smoothing": 0.1,
+      "mixed_precision": false
+    },
+    "data_augmentation": {
+      "strength": "light"
+    },
+    "callbacks": {
+      "early_stopping_patience": 3,
+      "reduce_lr_patience": 2,
+      "reduce_lr_factor": 0.5,
+      "min_learning_rate": 1e-7,
+      "save_best_only": true,
+      "monitor_metric": "val_f1_weighted"
+    },
+    "tflite_conversion": {
+      "quantization_types": ["dynamic"],
+      "representative_samples": 50,
+      "optimization_target": "balanced"
+    }
+  }

@@ -1,0 +1,998 @@
+[
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA02064_PDC_LL.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA02064_PDC_UL.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA00409_R_LL.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Benign/SMITA00404_R_LL.jpg",
+    "label_5class": "Benign",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02072_PDC_UB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00409_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00404_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00379_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00375_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00430_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00496_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02099_PDC_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00388_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00382_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02054_PDC_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00419_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00415_R_DT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00363_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00495_R_RB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_VT.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00418_R_UL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02064_PDC_LA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02076_PDC_LL.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA02103_PDC_LB.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00498_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  },
+  {
+    "path": "/Users/alokdwivedi/dev/oral_cavity_smart_ii_patientwise/test/Healthy/SMITA00499_R_UA.jpg",
+    "label_5class": "Healthy",
+    "label_binary": 0,
+    "source": "D"
+  }
+]

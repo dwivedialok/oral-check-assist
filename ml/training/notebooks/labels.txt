@@ -1,0 +1,5 @@
+Benign
+Healthy
+OCA
+OPMD
+Unknown

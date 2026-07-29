@@ -1,0 +1,9 @@
+Oral Cavity Classifier / Oral Check Assist
+Copyright 2024–2026 3AM Wave
+
+This product includes software developed by 3AM Wave and contributors.
+Licensed under the Apache License, Version 2.0. See the LICENSE file.
+
+Model weights shipped under `assets/` are provided for research and
+non-diagnostic screening demonstration. They are not a medical device
+certification. See the README medical disclaimer.
