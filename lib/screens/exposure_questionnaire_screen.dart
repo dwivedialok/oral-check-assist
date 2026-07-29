@@ -155,7 +155,7 @@ class _ExposureQuestionnaireScreenState
 
   Widget _buildProcessingOverlay() {
     return Container(
-      color: Colors.black.withOpacity(0.25),
+      color: Colors.black.withValues(alpha: 0.25),
       child: Center(
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 24),
@@ -163,7 +163,10 @@ class _ExposureQuestionnaireScreenState
             color: Colors.white,
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
-              BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 20),
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.1),
+                blurRadius: 20,
+              ),
             ],
           ),
           child: Column(
@@ -375,7 +378,9 @@ class _ExposureQuestionnaireScreenState
       children: DurationCategory.values.map((d) {
         return RadioListTile<DurationCategory>(
           value: d,
+          // ignore: deprecated_member_use
           groupValue: _selectedDuration,
+          // ignore: deprecated_member_use
           onChanged: (val) => setState(() => _selectedDuration = val),
           title: Text(
             d.localizedName(context),
@@ -395,7 +400,9 @@ class _ExposureQuestionnaireScreenState
       children: FrequencyCategory.values.map((f) {
         return RadioListTile<FrequencyCategory>(
           value: f,
+          // ignore: deprecated_member_use
           groupValue: _selectedFrequency,
+          // ignore: deprecated_member_use
           onChanged: (val) => setState(() => _selectedFrequency = val),
           title: Text(
             f.localizedName(context),
@@ -430,7 +437,7 @@ class _ExposureQuestionnaireScreenState
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 10,
             offset: const Offset(0, -5),
           ),

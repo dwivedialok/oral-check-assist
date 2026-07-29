@@ -20,7 +20,7 @@ class RiskBadge extends StatelessWidget {
         vertical: large ? 8 : 4,
       ),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.15),
+        color: color.withValues(alpha: 0.15),
         borderRadius: BorderRadius.circular(large ? 24 : 16),
         border: Border.all(color: color, width: 1.5),
       ),
@@ -74,7 +74,7 @@ class RiskIndicator extends StatelessWidget {
           width: 100,
           height: 100,
           decoration: BoxDecoration(
-            color: color.withOpacity(0.15),
+            color: color.withValues(alpha: 0.15),
             shape: BoxShape.circle,
             border: Border.all(color: color, width: 3),
           ),
@@ -128,7 +128,7 @@ class PhotoStatusChip extends StatelessWidget {
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         decoration: BoxDecoration(
-          color: Colors.purple.withOpacity(0.2),
+          color: Colors.purple.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
@@ -153,7 +153,7 @@ class PhotoStatusChip extends StatelessWidget {
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         decoration: BoxDecoration(
-          color: Colors.grey.withOpacity(0.2),
+          color: Colors.grey.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
@@ -174,7 +174,7 @@ class PhotoStatusChip extends StatelessWidget {
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         decoration: BoxDecoration(
-          color: Colors.orange.withOpacity(0.2),
+          color: Colors.orange.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
@@ -195,7 +195,7 @@ class PhotoStatusChip extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.2),
+        color: color.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Row(

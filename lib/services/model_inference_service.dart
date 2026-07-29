@@ -3,7 +3,6 @@ import 'dart:io'
     if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
     as io;
 import 'dart:math' as math;
-import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_onnxruntime/flutter_onnxruntime.dart';
 import 'package:image/image.dart' as img;
@@ -34,12 +33,13 @@ Float32List? _preprocessImageFromBytesIsolate(Uint8List raw) {
           final g = pixel.g.toDouble() / 255.0;
           final b = pixel.b.toDouble() / 255.0;
           double normalizedValue;
-          if (c == 0)
+          if (c == 0) {
             normalizedValue = (r - meanR) / stdR;
-          else if (c == 1)
+          } else if (c == 1) {
             normalizedValue = (g - meanG) / stdG;
-          else
+          } else {
             normalizedValue = (b - meanB) / stdB;
+          }
           inputBuffer[idx++] = normalizedValue;
         }
       }
@@ -384,12 +384,13 @@ class ModelInferenceService {
             final g = pixel.g.toDouble() / 255.0;
             final b = pixel.b.toDouble() / 255.0;
             double normalizedValue;
-            if (c == 0)
+            if (c == 0) {
               normalizedValue = (r - meanR) / stdR;
-            else if (c == 1)
+            } else if (c == 1) {
               normalizedValue = (g - meanG) / stdG;
-            else
+            } else {
               normalizedValue = (b - meanB) / stdB;
+            }
             inputBuffer[idx++] = normalizedValue;
           }
         }
@@ -707,19 +708,6 @@ class ModelInferenceService {
           'label': result['displayLabel'] as String? ?? result['displayLabel'],
           'confidence': result['confidence'],
         };
-      default:
-        // Fallback so Quick Check always gets a result (e.g. after lazy load)
-        if (dualEnsembleReady) {
-          final result = await inferDualEnsembleFromBytes(imageBytes);
-          if (result == null) return null;
-          return {
-            ...result,
-            'label':
-                result['displayLabel'] as String? ?? result['displayLabel'],
-            'confidence': result['confidence'],
-          };
-        }
-        return await infer5ClassEnsembleFromBytes(imageBytes);
     }
   }
 
@@ -928,8 +916,9 @@ class ModelInferenceService {
     String displayLabel = fiveClassLabel;
     if (fiveClassProbs != null) {
       maxProb = fiveClassProbs.values.fold(0.0, (max, v) => v > max ? v : max);
-      if (maxProb < ScreeningConfig.labelConfidenceThreshold)
+      if (maxProb < ScreeningConfig.labelConfidenceThreshold) {
         displayLabel = 'Uncertain';
+      }
     }
 
     // Per-photo display: resolve binary vs 5-class ambiguity for UI only.

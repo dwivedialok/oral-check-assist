@@ -175,7 +175,7 @@ class _HomeScreenState extends State<HomeScreen> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue.withOpacity(0.3),
+            color: Colors.blue.withValues(alpha: 0.3),
             blurRadius: 15,
             offset: const Offset(0, 8),
           ),
@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Text(
             AppLocalizations.of(context)!.takeFivePhotosDesc,
             style: TextStyle(
-              color: Colors.white.withOpacity(0.9),
+              color: Colors.white.withValues(alpha: 0.9),
               fontSize: 14,
             ),
           ),
@@ -238,7 +238,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 AppLocalizations.of(context)!.fullCheckDuration,
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white.withValues(alpha: 0.8),
                   fontSize: 12,
                 ),
               ),
@@ -246,7 +246,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 AppLocalizations.of(context)!.fullCheckHelperNote,
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white.withValues(alpha: 0.8),
                   fontSize: 12,
                 ),
               ),
@@ -254,7 +254,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 AppLocalizations.of(context)!.quickCheckDurationLabel,
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white.withValues(alpha: 0.8),
                   fontSize: 12,
                 ),
               ),
@@ -263,14 +263,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Icon(
                     Icons.lock_outlined,
-                    color: Colors.white.withOpacity(0.8),
+                    color: Colors.white.withValues(alpha: 0.8),
                     size: 16,
                   ),
                   const SizedBox(width: 4),
                   Text(
                     AppLocalizations.of(context)!.fullyPrivate,
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.8),
+                      color: Colors.white.withValues(alpha: 0.8),
                       fontSize: 12,
                     ),
                   ),
@@ -553,7 +553,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 width: 48,
                 height: 48,
                 decoration: BoxDecoration(
-                  color: Color(riskLevel.colorValue).withOpacity(0.15),
+                  color: Color(riskLevel.colorValue).withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(
@@ -683,7 +683,6 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
   //        8 analysis fallback, 9 results, 10 detailed results
   int _currentStep = 0;
   PhotoType? _retakePhotoType;
-  bool _questionnaireComplete = false;
   bool _analysisStarted = false;
 
   /// Apply ERI combined matrix to the analysis result, save to history, and
@@ -787,7 +786,6 @@ class _ScreeningFlowScreenState extends State<ScreeningFlowScreen> {
         if (_currentStep == 7) {
           return ExposureQuestionnaireScreen(
             onComplete: () {
-              _questionnaireComplete = true;
               if (provider.isCompleted &&
                   provider.currentSession?.result != null) {
                 _applyEriAndProceed(provider);

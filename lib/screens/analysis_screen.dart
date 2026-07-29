@@ -84,8 +84,8 @@ class _AnalysisScreenState extends State<AnalysisScreen>
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.blue.withOpacity(
-                              0.3 * _pulseController.value,
+                            color: Colors.blue.withValues(
+                              alpha: 0.3 * _pulseController.value,
                             ),
                             blurRadius: 30,
                             spreadRadius: 10,

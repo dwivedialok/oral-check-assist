@@ -256,10 +256,7 @@ class ERIService {
     var eriMessage = matrix.eriMessage;
     if (guidanceChanged) {
       eriMessage =
-          (eriMessage != null && eriMessage.isNotEmpty
-              ? '$eriMessage\n\n'
-              : '') +
-          'Exposure history influenced the final recommendation.';
+          '${eriMessage != null && eriMessage.isNotEmpty ? '$eriMessage\n\n' : ''}Exposure history influenced the final recommendation.';
     }
 
     return result.copyWith(

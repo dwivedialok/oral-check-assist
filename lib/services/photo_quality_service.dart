@@ -2,7 +2,6 @@ import 'dart:io'
     if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
     as io;
 import 'dart:math' as math;
-import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import 'package:image/image.dart' as img;
 import '../models/photo_capture.dart';

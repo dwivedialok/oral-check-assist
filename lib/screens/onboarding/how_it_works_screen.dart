@@ -208,7 +208,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             decoration: BoxDecoration(
-              color: color.withOpacity(0.1),
+              color: color.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Text(
@@ -223,7 +223,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
             width: 100,
             height: 100,
             decoration: BoxDecoration(
-              color: color.withOpacity(0.1),
+              color: color.withValues(alpha: 0.1),
               shape: BoxShape.circle,
             ),
             child: Icon(icon, size: 48, color: color),

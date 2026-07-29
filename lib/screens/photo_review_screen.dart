@@ -101,7 +101,7 @@ class PhotoReviewScreen extends StatelessWidget {
                 color: Colors.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
+                    color: Colors.black.withValues(alpha: 0.05),
                     blurRadius: 10,
                     offset: const Offset(0, -5),
                   ),
@@ -209,7 +209,7 @@ class PhotoReviewScreen extends StatelessWidget {
     if (needsQualityAttention) {
       bg = Colors.orange[50]!;
       border = Colors.orange;
-      iconBg = Colors.orange.withOpacity(0.2);
+      iconBg = Colors.orange.withValues(alpha: 0.2);
       iconData = Icons.warning;
       iconColor = Colors.orange;
       title = l10n.somePhotosNeedAttention;
@@ -219,7 +219,7 @@ class PhotoReviewScreen extends StatelessWidget {
     } else if (summaryNeedMorePhotos) {
       bg = Colors.blue[50]!;
       border = Colors.blue.shade300;
-      iconBg = Colors.blue.withOpacity(0.15);
+      iconBg = Colors.blue.withValues(alpha: 0.15);
       iconData = Icons.info_outline;
       iconColor = Colors.blue.shade700;
       title = l10n.needAtLeastTwoPhotosTitle;
@@ -229,7 +229,7 @@ class PhotoReviewScreen extends StatelessWidget {
     } else if (summarySuccess) {
       bg = Colors.green[50]!;
       border = Colors.green;
-      iconBg = Colors.green.withOpacity(0.2);
+      iconBg = Colors.green.withValues(alpha: 0.2);
       iconData = Icons.check_circle;
       iconColor = Colors.green;
       title = session.allFiveSlotsFilledAndAcceptable
@@ -241,7 +241,7 @@ class PhotoReviewScreen extends StatelessWidget {
     } else {
       bg = Colors.orange[50]!;
       border = Colors.orange;
-      iconBg = Colors.orange.withOpacity(0.2);
+      iconBg = Colors.orange.withValues(alpha: 0.2);
       iconData = Icons.warning;
       iconColor = Colors.orange;
       title = l10n.somePhotosNeedAttention;

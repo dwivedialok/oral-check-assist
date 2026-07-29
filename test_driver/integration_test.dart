@@ -1,3 +1,5 @@
+// Driver prints a concise E2E summary to the test process stdout.
+// ignore_for_file: avoid_print
 import 'package:integration_test/integration_test_driver.dart';
 
 Future<void> main() {

@@ -89,7 +89,7 @@ class PhotoThumbnail extends StatelessWidget {
                         begin: Alignment.bottomCenter,
                         end: Alignment.topCenter,
                         colors: [
-                          Colors.black.withOpacity(0.55),
+                          Colors.black.withValues(alpha: 0.55),
                           Colors.transparent,
                         ],
                       ),
@@ -153,7 +153,7 @@ class PhotoThumbnail extends StatelessWidget {
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                       colors: [
-                        Colors.black.withOpacity(0.6),
+                        Colors.black.withValues(alpha: 0.6),
                         Colors.transparent,
                       ],
                     ),
@@ -193,7 +193,7 @@ class PhotoThumbnail extends StatelessWidget {
                         begin: Alignment.bottomCenter,
                         end: Alignment.topCenter,
                         colors: [
-                          Colors.black.withOpacity(0.6),
+                          Colors.black.withValues(alpha: 0.6),
                           Colors.transparent,
                         ],
                       ),
@@ -213,7 +213,7 @@ class PhotoThumbnail extends StatelessWidget {
                                 vertical: 4,
                               ),
                               decoration: BoxDecoration(
-                                color: Colors.white.withOpacity(0.9),
+                                color: Colors.white.withValues(alpha: 0.9),
                                 borderRadius: BorderRadius.circular(12),
                               ),
                               child: Row(

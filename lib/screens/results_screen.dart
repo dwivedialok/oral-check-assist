@@ -70,7 +70,7 @@ class ResultsScreen extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(color: color.withOpacity(0.1)),
+      decoration: BoxDecoration(color: color.withValues(alpha: 0.1)),
       child: Column(
         children: [
           const SizedBox(height: 20),
@@ -112,7 +112,7 @@ class ResultsScreen extends StatelessWidget {
               width: 100,
               height: 100,
               decoration: BoxDecoration(
-                color: Colors.amber.withOpacity(0.15),
+                color: Colors.amber.withValues(alpha: 0.15),
                 shape: BoxShape.circle,
                 border: Border.all(color: Colors.amber.shade700, width: 3),
               ),
@@ -243,9 +243,9 @@ class ResultsScreen extends StatelessWidget {
       margin: const EdgeInsets.only(top: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: cardColor.withOpacity(0.08),
+        color: cardColor.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: cardColor.withOpacity(0.3)),
+        border: Border.all(color: cardColor.withValues(alpha: 0.3)),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -270,7 +270,7 @@ class ResultsScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 13,
                     height: 1.4,
-                    color: cardColor.withOpacity(0.9),
+                    color: cardColor.withValues(alpha: 0.9),
                   ),
                 ),
               ],
@@ -302,7 +302,7 @@ class ResultsScreen extends StatelessWidget {
                     margin: const EdgeInsets.only(top: 4),
                     padding: const EdgeInsets.all(4),
                     decoration: BoxDecoration(
-                      color: Colors.green.withOpacity(0.2),
+                      color: Colors.green.withValues(alpha: 0.2),
                       shape: BoxShape.circle,
                     ),
                     child: const Icon(
@@ -429,9 +429,9 @@ class ResultsScreen extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: color.withOpacity(0.08),
+          color: color.withValues(alpha: 0.08),
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: color.withOpacity(0.4)),
+          border: Border.all(color: color.withValues(alpha: 0.4)),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -572,7 +572,7 @@ class ResultsScreen extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 10,
             offset: const Offset(0, -5),
           ),
@@ -686,9 +686,9 @@ class ResultsScreen extends StatelessWidget {
       margin: const EdgeInsets.fromLTRB(16, 0, 16, 16),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.purple.withOpacity(0.1),
+        color: Colors.purple.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.purple.withOpacity(0.3)),
+        border: Border.all(color: Colors.purple.withValues(alpha: 0.3)),
       ),
       child: Row(
         children: [

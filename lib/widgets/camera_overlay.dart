@@ -31,12 +31,10 @@ class _OverlayPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
       ..color = isReady
-          ? Colors.green.withOpacity(0.8)
-          : Colors.white.withOpacity(0.6)
+          ? Colors.green.withValues(alpha: 0.8)
+          : Colors.white.withValues(alpha: 0.6)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 3;
-
-    final center = Offset(size.width / 2, size.height / 2);
 
     switch (photoType) {
       case PhotoType.frontView:
@@ -72,7 +70,7 @@ class _OverlayPainter extends CustomPainter {
 
     // Draw teeth guide lines
     final teethPaint = Paint()
-      ..color = paint.color.withOpacity(0.4)
+      ..color = paint.color.withValues(alpha: 0.4)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1;
 
@@ -103,7 +101,7 @@ class _OverlayPainter extends CustomPainter {
 
     // Draw arrow pointing to cheek area
     final arrowPaint = Paint()
-      ..color = paint.color.withOpacity(0.5)
+      ..color = paint.color.withValues(alpha: 0.5)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2;
 
@@ -135,7 +133,7 @@ class _OverlayPainter extends CustomPainter {
 
     // Add center line
     final linePaint = Paint()
-      ..color = paint.color.withOpacity(0.3)
+      ..color = paint.color.withValues(alpha: 0.3)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1;
 
@@ -165,7 +163,7 @@ class _OverlayPainter extends CustomPainter {
 
     // Draw horizontal guides
     final linePaint = Paint()
-      ..color = paint.color.withOpacity(0.3)
+      ..color = paint.color.withValues(alpha: 0.3)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1;
 

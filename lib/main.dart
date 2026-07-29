@@ -2,7 +2,6 @@ import 'dart:io'
     if (dart.library.html) 'package:oral_cavity_classifier_app/io_stub.dart'
     as io;
 import 'dart:async';
-import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +28,7 @@ import 'widgets/language_picker_sheet.dart';
 import 'widgets/risk_badge.dart';
 import 'services/web_update_probe_stub.dart'
     if (dart.library.html) 'services/web_update_probe_web.dart'
-    as webUpdateProbe;
+    as web_update_probe;
 import 'web_plugin_registration_stub.dart'
     if (dart.library.js_interop) 'web_plugin_registration.dart';
 
@@ -328,7 +327,7 @@ class _MainNavigatorState extends State<MainNavigator>
     final installed = _installedVersionToken;
     if (installed == null || installed.isEmpty) return;
 
-    final latest = await webUpdateProbe.fetchWebVersionToken();
+    final latest = await web_update_probe.fetchWebVersionToken();
     if (!mounted || latest == null || latest.isEmpty) return;
     if (latest == installed) return;
 
@@ -340,7 +339,7 @@ class _MainNavigatorState extends State<MainNavigator>
 
   Future<void> _applyUpdateNow() async {
     if (!kIsWeb) return;
-    await webUpdateProbe.reloadWebPage();
+    await web_update_probe.reloadWebPage();
   }
 
   Widget _buildUpdateBanner({required bool isScreeningInProgress}) {
@@ -710,7 +709,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue.withOpacity(0.3),
+            color: Colors.blue.withValues(alpha: 0.3),
             blurRadius: 15,
             offset: const Offset(0, 8),
           ),
@@ -733,7 +732,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
           Text(
             l10n.quickCheckDesc,
             style: TextStyle(
-              color: Colors.white.withOpacity(0.9),
+              color: Colors.white.withValues(alpha: 0.9),
               fontSize: 14,
             ),
           ),
@@ -741,7 +740,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
           Text(
             l10n.quickCheckPreliminaryLine,
             style: TextStyle(
-              color: Colors.white.withOpacity(0.9),
+              color: Colors.white.withValues(alpha: 0.9),
               fontSize: 12,
             ),
           ),
@@ -750,14 +749,14 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
             children: [
               Icon(
                 Icons.lock_outlined,
-                color: Colors.white.withOpacity(0.8),
+                color: Colors.white.withValues(alpha: 0.8),
                 size: 16,
               ),
               const SizedBox(width: 4),
               Text(
                 l10n.fullyPrivate,
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white.withValues(alpha: 0.8),
                   fontSize: 12,
                 ),
               ),
@@ -1006,7 +1005,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                     borderRadius: BorderRadius.circular(12),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.05),
+                        color: Colors.black.withValues(alpha: 0.05),
                         blurRadius: 8,
                         offset: const Offset(0, 2),
                       ),
@@ -1031,7 +1030,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                         Padding(
                           padding: const EdgeInsets.only(bottom: 8),
                           child: Text(
-                            'Screening Risk Score: ${(cancerProbability! * 100).toStringAsFixed(1)}%',
+                            'Screening Risk Score: ${(cancerProbability * 100).toStringAsFixed(1)}%',
                             style: TextStyle(
                               fontSize: 14,
                               fontWeight: FontWeight.w600,
@@ -1049,7 +1048,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                                 l10n,
                                 perPhotoSummaryLabel,
                               ) ??
-                              classLabelFriendly(l10n, displayLabel!),
+                              classLabelFriendly(l10n, displayLabel),
                           style: const TextStyle(fontSize: 16),
                         ),
                       if (displayLabel != null &&
@@ -1061,7 +1060,7 @@ class _QuickCheckScreenState extends State<QuickCheckScreen> {
                           padding: const EdgeInsets.only(top: 4),
                           child: Text(
                             l10n.perPhotoVisualDetailMostly(
-                              classLabelFriendly(l10n, displayLabel!),
+                              classLabelFriendly(l10n, displayLabel),
                               (confidence <= 1.0
                                       ? confidence * 100
                                       : confidence)

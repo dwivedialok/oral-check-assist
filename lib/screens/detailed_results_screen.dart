@@ -162,7 +162,7 @@ class DetailedResultsScreen extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: cardColor.withOpacity(0.1),
+            color: cardColor.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(16),
             border: Border.all(color: cardColor, width: 1),
           ),
@@ -270,9 +270,9 @@ class DetailedResultsScreen extends StatelessWidget {
       margin: const EdgeInsets.only(top: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: cardColor.withOpacity(0.08),
+        color: cardColor.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: cardColor.withOpacity(0.3)),
+        border: Border.all(color: cardColor.withValues(alpha: 0.3)),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -297,7 +297,7 @@ class DetailedResultsScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 13,
                     height: 1.4,
-                    color: cardColor.withOpacity(0.9),
+                    color: cardColor.withValues(alpha: 0.9),
                   ),
                 ),
               ],
@@ -313,7 +313,7 @@ class DetailedResultsScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.15),
+        color: color.withValues(alpha: 0.15),
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: color, width: 1.5),
       ),
@@ -486,7 +486,7 @@ class DetailedResultsScreen extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: riskColor.withOpacity(0.08),
+                  color: riskColor.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Text(
@@ -645,7 +645,7 @@ class DetailedResultsScreen extends StatelessWidget {
             color: hasAnalysis
                 ? Color(
                     photo.riskLevel?.colorValue ?? 0xFF9E9E9E,
-                  ).withOpacity(0.2)
+                  ).withValues(alpha: 0.2)
                 : Colors.grey[200],
             borderRadius: BorderRadius.circular(10),
           ),
@@ -991,9 +991,9 @@ class DetailedResultsScreen extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 16),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.purple.withOpacity(0.1),
+        color: Colors.purple.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.purple.withOpacity(0.3)),
+        border: Border.all(color: Colors.purple.withValues(alpha: 0.3)),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,

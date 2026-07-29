@@ -248,7 +248,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                     color: Colors.black,
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.3),
+                        color: Colors.black.withValues(alpha: 0.3),
                         blurRadius: 8,
                         offset: const Offset(0, -2),
                       ),
@@ -271,7 +271,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                         child: Text(
                           widget.photoType.instruction(context),
                           style: TextStyle(
-                            color: Colors.white.withOpacity(0.85),
+                            color: Colors.white.withValues(alpha: 0.85),
                             fontSize: 13,
                           ),
                           textAlign: TextAlign.center,
@@ -395,7 +395,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
             width: 56,
             height: 56,
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.2),
+              color: Colors.white.withValues(alpha: 0.2),
               shape: BoxShape.circle,
               border: Border.all(color: Colors.white, width: 2),
             ),
@@ -845,7 +845,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.08),
+        color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: Colors.white24),
       ),
@@ -861,7 +861,7 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
                 Text(
                   l10n.photoLabelCurrentView,
                   style: TextStyle(
-                    color: Colors.white.withOpacity(0.7),
+                    color: Colors.white.withValues(alpha: 0.7),
                     fontSize: 11,
                     letterSpacing: 0.3,
                   ),
@@ -1053,8 +1053,9 @@ class _PhotoCaptureScreenState extends State<PhotoCaptureScreen> {
     if (_previewImage == null &&
         (kIsWeb
             ? (_displayImageBytes == null && _previewImageBytes == null)
-            : true))
+            : true)) {
       return;
+    }
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         fullscreenDialog: true,
@@ -1208,6 +1209,7 @@ class _PhotoLabelPickerSheetState extends State<_PhotoLabelPickerSheet> {
             final title = label.localizedNameL10n(l10n);
             return RadioListTile<OralPhotoLabel>(
               value: label,
+              // ignore: deprecated_member_use
               groupValue: _selected,
               contentPadding: EdgeInsets.zero,
               dense: true,
@@ -1217,6 +1219,7 @@ class _PhotoLabelPickerSheetState extends State<_PhotoLabelPickerSheet> {
                   fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
                 ),
               ),
+              // ignore: deprecated_member_use
               onChanged: (v) {
                 if (v == null) return;
                 setState(() => _selected = v);
@@ -1305,7 +1308,7 @@ class _PhotoFullScreenViewerState extends State<_PhotoFullScreenViewer> {
                   child: Text(
                     AppLocalizations.of(context)!.pinchToZoom,
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.7),
+                      color: Colors.white.withValues(alpha: 0.7),
                       fontSize: 12,
                     ),
                   ),

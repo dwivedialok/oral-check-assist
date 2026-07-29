@@ -19,7 +19,7 @@ class QualityIndicator extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: Colors.black.withOpacity(0.6),
+        color: Colors.black.withValues(alpha: 0.6),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
@@ -111,7 +111,7 @@ class QualityIndicator extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.2),
+        color: color.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: color, width: 1),
       ),
@@ -160,8 +160,8 @@ class CompactQualityIndicator extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
         color: isAcceptable
-            ? Colors.green.withOpacity(0.9)
-            : Colors.orange.withOpacity(0.9),
+            ? Colors.green.withValues(alpha: 0.9)
+            : Colors.orange.withValues(alpha: 0.9),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Row(
