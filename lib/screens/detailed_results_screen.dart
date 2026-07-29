@@ -628,107 +628,113 @@ class DetailedResultsScreen extends StatelessWidget {
   Widget _buildPhotoResultCard(BuildContext context, PhotoResult photo) {
     final hasAnalysis = photo.isAnalyzed && photo.classProbabilities != null;
 
-    return Container(
-      margin: const EdgeInsets.only(bottom: 12),
-      decoration: BoxDecoration(
+    // Material (not DecoratedBox/Container color) so ExpansionTile/ListTile
+    // ink effects remain visible — required by newer Flutter assertions.
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: Material(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.grey[200]!),
-      ),
-      child: ExpansionTile(
-        tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-        childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-        leading: Container(
-          width: 44,
-          height: 44,
-          decoration: BoxDecoration(
-            color: hasAnalysis
-                ? Color(
-                    photo.riskLevel?.colorValue ?? 0xFF9E9E9E,
-                  ).withValues(alpha: 0.2)
-                : Colors.grey[200],
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Icon(
-            _getIconForPhotoType(photo.photoType),
-            color: hasAnalysis
-                ? Color(photo.riskLevel?.colorValue ?? 0xFF9E9E9E)
-                : Colors.grey,
-          ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+          side: BorderSide(color: Colors.grey[200]!),
         ),
-        title: Text(
-          photoResultEffectiveLabelText(AppLocalizations.of(context)!, photo),
-          style: const TextStyle(fontWeight: FontWeight.w600),
-        ),
-        subtitle: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                PhotoStatusChip(
-                  riskLevel: photo.riskLevel,
-                  isAnalyzed: photo.isAnalyzed,
-                  isValidOralPhoto: photo.isValidOralPhoto,
-                ),
-                const SizedBox(width: 8),
-                Text(
-                  'Quality: ${(photo.qualityScore * 100).toStringAsFixed(0)}%',
-                  style: TextStyle(fontSize: 11, color: Colors.grey[600]),
-                ),
-              ],
+        clipBehavior: Clip.antiAlias,
+        child: ExpansionTile(
+          tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+          childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+          leading: Container(
+            width: 44,
+            height: 44,
+            decoration: BoxDecoration(
+              color: hasAnalysis
+                  ? Color(
+                      photo.riskLevel?.colorValue ?? 0xFF9E9E9E,
+                    ).withValues(alpha: 0.2)
+                  : Colors.grey[200],
+              borderRadius: BorderRadius.circular(10),
             ),
-            if (photo.displayLabel != null ||
-                photo.cancerProbability != null) ...[
-              const SizedBox(height: 4),
-              if (photo.cancerProbability != null)
-                Text(
-                  'Screening Risk Score: ${(photo.cancerProbability! * 100).toStringAsFixed(1)}%',
-                  style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w600,
-                    color:
-                        photo.cancerProbability! >=
-                            ScreeningConfig.binaryScreeningThreshold
-                        ? Colors.red[700]
-                        : Colors.green[700],
+            child: Icon(
+              _getIconForPhotoType(photo.photoType),
+              color: hasAnalysis
+                  ? Color(photo.riskLevel?.colorValue ?? 0xFF9E9E9E)
+                  : Colors.grey,
+            ),
+          ),
+          title: Text(
+            photoResultEffectiveLabelText(AppLocalizations.of(context)!, photo),
+            style: const TextStyle(fontWeight: FontWeight.w600),
+          ),
+          subtitle: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  PhotoStatusChip(
+                    riskLevel: photo.riskLevel,
+                    isAnalyzed: photo.isAnalyzed,
+                    isValidOralPhoto: photo.isValidOralPhoto,
                   ),
-                ),
-              if (photo.displayLabel != null) ...[
-                Text(
-                  localizePerPhotoSummaryLabel(
-                        AppLocalizations.of(context)!,
-                        photo.perPhotoSummaryLabel,
-                      ) ??
-                      _friendlyLabel(context, photo.displayLabel!),
-                  style: TextStyle(fontSize: 11, color: Colors.grey[700]),
-                ),
-                if (photo.cancerProbability != null && !_isDisagreement(photo))
+                  const SizedBox(width: 8),
                   Text(
-                    AppLocalizations.of(context)!.perPhotoVisualDetailMostly(
-                      _friendlyLabel(context, photo.displayLabel!),
-                      (photo.confidence * 100).toStringAsFixed(0),
-                    ),
-                    style: TextStyle(fontSize: 10, color: Colors.grey[600]),
+                    'Quality: ${(photo.qualityScore * 100).toStringAsFixed(0)}%',
+                    style: TextStyle(fontSize: 11, color: Colors.grey[600]),
                   ),
+                ],
+              ),
+              if (photo.displayLabel != null ||
+                  photo.cancerProbability != null) ...[
+                const SizedBox(height: 4),
+                if (photo.cancerProbability != null)
+                  Text(
+                    'Screening Risk Score: ${(photo.cancerProbability! * 100).toStringAsFixed(1)}%',
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      color:
+                          photo.cancerProbability! >=
+                              ScreeningConfig.binaryScreeningThreshold
+                          ? Colors.red[700]
+                          : Colors.green[700],
+                    ),
+                  ),
+                if (photo.displayLabel != null) ...[
+                  Text(
+                    localizePerPhotoSummaryLabel(
+                          AppLocalizations.of(context)!,
+                          photo.perPhotoSummaryLabel,
+                        ) ??
+                        _friendlyLabel(context, photo.displayLabel!),
+                    style: TextStyle(fontSize: 11, color: Colors.grey[700]),
+                  ),
+                  if (photo.cancerProbability != null &&
+                      !_isDisagreement(photo))
+                    Text(
+                      AppLocalizations.of(context)!.perPhotoVisualDetailMostly(
+                        _friendlyLabel(context, photo.displayLabel!),
+                        (photo.confidence * 100).toStringAsFixed(0),
+                      ),
+                      style: TextStyle(fontSize: 10, color: Colors.grey[600]),
+                    ),
+                ],
               ],
             ],
+          ),
+          children: [
+            if (savedPhotoPaths != null) _buildPhotoThumbnail(photo),
+            if (hasAnalysis)
+              _buildPhotoDetails(context, photo)
+            else
+              Text(
+                photo.isValidOralPhoto
+                    ? (photo.qualityScore <
+                              PhotoQualityService.minAcceptableQuality
+                          ? 'Could not analyze - quality too low'
+                          : 'Could not analyze - processing failed')
+                    : 'Not recognized as oral cavity photo',
+                style: TextStyle(color: Colors.grey[600]),
+              ),
           ],
         ),
-        children: [
-          if (savedPhotoPaths != null) _buildPhotoThumbnail(photo),
-          if (hasAnalysis)
-            _buildPhotoDetails(context, photo)
-          else
-            Text(
-              photo.isValidOralPhoto
-                  ? (photo.qualityScore <
-                            PhotoQualityService.minAcceptableQuality
-                        ? 'Could not analyze - quality too low'
-                        : 'Could not analyze - processing failed')
-                  : 'Not recognized as oral cavity photo',
-              style: TextStyle(color: Colors.grey[600]),
-            ),
-        ],
       ),
     );
   }

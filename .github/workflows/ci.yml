@@ -20,6 +20,8 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
+          # Pin so CI matches a known-good SDK; bump deliberately with local upgrades.
+          flutter-version: '3.35.5'
           channel: 'stable'
           cache: true
 
