@@ -8,6 +8,34 @@ This document serves as the definitive reference for understanding how the oral 
 
 ---
 
+## Architecture & Training Pipeline Diagram
+
+```mermaid
+flowchart TD
+    subgraph Pretraining ["1. Self-Supervised Pre-Training (SSL)"]
+        A["Unlabeled Oral Lesion Images"] --> B["SSL Backbone Pre-Training (MobileNetV3 / EfficientNet)"]
+    end
+
+    subgraph Stratification ["2. Patient-Wise Stratification"]
+        C["Clinical Datasets (T5, TB, TC)"] --> D{"Patient-Wise Split Engine"}
+        D -->|Grouping by Patient ID| E["Train Cohort (Fold 1..K)"]
+        D -->|No Patient Overlap| F["Validation Cohort"]
+        D -->|Holdout Sets| G["Frozen Test Manifests (T5, TB, TC)"]
+    end
+
+    subgraph Ensembles ["3. Dual-Ensemble Training & ONNX Export"]
+        B --> H["Binary Screening Ensembles (3 Folds)"]
+        B --> I["5-Class Subtype Ensembles (3 Folds)"]
+        E --> H
+        E --> I
+        H --> J["ONNX Quantization & Verification"]
+        I --> J
+        J --> K["On-Device Assets (assets/*.onnx)"]
+    end
+```
+
+---
+
 ## Table of Contents
 
 1. [Dataset Distribution](#dataset-distribution)

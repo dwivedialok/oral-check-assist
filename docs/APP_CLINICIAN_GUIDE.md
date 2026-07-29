@@ -28,6 +28,39 @@ It uses **two AI checks** on each photo:
 
 **Key principle:** The binary model decides **screen-positive vs screen-negative**; the 5-class model supplies **subtype**, **label confidence**, and **safe wording** when the two models disagree. With **multiple photos**, the app applies a **hybrid rule** on binary scores (`maxScore ≥ 0.65` or `hybridAvg ≥ 0.4735` → screen positive) and aggregates 5-class over the photo set defined in Section 5. **Per-photo risk badges** (Low / Moderate / High on each image) follow **binary scores only**; the 5-class label does not raise or lower that badge, but it does change what **text** the user sees alongside it (**Section 3**).
 
+### Clinical Decision & Inference Flow
+
+```mermaid
+flowchart TD
+    subgraph Capture ["1. Multi-View Photo Session"]
+        A["5 Capture Slots (Front, Cheeks, Tongue, Palate)"] --> B["On-Device Quality Check"]
+        B -->|Usable Image| C["Local Crop & Normalization"]
+    end
+
+    subgraph Inference ["2. On-Device Ensembles (ONNX Runtime)"]
+        C --> D["Binary Referral Ensemble (3 Models)"]
+        C --> E["5-Class Subtype Ensemble (3 Models)"]
+        D -->|P_abnormal| F["Screening Risk Score"]
+        E -->|Healthy / Benign / OPMD / OCA / Unknown| G["Subtype Wording & Confidence"]
+    end
+
+    subgraph DecisionMatrix ["3. Hybrid Decision & ERI Matrix"]
+        F --> H{"Session Hybrid Rule\n(maxScore ≥ 0.65 OR\nhybridAvg ≥ 0.4735)"}
+        H -->|True| I["Screen Positive (Referral Indicated)"]
+        H -->|False| J["Screen Negative (Low Initial Risk)"]
+        
+        K["Exposure Risk Integration (ERI)\nTobacco / Alcohol Questionnaire"] --> L["Final Clinical Guidance Matrix"]
+        I --> L
+        J --> L
+        G --> L
+    end
+
+    subgraph Output ["4. Output & Documentation"]
+        L --> M["Final Risk Badge (Low / Moderate / High)"]
+        L --> N["Clinician Summary & Offline PDF Export"]
+    end
+```
+
 ---
 
 ## 2. Using the app: walkthrough (what you and the patient do)
