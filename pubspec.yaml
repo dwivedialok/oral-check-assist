@@ -51,11 +51,11 @@ dependencies:
   hive: ^2.2.3 # Local storage for screening history
   hive_flutter: ^1.1.0
   shared_preferences: ^2.2.2 # For onboarding completion tracking
-  flutter_local_notifications: ^18.0.1 # Reminders
-  timezone: ^0.9.4 # Required for scheduled notifications
+  flutter_local_notifications: ^22.2.0 # Reminders
+  timezone: ^0.11.1 # Required for scheduled notifications
   pdf: ^3.11.1 # Report generation
-  share_plus: ^10.1.2 # Share functionality
-  package_info_plus: ^8.1.1 # Get app version/build number
+  share_plus: ^13.3.0 # Share functionality
+  package_info_plus: ^10.2.1 # Get app version/build number
   image_cropper: ^12.1.1
 
 dev_dependencies:
@@ -70,7 +70,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
