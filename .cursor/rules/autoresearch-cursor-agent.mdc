@@ -1,0 +1,20 @@
+---
+description: When the user wants the next autoresearch experiment or config from the ledger, load agent context and follow AUTORESEARCH_CURSOR_AGENT.md.
+globs: ml/training/notebooks/**/*
+---
+
+# Autoresearch: Cursor proposes next config
+
+When the user asks for the **next autoresearch experiment**, **next config from the ledger**, **what to run after the last experiment**, or similar:
+
+1. Run from repo root (do not install packages):
+
+   `ml/training/venv_pytorch/bin/python ml/training/notebooks/autoresearch_loop.py agent-context`
+
+   Optionally: `--output-format json` or `-o ml/training/notebooks/results/autoresearch/last_context.md`
+
+2. Read [ml/training/notebooks/AUTORESEARCH_CURSOR_AGENT.md](ml/training/notebooks/AUTORESEARCH_CURSOR_AGENT.md) and [ml/training/notebooks/autoresearch_program.md](ml/training/notebooks/autoresearch_program.md).
+
+3. Use the **last ledger row** and baseline/best-so-far from the command output to propose **one** new JSON under `ml/training/notebooks/experiment_configs/`, with a short rationale and the exact `autoresearch_loop.py run ...` command.
+
+4. Do not modify frozen eval manifests or eval scripts unless the user explicitly asks for a methodology change.

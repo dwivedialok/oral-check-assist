@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "oral-check-assist",
+    "dev": "oral-check-assist-dev"
+  }
+}

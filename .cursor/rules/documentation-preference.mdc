@@ -1,0 +1,21 @@
+---
+description: Documentation creation preferences - only create documents when explicitly requested
+---
+
+# Documentation Preferences
+
+**Do NOT create markdown documentation files automatically.**
+
+Only create `.md` files when the user explicitly asks you to:
+- "Create a document about X"
+- "Write documentation for Y"
+- "Make a guide for Z"
+
+**Do NOT create documentation files for:**
+- Bug fixes
+- Troubleshooting steps
+- Error analysis
+- Feature explanations
+- Unless the user explicitly requests it
+
+When fixing issues or explaining solutions, provide the information directly in your response instead of creating separate documentation files.

@@ -1,0 +1,23 @@
+---
+description: When the user asks to run the iterative ML improvement loop, run all phases using the runbook and enforce iteration limits.
+globs: ml/training/**/*
+---
+
+# Iterative ML improvement loop
+
+When the user asks to "run the iterative loop", "run all phases", "execute the ML plan", or similar:
+
+1. **Read and follow** [ml/training/notebooks/AGENT_ITERATIVE_RUN.md](ml/training/notebooks/AGENT_ITERATIVE_RUN.md) step by step.
+
+2. **Python**: Use only `ml/training/venv_pytorch/bin/python` (from repo root). Do **not** run `pip install` or install any packages.
+
+3. **Phases in order**: Phase 0 → Phase 1 → Phase 2 → Phase 4. Skip Phase 3.
+
+4. **Per phase**:
+   - Run the commands from the runbook (from repo root).
+   - Read the script output and any JSON results.
+   - Check success criteria; if not met and iterations remain, adjust config/code and re-run.
+   - Enforce **max iterations**: Phase 0 = 3, Phase 1 = 2, Phase 2 = 5, Phase 4 = 1 per experiment (4 experiments).
+   - When limit is reached, document best result and proceed to the next phase.
+
+5. **Long runs**: Training (Phase 4) can take 20–50+ minutes. Prefer running with a long timeout or in background; poll for completion before reading results.
